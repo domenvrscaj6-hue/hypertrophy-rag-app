@@ -1,0 +1,850 @@
+CURRENT
+OPINION Vitamin D and muscle health: insights from
+recent studies
+Akiko Kuwabara a, Mai Matsumoto b, Yoichi Hatamoto c,d and Satoshi Fujita e
+Purpose of review
+The purpose of this review is to critically evaluate the effects of vitamin D on muscle mass and physical/
+muscle function in middle-aged and older adults, based on recent human studies, including cross-sectional,
+observational, and intervention studies. Vitamin D, beyond its well established role in bone health, has
+shown potential in influencing muscle physiology, making it a nutrient of interest in the context of
+sarcopenia and related chronic conditions.
+Recent findings
+The review states how vitamin D affects muscle function, emphasizing its role in muscle cell proliferation,
+differentiation, and key signaling pathways. Additionally, the review of recent human studies revealed an
+inconsistent relationship between vitamin D and sarcopenia and related indices, with mixed results
+regarding muscle mass and strength. Variability in supplementation dose, duration, and baseline 25-
+hydroxyvitamin D levels may contribute to these inconsistencies.
+Summary
+While animal studies indicate vitamin D ’s effectiveness in muscle growth, cross-sectional, observational,
+and intervention studies do not show clear benefits of maintaining efficient vitamin D levels on muscle mass
+or function in humans. Although vitamin D impacts muscle health, it is insufficient alone, emphasizing the
+need for a multifaceted approach to sarcopenia prevention and management.
+Keywords
+muscle mass, muscle strength, physical function, sarcopenia, vitamin D
+INTRODUCTION
+Vitamin D, a crucial nutrient for maintaining bone
+health, has garnered significant attention for its
+potential impact on muscle mass and function.
+Given the rising interest in optimizing muscle
+health to combat sarcopenia and its associated
+chronic diseases (i.e. type 2 diabetes and cardiovas-
+cular diseases), an updated, evidence-based review is
+essential. This study aims to explore the latest find-
+ings on vitamin D status and its effects on skeletal
+muscle in middle-aged and older individuals. By
+synthesizing recent clinical trials and studies, we
+seek to provide a comprehensive understanding of
+vitamin D’s role in muscle physiology, offering
+insights that could inform clinical practices and
+public health strategies to improve muscle health
+across populations.
+Vitamin D metabolism
+Vitamin D is a fat-soluble nutrient primarily
+obtained through sunlight exposure and to a lesser
+extent from dietary sources and supplements. In
+humans, vitamin D exists in two primary forms:
+vitamin D
+2 (ergocalciferol), derived from plant
+sources, and vitamin D 3 (cholecalciferol), synthe-
+sized in the skin through sun exposure and also
+found in animal-based foods. Once ingested or
+produced, vitamin D
+2/D3 is metabolized in the liver
+to 25-hydroxyvitamin D (25(OH)D), the main
+circulating form, by cytochrome P450 oxidases,
+aDepartment of Nutrition, Graduate School of Human Life and Ecology,
+Osaka Metropolitan University, Habikino, bDepartment of Nutritional
+Epidemiology and Shokuiku, cDepartment of Nutrition and Metabolism,
+National Institutes of Biomedical Innovation, Health and Nutrition,
+Settsu-shi, Osaka, dFaculty of Sports and Health Science, Fukuoka
+University, Jonan-ku, Fukuoka and eFaculty of Sport and Health Science,
+Ritsumeikan University, Kusatsu, Shiga, Japan
+Correspondence to Satoshi Fujita, Ph.D, Faculty of Sport and Health
+Science, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga
+525-8577 , Japan. Tel: +81 77 561 5229; fax: +81 77 561 3761;
+e-mail: safujita@fc.ritsumei.ac.jp
+Curr Opin Clin Nutr Metab Care 2024, 27:499 –506
+DOI:
+This is an open access article distributed under the terms of the Creative
+Commons Attribution-Non Commercial-No Derivatives License 4.0
+(CCBY-NC-ND), where it is permissible to download and share the
+work provided it is properly cited. The work cannot be changed in any
+way or used commercially without permission from the journal.
+1363-1950 Copyright © 2024 The Author(s). Published by W olters Kluwer Health, Inc.
+www.co-clinicalnutrition.com
+REVIEW
+
+primarily CYP2R1. This compound is then further
+hydroxylated in the kidneys to its active form, 1,25-
+dihydroxyvitamin D (1,25(OH)
+2D) by 25-hydroxy-
+lase (CYP27B1) .
+Role of vitamin D in the modulation of
+skeletal muscle mass and function
+1,25(OH)2D works with the vitamin D receptor
+(VDR) to induce both genomic and nongenomic
+actions in skeletal muscle. Genomically, 1,25
+(OH)
+2D binds to VDR, which then forms a complex
+with the retinoid X receptor (RXR) and modulates
+gene expression by binding to vitamin D response
+elements (VDREs) in DNA. Nongenomically, 1,25
+(OH)
+2D influences intracellular signaling pathways,
+including the activation of c-Src and MAPK path-
+ways, and modulates calcium homeostasis, impact-
+ing muscle function and proteostasis. Vitamin D
+treatment in-vitro setting has been shown to influ-
+ence key aspects of muscle cell behavior, including
+myoblast proliferation, differentiation, and myo-
+tube formation. Notably, high doses of 1,25
+(OH)
+2D can inhibit myoblast proliferation but pro-
+mote hypertrophy in differentiated myotubes. For
+example, recent study demonstrated that 1,25
+(OH)2D3 significantly enhances myogenic differen-
+tiation in C2C12 muscle cells by increasing myoge-
+nin expression through a functional VDRE on the
+myogenin promoter. This effect of vitamin D also
+resulted in larger myotube diameters and greater
+expression of myosin heavy chain isoforms, indicat-
+ing its critical role in muscle cell development .
+In animal studies, the role of vitamin D in
+muscle function and regeneration has been exten-
+sively explored using various models. Whole-body
+and tissue-specific VDR knockout models exhibit
+significant reductions in grip strength and muscle
+fiber size, along with increased expression of atro-
+phy-related genes, underscoring the importance of
+VDR signaling in maintaining muscle integrity.
+Additionally, in injury models, the administration
+of vitamin D postinjury enhances muscle regener-
+ation by promoting cell proliferation, decreasing
+apoptosis, and improving overall muscle repair
+. These findings collectively suggest that vitamin
+D plays a crucial role in preserving muscle health
+and enhancing recovery following muscle damage
+or disease. Aside from the morphological changes,
+vitamin D influences muscle function by modulat-
+ing calcium transport in skeletal muscle through
+nongenomic responses. It facilitates rapid calcium
+and phosphate movement across cell membranes,
+essential for muscle contraction. VDR regulates cal-
+cium flow when activated, further influencing
+muscle contraction. These mechanisms highlight
+vitamin D’s role in calcium handling and muscle
+contraction .
+Review of human studies
+In focusing on the relationship between vitamin D
+and muscle health, sarcopenia – which increases the
+risk of clinical outcomes such as disability, falls, and
+mortality – is an important issue. Therefore, we
+reviewed articles published in the last 18 months
+that examined the relationship between vitamin D
+nutritional status and/or serum 25-hydroxyvitamin
+D [25(OH)D] levels and sarcopenia and related indi-
+cators such as muscle mass, muscle strength, and
+physical performance, in independent middle-aged
+and older adults. A systematic search was conducted
+using Medline (PubMed), with a detailed search
+strategy provided in Supplementary information,
+
+We excluded RCT studies in which vitamin D
+was supplemented with other nutrients except for
+calcium. The results of the review are presented in
+Tables 1 and 2.
+The relationship of dietary vitamin D intake
+and sarcopenia indicators (cross-sectional
+studies)
+The studies about the relationship between vitamin
+D intake and indicator of sarcopenia diagnosis are
+two studies, but the results are not consistent.
+Among 719 older adults aged 70 years in Sweden,
+vitamin D intake assessed by diet history method
+showed a significant positive correlation with limb
+skeletal muscle mass index by DXA method
+(r ¼ 0.219, P ¼ 0.004), but no significant relationship
+with walking speed or grip strength . On the other
+hand, there was no significant difference in the
+association between vitamin D intake by one-day
+dietary record including supplement and the muscle
+mass by DXA method among 159 Brazilian older
+adults aged 80 years or older .
+KEY POINTS
+/C15 Vitamin D affects muscle cell proliferation,
+differentiation, and calcium homeostasis, which are
+critical for muscle function.
+/C15 Cross-sectional, longitudinal and intervention studies
+present mixed findings regarding the correlation
+between vitamin D intake or serum 25(OH)D levels and
+muscle mass, strength, and physical performance.
+/C15 While vitamin D plays a role in muscle health, it is
+insufficient alone to prevent sarcopenia.
+Nutrition and physiological function
+500 www.co-clinicalnutrition.com Volume 27 /C15 Number 6 /C15 November 2024
+
+Table 1. The association between vitamin D intake or serum concentration and physical performance and sarcopenia in cross-sectional and longitudinal studi es
+n
+Age
+(years)
+mean (SD)
+Sex
+(proportion)
+Other
+demographic
+skeletal
+muscle
+mass
+index
+Muscle
+mass
+Muscle
+strength
+(Hand grip
+strength)
+Arm
+curl
+test
+Chair
+stand
+test
+Walking
+speed
+Fast
+walking
+speed
+Times
+up and
+go test
+(TUG)
+6-min
+walk
+test
+SPPB
+(score) Sarcopenia
+Bone
+mineral
+density Falls
+Intake of vitamin D
+Borda MG et al. 719 70.5 (0.3) M & F(M/F:
+311/408)
+þ n.s. n.s. n.s.
+Fonte et al. 159 87.0 (3.9) M & F(M/F:
+43/116)
+n.s. n.s.
+Serum 25-hydroxivitamin D [25(OH)D] concentration (cross-sectional study)
+Krasniqi et al. 135 67.6 (9.7) M n.s. n.s. þþþ þ n.s. n.s.
+162 63.3 (10.2) F n.s. n.s. n.s. þ n.s. n.s. n.s. n.s.
+Zhang et al. 3025 56.3 (9.9) F þ
+Yang et al. 58 Age unshown
+60 years
+and over
+M þ n.s. n.s. /C0/C0
+74 Age unshown
+60 years
+and over
+F þþ n.s. n.s.
+Yamada et al. 163 62.0 (53.0 –
+73.0)y
+M & F(M/F:
+96/67)
+Antiaging health
+checkup
+recipients
+þþ n.s. n.s.
+W elfordet al. 102 60.5 (4.7) F Healthy
+postmenopausal
+women
+n.s. n.s. n.s.
+Foroni et al. 200 85.5 (83.0 –
+90.0)y
+M & F(M/F:
+53/147)
+n.s. n.s. /C0 n.s.
+Dwimartutie et al. 95 70.1 (5.1) M & F(M/F:
+31/64)
+þ
+Stolakis et al. 90 72.6 (6.2) M & F(M/F:
+13/77)
+Outpatients with
+falls
+þþ þ n.s.
+Kim et al. 2952 Age unshown
+65 years
+and over
+M & F(M/F:
+1271/
+1681)
+Diabetes /C0 :
+SarcopeniaþDM
+(only male)
+Hsu et al. n ¼ 110 Age unshown
+50–80
+years
+M & F (M/F:
+46/64)
+/C0
+Silveira et al. 171 79.4 (5.9) M & F(M/F:
+58/113)
+/C0
+Fox et al. [15
+&
+] 2576 54.3 (14.2) M & F(M/F:
+1149/
+1427)
+þ
+(Longitudinal study)
+Li et al. 1910 Age unshown
+50 years
+and over
+M & F(M/F:
+655/1255)
+n.s.
+þ, positive association; -, negative association; n.s., no association; y, the value is shown as median (25th percentile - 75th percentile); Sarcopenia þDM (only male).
+SPPC, Short Physical Performance Battery.
+Vitamin D and muscle health Kuwabara et al.
+1363-1950 Copyright © 2024 The Author(s). Published by W olters Kluwer Health, Inc. www.co-clinicalnutrition.com 501
+
+Table 2. Baseline characteristics of the included studies: effects of Vitamin D supplementation on physical function, performance test, and activity index es
+References Group
+Mean age in
+years (no. of
+individuals) BMI
+Vitamin D
+added, ng/ml
+Intervention
+duration
+Baseline 25
+(OH)D, ng/ml,
+mean (SD)
+After intervention
+25 (OH)D, ng/ml,
+mean(SD) Outcomes
+Main outcome in the inter-
+vention group
+Chou et al. [20
+&
+] Intervention 64.7 (6.3) 28.1 (5.3) 50 mg/day 24 months 27.6 (8.8) 40.0 (9.0) Grip strength, TUG, walking
+speed, standing balance,
+repeated chair stands,
+SPPB
+No significant improvement
+in physical performance
+Control 65.1 (6.6) 28.3 (5.4) 0 mg/day
+(placebo)
+28.7 (9.3) No significant
+change
+Houston et al. Intervention 73.7 (6.3) 30.2 (4.3) 50 mg/day 12 months 19.4 (4.2) 28.6 (6.7) Lower-extremity leg power,
+leg and grip strength,
+SPPB, health ABC
+physical performance
+battery, TUG, postural
+sway, gait velocity
+No significant improvement
+in leg power, strength, or
+physical performance
+Control 73.1 (6.3) 30.4 (4.6) 0 mg/day
+(placebo)
+19.9 (4.9) 20.2 (5.0)
+Schrack et al. Intervention 77.2 (5.3) 30.6 (5.8) /C21 25 mg/day
+(25 mg/d,
+50 mg/d,
+100 mg/d)
+24 months 22.0 (4.9) No description SPPB, physical activity
+outcomes (total activity
+counts per day, active
+minutes per day, and
+activity fragmentation)
+No significant improvement
+in physical activity
+outcomes
+Control 77.2 (5.3) 30.6 (6.4) 5 mg/day 22.0 (5.2) No description
+Draxler et al. Intervention VD daily: No
+description 
+VD monthly: No
+description 
+VD daily: 28.3
+(4.4)VD
+monthly: 26.8
+(4.3)
+VD daily: 20 mg/
+dVD monthly:
+1250 mg/m
+17 weeks VD daily: 23.9
+(6.0)VD
+monthly: 23.7
+(6.6)
+VD daily: 28.0
+(7.6)VD
+monthly: 32.9
+(7.6)
+Arm curl test, TUG, 6-min
+walk test, 30- second
+chair stand test, the
+handgrip strength
+No significant improvement
+in physical performance
+Control No description
+
+26.2 (4.9) 0 mg/day
+(placebo)
+20.8 (4.8) 23.6 (8.3)
+Dawson-Hughes
+et al. 
+Intervention 71 (5) 26.9 (4.0) 17.5 mg/d 36 months 22.2 (7.7) 30.8 (7.5) Muscle performance (timed
+walk, grip strength, and
+chair-rise), two balance
+tests, the one-leg stand
+and tandem stand
+The dominant hand grip
+strength significantly
+decreased in the VD
+group compared with the
+placebo group [-4.4
+(18.9) vs -1.0 (17.1),
+P ¼ 0.024].No significant
+improvement in other
+physical performance
+and balance measure
+Control 71 (5) 26.8 (4.2) 0 mg/day
+(placebo)
+21.3 (7.0) 22.7 (6.3)
+Haghighi et al.
+
+Intervention VD: 57.4 (4.8)
+
+VDþresistance
+training: 55.4
+(3.8) 
+VD: 29.9 (5.0)
+VDþresistance
+training: 28.6
+(3.1)
+1250 mg/2 wks
+(Equivalent to
+75 mg/d)
+12 weeks VD: 22.59 (14.67)
+VDþresistance
+training: 32.85
+(12.49)
+VD: 28.39 (18.05)
+VDþresistance
+training: 44.63
+(17.4)
+Leg press, chest press, leg
+extension, leg curl,
+shoulder press exercises
+No significant improvement
+in upper- and lower-
+extremities muscle
+strength
+Control Placebo þresistance
+training: 55.4
+(0.0) 
+Placebo: 55.8
+(4.7) 
+Placeboþresistance
+training: 29.8
+(3.7)Placebo:
+30.11 (5.3)
+0 mg/day
+(placebo)
+Placeboþresistance
+training: 32.73
+(6.74)Placebo:
+19.91 (9.43)
+Placeboþresistance
+training: 19.94
+(9.1)Placebo:
+20.2 (14.02)
+25(OH)D, 25-hydroxyvitamin D; SPPB, Short Physical Performance Battery; TUG, Timed-Up and Go; VD, Vitamin D.
+Nutrition and physiological function
+502 www.co-clinicalnutrition.com Volume 27 /C15 Number 6 /C15 November 2024
+
+The relationship of serum 25(OH)D
+concentration and muscle mass and
+physical/muscle function (cross-sectional
+studies)
+Nine studies examined the relationship between
+serum 25(OH)D concentration and muscle mass,
+strength or function. Four investigated the relation-
+ship between serum 25(OH)D concentration and
+both of skeletal muscle mass and muscle strength
+. There were four studies that only included
+older people . Skeletal muscle mass was
+assessed by BIA in three studies and by
+DXA in three studies . Seven, two and three
+studies assessed muscle strength (hand grip
+strength) [7 –10,12,13,15
+&
+] and walking speed
+, respectively. For all indicators, the results
+were not consistent by sex and age group. In a study
+measuring serum 25(OH)D concentration in four
+seasons (spring, summer, autumn and winter), the
+results differed from season to season . Consid-
+ering that serum 25(OH)D concentration is also
+affected by sunlight, the season in which the study
+was conducted may have influenced the results.
+The relationship between 25(OH)D
+concentration and falls (cross-sectional
+studies)
+There are two studies about the relationship
+between 25(OH)D concentration and falls .
+Participants were asked about their history of falls in
+the past 12 months. While participants with falls
+had a significantly lower serum 25(OH)D concen-
+tration than those without falls among people aged
+65 years and over (24.3 /C6 8.9 vs. 30.6 /C6 9.3 ng/ml,
+P ¼ 0.001) , no association was observed in the
+study for participants aged 80 years and over .
+The relationship between sarcopenia and
+serum 25(OH)D concentration (cross-
+sectional studies)
+Four studies examined the relationship between
+sarcopenia and serum 25(OH)D concentration.
+The diagnosis of sarcopenia used was the European
+Working Group on Sarcopenia in Older People
+(EWGSOP2) criteria in two articles and the
+Asian Sarcopenia Working Group 2019 (AWGS2019)
+criteria in two articles .
+The participants in all studies had a relatively
+high range of serum 25(OH)D concentrations. How-
+ever, only one study found no association between
+sarcopenia diagnosis and serum 25(OH)D concen-
+tration . However, in the study, the group with
+both sarcopenia and type 2 diabetes had the lowest
+serum 25(OH)D concentrations compared to those
+with sarcopenia alone, diabetes alone, and neither
+condition. A study conducted in Taiwan 
+included participants with type 2 diabetes, catego-
+rized into nonsarcopenia, possible sarcopenia, and
+sarcopenia groups. The findings demonstrated a
+significant inverse association between diabetes
+diagnosis and serum 25(OH)D levels. Furthermore,
+participants with both sarcopenia and osteoporosis
+had the lowest levels of vitamin D, which was gen-
+erally consistent with previous study . Future
+studies on the associations between serum 25(OH)D
+concentrations and sarcopenia should consider the
+involvement of other metabolic diseases.
+Longitudinal study
+In a cohort study involving 1910 Chinese men and
+women aged 50 years and older, the association
+between changes in sarcopenia status over 4 years
+and serum 25(OH)D levels was investigated. Sarco-
+penia was diagnosed using AWGS 2019 criteria.
+Although the assay method for determining serum
+25(OH)D concentrations was not specified, no sig-
+nificant association was found after adjusting for
+covariates .
+Vitamin D supplementation (intervention
+studies)
+In this section, we review randomized controlled
+trials (RCTs), all of which were double-blind, inves-
+tigating the effects of continuous vitamin D supple-
+mentation on physical functions and performance
+tests (Table 2). Six RCTs were selected [20
+&
+,21–25].
+Three studies used vitamins alone, one included
+calcium, one involved resistance exercise, and one
+combined vitamin D with both calcium and resist-
+ance exercise. Vitamin D dosages ranged from 17.5
+to 50 mg per day, with interventions lasting from
+12 weeks to 3 years. Individuals were aged 50 years or
+older, and five out of six studies included both men
+and women.
+Three studies investigated the effects of vitamin
+D supplementation on physical performance, func-
+tion, and activity. Two studies examined the effect
+of only supplemental vitamin D
+3 (cholecalciferol,
+50 mg/day) on physical function and performance
+tests. Over a 2-year period in middle to older adults
+[20
+&
+] and a 12-month period in older adults ,
+both studies consistently reported no significant
+effects on physical function and performance tests.
+Another study observed the effect of 50 mg/day
+vitamin D 3 supplementation over 24 months on
+physical activity during free-living conditions in
+individuals over 70 years old. The results showed
+no significant changes in overall physical activity
+Vitamin D and muscle health Kuwabara et al.
+1363-1950 Copyright © 2024 The Author(s). Published by W olters Kluwer Health, Inc. www.co-clinicalnutrition.com 503
+
+levels, suggesting that vitamin D supplementation
+alone does not influence daily physical activity
+patterns in older adults.
+One study examined the effect of combining
+vitamin D and calcium on muscle strength and
+physical performance . This study found no
+significant improvement in muscle performance
+measures such as walking speed, grip strength,
+and chair-rise time, or balance measures like the
+one-leg stand and tandem stand compared to pla-
+cebo. In fact, despite the supplementation with
+vitamin D
+3 and calcium, grip strength of the dom-
+inant hand decreased in the supplemented group
+compared to the placebo group. On the contrary,
+higher 3-year mean 25(OH)D levels were positively
+associated with improved one-leg stand time, sug-
+gesting a potential benefit for balance.
+Another study investigated the combined effects
+of vitamin D supplementation and resistance train-
+ing over 12 weeks . The results indicated signifi-
+cant improvements in muscle strength and power
+with resistance training. However, vitamin D sup-
+plementation alone did not provide any additional
+benefit. This highlights the importance of physical
+exercise in improving muscle function and suggests
+that vitamin D alone is not sufficient.
+Overall, recent intervention studies suggest that
+vitamin D supplementation does not significantly
+enhance physical performance, muscle function, or
+daily physical activity patterns in middle-aged to
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Baseline Post intervention
+25 (OH)D (ng/mL)
+Control Intervention
+(a) (b)
+(c) (d)
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Baseline Post intervention
+25 (OH)D (ng/mL)
+Control Intervention
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Baseline Post intervention
+25 (OH)D (ng/mL)
+Control Daily Monthly
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Baseline Post intervention
+25 (OH)D (ng/mL)
+Control Intervention
+#
+*
+$
+% ¥
+(12 weeks) (12 months)
+(17 weeks) (36 months)
+FIGURE 1. Changes in Serum 25-hydroxyvitamin D [25(OH)D] concentrations before and after Vitamin D supplementation
+across four randomized controlled trials (RCTs). Panels (a: Ref. , b: Ref. , c: Ref. , and d: Ref. ) correspond to
+different RCTs.
+/C3 significantly different from baseline, # significant difference in change from pre to postintervention between
+groups ( P < 0.0001), % P ¼ 0.01 vs. baseline, $ P < 0.001 vs. baseline, ¥ P < 0.001 vs. control.
+Nutrition and physiological function
+504 www.co-clinicalnutrition.com Volume 27 /C15 Number 6 /C15 November 2024
+
+older adults regardless of the frequency, dose, or
+duration of the intervention. One contributing fac-
+tor is that the study was conducted in populations
+with vitamin D sufficiency (25(OH)D level /C21 20 ng/
+ml) (Fig. 1). A previous review indicated that the
+effectiveness of vitamin D intervention on clinical
+outcomes is poor in vitamin D sufficient individuals
+with baseline circulating 25(OH)D levels of at least
+20 ng/ml .
+In addition, a recent meta-analysis further com-
+plicates this picture, revealing that vitamin D sup-
+plementation might negatively affect muscle
+health, including increased time for timed up and
+go (TUG) tests, decreased maximal muscle strength
+during knee flexion, and a trend toward lower Short
+Physical Performance Battery (SPPB) scores .
+These findings suggest that vitamin D alone may
+not provide clear benefits for muscle health and may
+even have adverse effects under certain conditions.
+Furthermore, inconsistent findings regarding vita-
+min D’s effects on muscle mass and function may
+stem from variations in supplementation dose,
+duration, baseline 25(OH)D levels, and genetic fac-
+tors. Polymorphisms in the VDR gene, such as BsmI
+and FokI, might influence individual responses to
+vitamin D, leading to varied outcomes . How-
+ever, it is too early to draw conclusions due to the
+small number of studies reviewed.
+CONCLUSION
+The relationship between vitamin D and muscle
+health in middle-aged and older adults is complex
+and not fully conclusive. Recent human studies
+have shown inconsistent results regarding the ben-
+efits of vitamin D status on muscle mass, strength,
+and function. These mixed outcomes may be due to
+differences in study design, ingested dosages, and
+participants’ baseline 25(OH)D levels. While in-
+vitro and animal studies indicate that vitamin D
+plays a significant role in muscle physiology, these
+findings are not always reflected in human trials. It
+is clear that vitamin D alone is not sufficient to
+prevent sarcopenia, emphasizing the need for a
+multifaceted approach that includes resistance
+training and takes into account individual genetic
+differences. Future research should focus on unrav-
+eling the detailed interactions between vitamin D,
+muscle function, and other influencing factors to
+improve muscle health strategies for aging popula-
+tions.
+Acknowledgements
+The authors thank Yu Cai for assistance in creating the
+evidence table.
+Financial support and sponsorship
+This research was supported by AMED under Grant
+Number JP 24dk0110051h0001 to Y.H., JSPS
+KAKENHI Grant Number JP21KK0177 to S.F.
+Conflicts of interest
+All authors have no conflict of interest to disclose.
+REFERENCES AND RECOMMENDED
+READING
+Papers of particular interest, published within the annual period of review, have
+been highlighted as:
+& of special interest
+&& of outstanding interest
+1. Giustina A, Bilezikian JP, Adler RA, et al. Consensus statement on Vitamin D
+status assessment and supplementation: whys, whens, and hows. Endocr
+Rev 2024; 27:bnae009.
+2. Alliband KH, Parr T, Jethwa PH, Brameld JM. Active vitamin D increases
+myogenic differentiation in C2C12 cells via a vitamin D response element on
+the myogenin promoter. Front Physiol 2023; 14:1322677.
+3. Stratos I, Schleese S, Rinas I, et al. Effect of calcitriol and Vitamin D receptor
+modulator 2 on recovery of injured skeletal muscle in Wistar rats. Biomedi-
+cines 2023; 11:2477.
+4. Sist M, Zou L, Galloway SDR, Rodriguez-Sanchez N. Effects of vitamin D
+supplementation on maximal strength and power in athletes: a systematic
+review and meta-analysis of randomized controlled trials. Front Nutr 2023;
+10:1163313.
+5. Borda MG, Samuelsson J, Cederholm T, et al. Nutrient intake and its
+association with appendicular total lean mass and muscle function and
+strength in older adults: a population-based study. Nutrients 2024; 16:568.
+6. Fonte FK, Spinoza ED, Carvalho VA, et al. Relationship of protein, calcium and
+vitamin D consumption with body composition and fractures in oldest-old
+independent people. Clinical nutrition ESPEN 2024; 59:398 –403.
+7. Krasniqi E, Boshnjaku A, Uke¨ haxhaj A, et al. Association between vitamin D
+status, physical performance, sex, and lifestyle factors: a cross-sectional study
+of community-dwelling Kosovar adults aged 40 years and older. Eur J Nutr
+2024; 63:821 –834.
+8. Yang C, Dai Y, Li Z, et al. Relationship of serum 25-hydroxyvitamin D levels
+with sarcopenia and body composition in community-dwelling older adults: a
+paired case-control study. J Am Med Direct Assoc 2023; 24:1213 –1219.
+9. Yamada C, Kuwabara A, Sakai Y, et al. Usefulness of Vitamin D deﬁciency
+questionnaire for Japanese (VDDQ-J) for screening of Vitamin D deﬁciency
+and low muscle mass in relatively healthy Japanese anti-aging health checkup
+examinees. J Nutr Sci Vitaminol (Tokyo) 2023; 69:435 –443.
+10. Welford AE, Darling AL, Allison SJ, et al. Lack of signiﬁcant seasonal
+association between serum 25(OH)D concentration, muscle mass and
+strength in postmenopausal women from the D-FINES longitudinal study. J
+Nutr Sci 2022; 11:e107.
+11. Foroni MZ, Cendoroglo MS, Sakane EN, et al. Serum 25 hydroxyvitamin D
+concentrations in individuals over 80 years old and their correlations with
+musculoskeletal and health parameters. Endocrine 2023; 79:559 –570.
+12. Dwimartutie N, Setiati S, Tamin TZ, et al. Vitamin D levels in prefrail older
+adults and its correlation with hand grip strength. Acta Med Indones 2023;
+55:172–179.
+13. Stolakis K, Megas P, Panagiotopoulos E, et al. Association of vitamins B12
+and D3 with balance and falls in a sample of Greek older people. J Muscu-
+loskelet Neuronal Interact 2023; 23:205 –214.
+14. Zhang J, Cheng Y, Chen C, et al. Interaction of estradiol and vitamin D with low
+skeletal muscle mass among middle-aged and elderly women. BMC Womens
+Health 2023; 23:491.
+15.
+&
+Fox FAU, Koch L, Breteler MMB, et al. 25-hydroxyvitamin D level is associated
+with greater grip strength across adult life span: a population-based cohort
+study. Endocr Connect 2023; 12:e220501.
+The dose-response relationship between vitamin D levels and grip strength was
+approximately 20–40 ng/ml, suggesting an increased risk of adverse effects at
+excess levels of circulating 25-OHD levels above 50 ng/ml.
+16. Silveira EA, Vinícius-Souza G, Pereira CC, et al. Osteosarcopenia later in life:
+prevalence and associated risk factors. Clin Nutr ESPEN 2023; 58:213–220.
+17. Kim M, Kobori T. Association of a combination of sarcopenia and Type 2
+diabetes with blood parameters, nutrient intake, and physical activity: a
+nationwide population-based study. Nutrients 2023; 15:4955.
+18. Hsu YT, Lin JY, Lin CJ, et al. Association of possible sarcopenia or sarcopenia
+with body composition, nutritional intakes, serum Vitamin D levels, and
+physical activity among patients with Type 2 diabetes mellitus in Taiwan.
+Nutrients 2023; 15:3892.
+Vitamin D and muscle health Kuwabara et al.
+1363-1950 Copyright © 2024 The Author(s). Published by W olters Kluwer Health, Inc. www.co-clinicalnutrition.com 505
+
+19. Li Y, Xiang Q, Dong B, et al. Transitional dynamics of sarcopenia and
+associations of nutritional indices with state transitions in Chinese aged
+/C21 50. J Nutr Health Aging 2023; 27:741 –751.
+20.
+&
+Chou SH, Cook NR, Kotler G, et al. Effects of supplemental Vitamin D3,
+omega-3 fatty acids on physical performance measures in VITamin D and
+OmegA-3 TriaL. J Clin Endocrinol Metab 2024; dgae150. doi: 10.1210/
+clinem/dgae150.
+This is a secondary analysis of the large RCT, VITamin D, and OmegA-3 TriaL
+(VITAL), which negated the risk-reducing effects of various clinical outcomes as
+well as physical function.
+21. Haghighi AH, Shojaee M, Askari R, et al. The effects of 12 weeks resistance
+training and vitamin D administration on neuromuscular joint, muscle strength
+and power in postmenopausal women. Physiol Behav 2024; 274:114419.
+22. Houston DK, Marsh AP, Neiberg RH, et al. Vitamin D supplementation and
+muscle power, strength and physical performance in older adults: a rando-
+mized controlled trial. Am J Clin Nutr 2023; 117:1086 –1095.
+23. Draxler A, Franzke B, Kelecevic S, et al. The inﬂuence of vitamin D
+supplementation and strength training on health biomarkers and chromo-
+somal damage in community-dwelling older adults. Redox Biol 2023;
+61:102640.
+24. Schrack JA, Cai Y, Urbanek JK, et al. The association of vitamin D supple-
+mentation and serum vitamin D levels with physical activity in older adults:
+results from a randomized trial. J Am Geriatr Soc 2023; 71:2208 –2218.
+25. Dawson-Hughes B, Wang J, Barger K, Ceglia L. Effects of Vitamin D with
+calcium and associations of mean 25-hydroxyvitamin D levels with 3-year
+change in muscle performance in healthy older adults in the Boston STOP IT
+Trial. Calcif Tissue Int 2022; 111:580 –586.
+26. Bouillon R, Manousaki D, Rosen C, et al. The health effects of vitamin D
+supplementation: evidence from human studies. Nat Rev Endocrinol 2022;
+18:96–110.
+27. Bislev LS, Grove-Laugesen D, Rejnmark L. Vitamin D and muscle health: a
+systematic review and meta-analysis of randomized placebo-controlled trials.
+J Bone Miner Res 2021; 36:1651 –1660.
+28. Bollen SE, Bass JJ, Wilkinson DJ, et al. The impact of genetic variation within
+the vitamin D pathway upon skeletal muscle function: a systematic review. J
+Steroid Biochem Mol Biol 2023; 229:106266.
+Nutrition and physiological function
+506 www.co-clinicalnutrition.com Volume 27 /C15 Number 6 /C15 November 2024

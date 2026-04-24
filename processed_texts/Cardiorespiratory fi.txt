@@ -1,0 +1,1378 @@
+1
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Cardiorespiratory fitness is a strong and consistent 
+predictor of morbidity and mortality among adults: an 
+overview of meta-
+ analyses representing over 20.9 
+million observ
+ations from 199 unique cohort studies
+Justin J Lang ,1,2,3 Stephanie A Prince ,1,2 Katherine Merucci,4 
+Cristina Cadenas-
+
+Sanchez
+ ,5,6 Jean- Philippe Chaput ,2,7,8 
+Brooklyn J Fraser
+ ,3,9 Taru Manyanga ,10 Ryan McGrath,3,11,12,13 
+Francisco B Ortega
+ ,5,14 Ben Singh ,3 Grant R Tomkinson 3 
+Systematic review
+To cite: Lang JJ, 
+Prince SA, Merucci K, et al. 
+Br J Sports Med Epub ahead 
+of print: [please include Day 
+Month Year]. doi:10.1136/
+bjsports-2023-107849
+ ► Additional supplemental 
+material is published online 
+only. To view, please visit the 
+journal online (https://
+ doi
+.
+
+org/
+
+10.
+
+1136/
+
+bjsports-
+
+2023-
+
+107849).
+F
+or numbered affiliations see 
+end of article.
+Correspondence to
+Dr Justin J Lang, Public Health 
+Agency of Canada, Ottawa, 
+Canada; 
+
+justin.
+
+lang@
+
+phac-
+
+aspc.
+
+gc.
+
+ca
+JJL and SAP are joint first 
+authors.
+Accepted 18 March 2024
+© Author(s) (or their 
+employer(s)) 2024. Re-
+ use 
+permitted under CC BY
+-
+ NC
+. No 
+commercial re-
+ use
+. See rights 
+and permissions. Published 
+by BMJ.
+ABSTRACT
+Objective
+ T
+o examine and summarise evidence 
+from meta-
+ analyses of cohort studies that ev
+aluated 
+the predictive associations between baseline 
+cardiorespiratory fitness (CRF) and health outcomes 
+among adults.
+Design
+ Overview of systematic reviews
+.
+Data source
+ Five bibliogr
+aphic databases were 
+searched from January 2002 to March 2024.
+Results
+ F
+rom the 9062 papers identified, we included 
+26 systematic reviews. We found eight meta-
+ analyses 
+that described five unique mortality outcomes among 
+gener
+al populations. CRF had the largest risk reduction 
+for all-
+ cause mortality when comparing high versus 
+low CRF (HR=0.47;
+ 95% CI 0.39 to 0.56). A dose–
+response relationship for every 1-
+ metabolic equiv
+alent 
+of task (MET) higher level of CRF was associated with 
+a 11%–17%
+ reduction in all-
+ cause mortality (HR=0.89;
+
+95% CI 0.86 to 0.92, and HR=0.83; 95% CI 0.78 
+to 0.88). For incident outcomes, nine meta-
+ analyses 
+described 12 unique outcomes
+. CRF was associated 
+with the largest risk reduction in incident heart failure 
+when comparing high versus low CRF (HR=0.31; 95% 
+CI 0.19 to 0.49). A dose–response relationship for every 
+1-
+ MET higher level of CRF w
+as associated with a 18% 
+reduction in heart failure (HR=0.82; 95% CI 0.79 to 
+0.84). Among those living with chronic conditions, nine 
+meta-
+ analyses described four unique outcomes in nine 
+patient groups
+. CRF was associated with the largest risk 
+reduction for cardiovascular mortality among those living 
+with cardiovascular disease when comparing high versus 
+low CRF (HR=0.27; 95% CI 0.16 to 0.48). The certainty 
+of the evidence across all studies ranged from very low-
+
+to-
+ moder
+ate according to Grading of Recommendations, 
+Assessment, Development and Evaluations.
+Conclusion
+ W
+e found consistent evidence that high 
+CRF is strongly associated with lower risk for a variety of 
+mortality and incident chronic conditions in general and 
+clinical populations.
+INTRODUCTION
+Cardiorespiratory fitness (CRF) is a physical trait 
+that reflects the integrated function of numerous 
+bodily systems to deliver and use oxygen to support 
+muscle activity during sustained, rhythmic, whole-
+
+body
+, large muscle physical activity. 1 CRF can 
+be objectively measured using direct (usually by 
+maximal exercise testing with concomitant gas 
+exchange analysis)
+2 or indirect (exercise predicted 
+equations)3 4 methods with a variety of maximal or 
+submaximal protocols using different modalities 
+(eg, stationary cycling, treadmill running/walking, 
+bench stepping, field-
+ based 
+running/walking). 
+Non-
+ ex
+ercise prediction equations with reasonable 
+validity are also available when direct CRF measure-
+ment is not feasible.
+5 6 CRF is commonly expressed 
+as the maximum or peak rate of oxygen consump-
+tion per kilogram of body mass (common units: mL/
+kg/min) or metabolic equivalents of task (MET s). 
+Nearly half of the variance in CRF is attributable 
+to genetics, with the remainder modified primarily 
+WHAT IS ALREADY KNOWN ON THIS TOPIC
+ ⇒ Many systematic reviews have examined 
+the prospective link between baseline 
+cardiorespiratory fitness and health outcomes, 
+but no study has compiled all the evidence to 
+help identify important gaps in the literature.
+WHAT THIS STUDY ADDS
+ ⇒ This study identified 26 systematic reviews with 
+meta-
+ analysis representing over 20.9
+ million 
+observ
+ations from 199 unique cohort studies. 
+Cardiorespiratory fitness was strongly and 
+consistently protective of a variety of incident 
+chronic conditions and mortality-
+ related 
+outcomes
+.
+ ⇒ Gaps in the literature continue to exist, with 
+limited evidence available among women, 
+and certain clinical populations. Several 
+health outcomes could benefit from future 
+meta-
+ analyses
+, including specific cancer 
+types, especially among women (eg, breast 
+cancer) and mental health conditions beyond 
+depression.
+HOW THIS STUDY MIGHT AFFECT RESEARCH, 
+PRACTICE OR POLICY
+ ⇒ Given the strength of the predictive utility of 
+cardiorespiratory fitness across many health 
+outcomes, cardiorespiratory fitness would be 
+a valuable risk stratification tool in clinical 
+practice.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. 
+. by guest on April 20, 2026 from 9 April 2024. on Br J Sports Med: first published as
+
+2
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Systematic review
+through habitual physical activity. 7 For example, brisk walking 
+for approximately 150
+ min per week 
+can result in large rela-
+tive improvements in CRF among sedentary and unfit individ-
+uals.8 9 Even those with severe chronic disease can improve CRF 
+through well-
+ planned aerobic physical activity programmes.10
+Low CRF is considered a strong chronic disease risk factor that 
+is not routinely assessed in clinical practice. 11 Evidence suggests 
+that the inclusion of CRF as a clinical vital sign would enhance 
+patient management by improving the classification of those at 
+high risk of adverse outcomes.
+11 The evidence supporting CRF 
+as an important risk factor has accumulated since the 1980s 
+through large cohort studies that investigated the prospective 
+risk of all-
+ cause 
+mortality and cardiovascular events associated 
+with CRF.12–14 Research has linked CRF to the incidence of some 
+cancers (eg, colon/rectum, lung), 15 type 2 diabetes, 16 metabolic 
+syndrome,17 stroke18 and depression. 19 Higher CRF may even 
+improve the prognosis in those with chronic conditions such as 
+cancer,
+20 peripheral artery disease,21 heart failure22 and chronic 
+kidney disease.23
+Given the mounting evidence supporting CRF as an important 
+risk factor, numerous systematic reviews with meta-
+ analyses
+
+summarising results of primary studies for various health outcomes 
+have been published. Kodama et al
+24 published the first meta- 
+analysis on the health-
+ related predictive validity of CRF and found
+
+that a 1-
+ MET (3.5
+ mL/kg/min) higher level of CRF was associated
+
+with a 13% and 15% reduction in the risk of all-
+ cause mortality
+
+and cardiovascular disease (CVD) events, respectively. This study 
+helped to establish the meaningful clinically important difference 
+(MCID) of 1-
+ MET 
+for exercise trials. Since Kodama’s study, there 
+have been several systematic reviews with meta-
+ analyses, with
+
+several published in recent years (ie, 2020+). Most systematic 
+reviews have focused on a single health outcome. T o date, there 
+has not been a systematic synthesis of the relationships between 
+CRF and a broad range of health outcomes. T o help summarise 
+the breadth of evidence, an overview of reviews provides a system-
+atic method to examine evidence across a range of outcomes for a 
+specific exposure.
+25 Thus, the objective of this study was to conduct 
+an overview of systematic reviews with meta-
+ analyses from cohort
+
+studies that investigated relationships between CRF and prospec-
+tive health-
+ related outcomes among adults. W
+e also aimed to assess 
+the certainty of the evidence for each identified health outcome.
+METHODS
+This overview followed the methods outlined in the Cochrane 
+handbook,
+25 and additional methods that were published else-
+where.26 We adhered to both the Preferred Reporting Items for 
+Overviews of Reviews statement 27 and the Meta- analyses of 
+Observational 
+Studies in Epidemiology reporting standards. 28 
+The overview was prospectively registered with the PROS-
+PERO international prospective register of systematic reviews 
+(#CRD42022370149). Here, we present a condensed methods 
+section with the full methods available in online supplemental 
+methods.
+Eligibility criteria
+Population
+Adult populations (≥18 years) including apparently healthy and 
+clinical populations with diagnosed chronic conditions. Studies 
+Initial search Search update
+Figure 1 PRISMA flow chart depicting the number of papers identified, screened and included in the overview. *A list of excluded studies with 
+reasons are provided in online supplemental appendix 2.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. 
+. by guest on April 20, 2026 from 9 April 2024. on Br J Sports Med: first published as
+
+3
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Systematic review
+that focused on certain special populations were excluded (ie, 
+those recovering from surgery, athletes, disease at birth, preg-
+nant individuals).
+Exposure
+The primary exposure was CRF measured using the following 
+approaches: (1) maximal exercise testing with gas analysis (ie, 
+directly measured V̇O
+2max/peak), (2) maximal or submaximal exer-
+cise testing without gas analysis, which used either exercise 
+prediction equations to estimate CRF or the measured exercise 
+performance (ie, indirect measures) or (3) non-
+ ex
+ercise predic-
+tion equations for estimating CRF.
+Outcome
+Any health- related outcome such as all- cause or cause- specific 
+mortality
+, incident conditions related to physical risk factors, 
+chronic conditions or mental health issues were included. Among 
+populations with diagnosed chronic conditions, we included 
+evidence on outcomes such as mortality or disease severity.
+Study design
+Only systematic reviews with meta- analyses that searched a 
+minimum of two bibliographic 
+databases and provided a sample 
+search strategy were included. We also included meta-
+ analyses 
+that pooled data from 
+primary prospective/retrospective cohort 
+or case-
+ control studies. These studies were the focus because 
+of 
+their ability to assess causality for observational research.
+Publication status and language restriction
+Only systematic reviews published in peer- reviewed journals in 
+English, F
+rench or Spanish (based on authors’ language capacity) 
+were eligible. Conference abstracts or papers, commentaries, 
+editorials, dissertations or grey literature were ineligible.
+Time frame
+Systematic reviews published during the past 20 years for the 
+initial search.
+Information sources
+Five bibliographic databases, including OVID Medline, OVID 
+Embase, Scopus, CINAHL and EBSCOhost SPORTDiscus, were 
+searched from 1 January 2002 to 21 November 2022. The search 
+was later updated from 1 November 2022 to 8 March 2024.
+Search strategy
+A research librarian (KM) created the search strategy in collab -
+oration with the authorship team, and the final search was peer-
+
+reviewed by an independent 
+research librarian using the Peer 
+Review of Electronic Search Strategies guidelines. 29 The search 
+strategies for each database are available in online supplemental 
+appendix 1. The reference lists of included papers were also 
+searched for additional relevant systematic reviews.
+Selection process
+All records were imported into RefWorks where duplicates were 
+removed using automated and manual methods. Records were 
+Table 1 Study characteristics for general populations without known disea se at baseline and mortality outcomes
+First author, 
+year Population description Exposure description(s)
+Range of 
+follow-
+
+up* Outcome(s)
+Number of studies 
+included in meta-
+
+analysis)
+Sample size 
+included in 
+meta-
+
+analysis
+AMSTAR2 
+rating†
+Aune, 2020
+36 General populations of 
+adults
+High versus low 14.7–22 years Sudden cardiac 
+mortality
+2 57
+ 813 Critically low 
+qualityPer 1-
+ MET increase 2 57
+
+813
+Barry, 201452
+Data only 
+presented in 
+supplement
+General populations of 
+adults
+Normal weight fit 
+versus normal weight 
+unfit, overweight unfit, 
+overweight fit, obese unfit 
+and obese fit
+7.7–16 years All-
+
+cause 
+mortality
+10 92
+
+986 Low quality
+Barry, 201853
+Data only 
+presented in 
+supplement
+General populations of 
+adults
+Normal weight fit 
+versus normal weight 
+unfit, overweight unfit, 
+overweight fit, obese unfit 
+and obese fit
+8.1–19.8 years CVD mortality 8 137
+
+406 Low quality
+Han, 202235 General populations of 
+adults
+High versus low 5.0–44.1 years All-
+ cause 
+mortality
+19 2 187 550 Moderate 
+qualityPer 1-
+ MET increase 14 625
+
+400
+High versus low CVD mortality 13 1
+
+952
+
+352
+Per 1-
+ MET increase 10 392
+
+240
+High versus low All cancer 
+mortality
+11 409
+
+422
+Per 1-
+ MET increase 10 409
+
+594
+Kodama, 200924 General populations of 
+adults
+High versus low 1.1–26 years All-
+ cause 
+mortality
+15 31 010 Critically low
+Per 1-
+ MET increase 18 85
+
+315
+Laukkanen, 
+2022
+54
+General populations of 
+adults
+High versus low 3.2–47.4 years All-
+ cause 
+mortality
+37 2 255 441 High quality
+Per 1-
+ MET increase 10 360
+
+131
+Lee, 202055 General populations of 
+adults
+High versus low 11.5–49.8 years Lung cancer 
+mortality
+5 12
+ 758 Low quality
+Qiu, 20216 General populations of 
+adults
+Per 1-
+ MET increase (eCRF) 8.8–24 years All- cause 
+mortality
+7 154 015 Moderate 
+quality
+CVD mortality 6 174
+
+075
+*Data presented are for all the papers included in the systematic reviews and may include exposures other than CRF .
+†Details on the AMSTAR2 quality assessment are available from Shea et al.
+31
+AMSTAR2, A MeaSurement Tool to Assess systematic Reviews 2; CRF , cardiorespiratory fitness; CVD, cardiovascular disease; MET, metabolic equivalent of task.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. 
+. by guest on April 20, 2026 from 9 April 2024. on Br J Sports Med: first published as
+
+4
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Systematic review
+imported into Covidence for further deduplication and record 
+screening. Reviewers were not blinded to the study metadata 
+when screening. The title and abstract from each record were 
+screened by two of the following independent reviewers (JJL, 
+SAP , CC-
+ S, J-
+ PC, BJF
+, TM, BS and GRT) against the inclusion 
+criteria. Full-
+ text papers were 
+obtained for each record that met 
+the inclusion criteria or provided insufficient evidence to make 
+a conclusive decision at the title and abstract stage. Conflicts 
+during title and abstract screening automatically advanced to 
+full-
+ text screening. Each full-
+ text record 
+was screened by two of 
+the following independent reviewers (JJL, SAP , CC-
+ S, J-
+ PC, BJF
+, 
+TM, BS and GRT) against the inclusion criteria. Conflicts at the 
+full-
+ text 
+stage were resolved through discussion by two reviewers 
+(JJL and SAP), with a third reviewer resolving disagreements 
+(GRT).
+Data collection process
+Data extraction was completed in Covidence using a form that 
+was piloted by the authorship group for accuracy. Data from the 
+included studies were extracted by two of the following inde-
+pendent reviewers (JJL, SAP , CC-
+ S, 
+J-
+ PC, 
+BJF, TM, FBO, BS 
+and GRT). Conflicts were resolved by one reviewer (JJL), who 
+contacted the reviewers who extracted the data when necessary 
+to resolve conflicts.
+Data items
+The data extraction form included several items related to 
+the demographic characteristics of the primary studies, the 
+meta-
+ analyses effect estimates and related statistics, and details 
+for risk of bias and subgroup analyses.
+Review quality
+We extracted the original risk of bias assessment for each primary 
+study, as reported by the study authors. Most of the included 
+studies used the Newcastle-
+ Ottawa Scale (NOS) to assess risk of 
+bias for cohort 
+studies.30 In the event that risk of bias was not 
+assessed, a new assessment was conducted and verified by two 
+reviewers using the NOS. We also assessed quality of the system-
+atic reviews using the second edition of A MeaSurement T ool 
+to Assess systematic Reviews 2 (AMSTAR2) checklist.
+31 T wo of 
+the following independent reviewers (JJL, SAP , CC-
+ S, J-
+ PC, BJF
+, 
+TM, FBO, BS and GRT) assessed review quality. Conflicts were 
+resolved by one reviewer (JJL), with the reviewers who extracted 
+the data contacted to resolve outstanding conflicts.
+Effect measures
+We presented pooled hazard ratios (HRs) or relative risks (RRs) 
+for an incident event (ie, mortality or morbidity) across the 
+included systematic reviews. We extracted data from models 
+that compared high versus low CRF and those that examined 
+the impact of a 1-
+ MET higher level of CRF
+.
+Synthesis of data
+We followed an outcome- centric approach, as outlined by 
+Kho et al. 26 Our goal was to identify systematic reviews with 
+Table 2 Study characteristics for general populations without known disea se at baseline and incident outcomes
+First author, year
+Population 
+description
+Exposure 
+description(s) Range of follow-
+ up* Outcome(s)
+Number of studies 
+included in meta-
+
+analysis)
+Sample size 
+included in meta-
+
+analysis AMST AR2 rating†
+Aune, 202138 General 
+populations of 
+adults
+High versus low 6.5–19.1 years Incidence of heart 
+failure
+6 1
+ 505 114 Moderate quality
+Per 1-
+
+MET 
+increase
+5 173
+
+678
+Cheng, 202237 General 
+populations of 
+adults
+High versus low 4.3–25.7 years Incidence of 
+hypertension
+9 1 618
+ 067 Moderate quality
+Per 1-
+
+MET 
+increase
+9 1
+
+618
+
+067
+Kandola, 201956 General 
+populations of 
+adults
+High versus low 8 weeks to 42 years Incidence of 
+depression
+3 1
+ 145 655 Critically low 
+quality
+Kunutsor, 2023
+57 General 
+populations of 
+adults
+High versus low 7.2–27.9 years Incidence of 
+chronic kidney 
+disease
+5 32
+ 447 Moderate quality
+Lee, 202158 General 
+populations of 
+adults
+High versus low 6–38 years Incidence of 
+dementia
+3 11
+ 694 Critically low 
+quality
+Pozuelo-
+
+Carrascosa, 
+201940
+Data only presented in 
+supplement
+General 
+populations of 
+adult men only
+High versus low 5–40 years Incidence of colon/
+rectum, prostate, 
+skin and all site 
+cancer
+4–5 23
+
+350–28
+
+262 Moderate quality
+Tarp, 201959 General 
+populations of 
+adults
+Per 1-
+ MET 
+increase
+3–29 years Incidence of type 2 
+diabetes
+10 1 601 490 High quality
+Wang, 202039 General 
+populations of 
+adults
+High versus low 3.9–25.2 years Incidence of stroke 14 1
+ 409 340 Moderate quality
+Per 1-
+
+MET 
+increase
+9 Not reported
+Xue, 202060 General 
+populations of 
+adults
+High versus low 5.0–28.2 years Incidence of atrial 
+fibrillation
+7 2
+ 168 739 Critically low 
+qualityPer 1-
+
+MET 
+increase
+7 222
+
+124
+*Data presented are for all the papers included in the systematic reviews and may include exposures other than CRF .
+†Details on the AMSTAR2 quality assessment are available from Shea et al.
+31
+AMSTAR2, A MeaSurement Tool to Assess systematic Reviews 2; CRF , cardiorespiratory fitness; MET, metabolic equivalent of task.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. 
+. by guest on April 20, 2026 from 9 April 2024. on Br J Sports Med: first published as
+
+5
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Systematic review
+non- overlapping primary studies for each outcome to avoid 
+double counting evidence. When more than one eligible system-
+atic review was identified for a single outcome, we calculated the 
+corrected covered area (CCA) to assess the degree of overlap in 
+the primary studies.
+32
+ CCA = N−r(
+r∗c
+)
+−r 
+Where, N
+ is the total number of times a primary study 
+appeared across reviews (inclusive of double counting), r is the 
+number of unique primary studies and c is the number of system-
+atic reviews included for the outcome.
+The CCA was interpreted as slight (0%–5%), moderate 
+(6%–10%), high (11%–15%) or very high (>15%). If the CCA 
+was slight or moderate, we included multiple systematic reviews 
+per outcome. If the CCA was high or very high, we selected the 
+highest quality systematic review according to the AMSTAR2 
+assessment. We included the most recent systematic review when 
+reviews of the same outcome were rated as equal in quality.
+Synthesis of results
+For each health outcome, we reported evidence for apparently 
+healthy and clinical populations separately. We summarised 
+results using a narrative synthesis approach using summary of 
+findings tables. Results were reported as described by the system-
+atic review authors. Meta-
+ analytic
+al results, including the effect, 
+confidence limits, number of studies and number of partici-
+pants, were presented by outcome using a forest plot to allow 
+for easy comparison between studies. RR values were taken to 
+approximate the HR. When comparing high versus low CRF, 
+we inverted the scale when studies compared low versus high by 
+taking the reciprocal (ie, HR=2.00 was changed to HR=0.50). 
+Dose−response values were rescaled to a 1-
+ MET 
+higher level of 
+CRF when more than 1-
+ MET was used or if the unit increase 
+was in V
+O2. We rescaled by taking the natural log of the HR, 
+dividing or multiplying it to correspond with 1-
+ MET
+, and expo-
+nentiating the result. Subgroup analyses for sex were described 
+when available.
+Certainty of the evidence assessment
+For each outcome, the certainty of the evidence was assessed 
+using a modified Grading of Recommendations, Assessment, 
+Development and Evaluations (GRADE) approach.
+33 Obser -
+vational cohort evidence began at ‘high’ certainty because 
+randomised controlled trials were deemed not feasible for our 
+research question.
+34 The certainty of the evidence could be rated 
+down based on five domains (ie, risk of bias, imprecision, incon-
+sistency, indirectness and publication bias). See online supple-
+mental table 1 for a GRADE decision rules table.
+Equity, diversity and inclusion statement
+Our research team included diversity across genders with 
+representation from researchers at all career stages. We strati-
+fied our results by sex which allowed use to identify the poten-
+tial need for more diversity in this area of the literature. This 
+stratification allowed us to discuss the overall generalisability 
+of our results. The GRADE evaluation carried out in this 
+study assessed the indirectness of the results. We downgraded 
+evidence that did not demonstrate good global representation 
+or did not provide a gender-
+ balanced sample. R
+educing indi-
+rectness is important for ensuring the results are representative 
+of the target population.
+Table 3 Study characteristics for clinical populations with diagnosed chro nic disease at baseline and mortality outcomes
+First author, year Population description
+Exposure 
+description(s)
+Range of follow-
+
+up* Outcome(s)
+Number of studies 
+included in meta-
+
+analysis)
+Sample size 
+included in meta-
+
+analysis
+AMST
+AR2 
+rating†
+Barbagelata, 202241 Patients with pulmonary 
+hypertension
+High versus low 1.6–6.2 years Mortality or 
+heart/lung 
+transplantation
+9 986 Critically low 
+quality
+Cantone, 2023
+61 Patients with amyloid 
+cardiomyopathy
+Per 1-
+ MET increase 1.7–3.2 years All- cause mortality 3 233 Moderate quality
+Ezzatvar, 202142 Patients with CVD High versus low 1.0–14.0 years All- cause mortality 11 22 274 Critically low 
+qualityCVD mortality 4 5821
+Ezzatvar, 2021
+62 Patients with cancer High versus low 1–10 years All- cause mortality 9 4343 Low quality
+Fuentes-
+
+Abolafio, 
+202063
+Patients with heart failure High versus low 1 month to 20 years All- cause mortality 5 5170 High quality
+Heart failure 
+mortality
+4 982
+Lachman, 2018
+64 Patients with coronary 
+artery disease
+Delayed HRR 
+versus not delayed 
+HRR
+2.0–9.8 years All-
+ cause mortality 
+and hospitalisation
+3 2146 Critically low 
+quality
+Morris, 2014
+65 Patients with peripheral 
+artery disease
+High versus low 3.7–11.3 years 5-
+ year all- cause 
+mortality
+3 2793 Critically low 
+quality
+5-
+
+year CVD 
+mortality
+3 2793
+Rocha, 202266 Patients with interstitial 
+lung disease
+High versus low 23 days to 15.5 years All-
+ cause mortality 3 1908 Critically low 
+quality
+Yang, 2023
+67 Patients with chronic 
+kidney disease and end-
+
+stage renal disease
+High versus low 3.3 months to 12 
+years
+All- cause mortality 2 415 Critically low 
+quality
+*Data presented are for all the papers included in the systematic reviews and may include exposures other than CRF .
+†Details on the AMSTAR2 quality assessment are available from Shea et al.
+31
+AMSTAR2, A MeaSurement Tool to Assess systematic Reviews 2; CRF , cardiorespiratory fitness; CVD, cardiovascular disease; HRR, heart rate recovery.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. 
+. by guest on April 20, 2026 from 9 April 2024. on Br J Sports Med: first published as
+
+6
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Systematic review
+RESULTS
+We identified 9062 records after removing duplicates, assessed 
+199 full-
+ text 
+papers, and excluded 165 papers during full-
+ text 
+screening, and 8 papers because 
+of high or very high overlap 
+based on the CCA calculation (see figure
+
+1 and online supple-
+mental appendix 2 for full texts with reasons for exclusion). 
+The proportion of agreement between reviewers for title and 
+abstract screening ranged from 95% to 100% while the agree-
+ment for full-
+ text screening ranged from 75% to 100%. W
+e 
+included 26 systematic reviews with meta-
+ analyses representing 
+over 20.9
+ million observations from 199 unique 
+cohort studies, 
+including 21 mortality or incident chronic disease outcomes. We 
+identified CCA values in the high or very high range for sudden 
+cardiac mortality (CCA=33%; n=2), incident heart failure 
+(33%; n=2), incident depression (50%; n=2), incident type 2 
+diabetes (25%; n=4) and all-
+ cause mortality among those living 
+with heart failure
+ (14%; n=3; see online supplemental appendix 
+2 for more details). We included multiple systematic reviews for 
+all-
+ cause 
+mortality because the CCA was moderate (10%; n=3).
+T ables
+ 1–3
+ describe the study characteristics. We identified 8 
+systematic reviews that investigated mortality outcomes, with 
+pooled data from 95 unique primary cohort studies. Nine system-
+atic reviews investigated incident outcomes, pooling data from 
+63 unique primary cohort studies. The remaining 9 systematic 
+reviews investigated health-
+ related outcomes among populations 
+living 
+with chronic conditions, which represented data from 51 
+unique primary cohort studies. 11 reviews were of critically low 
+quality, 4 were low, 8 were moderate and 3 were of high quality 
+as assessed using the AMSTAR2 (see online supplemental table 
+2). See online supplemental table 3 for a detailed summary of 
+findings with the certainty of the evidence for each outcome.
+Figure
+ 2
+ illustrates results for CRF as a predictor of mortality 
+outcomes, which included all- cause, CVD, sudden cardiac, all 
+cancer and lung cancer mortality. When comparing high versus 
+low CRF across all outcomes, there was a 41% (HR for all-
+
+cause mortality 24=0.59; 95% CI 0.52 to 0.66) to 53% (HR 
+for all-
+ cause mortality 35=0.47; 95% CI 0.39 to 0.56) reduc-
+tion in the risk of premature mortality. The certainty of the 
+evidence was assessed as very low-
+ to-
+ moderate, mainly due to 
+serious indirectness (ie, 
+most studies only included male partic-
+ipants). In assessing the dose–response relationship, a 1-
+ MET 
+higher level 
+of CRF was associated with a 7% (HR for all cancer 
+mortality35=0.93; 95% CI 0.91 to 0.96) to 51% (HR for sudden 
+cardiac mortality 36=0.49; 95% CI 0.33 to 0.73) reduction in 
+the risk of premature mortality. The certainty of the evidence 
+ranged from very low-
+ to-
+ moderate, 
+largely due to serious indi-
+rectness from a large proportion of male-
+ only studies. 
+Sex differ-
+ences were similar between outcomes with larger CIs for females 
+because of smaller samples (see online supplemental figure 1). 
+For example, there were 1
+ 858
+ 274 male participants compared 
+with 180
+ 202 female participants for all-
+ cause mortality
+.
+Figure
+
+3 describes results for CRF as a predictor of newly 
+diagnosed chronic conditions, including: hypertension, heart 
+failure, stroke, atrial fibrillation, dementia, chronic kidney 
+disease, depression and type 2 diabetes. Online supplemental 
+figure 2 describes results for all cancer (male only), lung 
+cancer (male only), colon/rectum cancer (male only) and pros -
+tate cancer. When comparing high versus low CRF, there was 
+a 37% (HR for incident hypertension
+37=0.63; 95% CI 0.56 
+to 0.70) to 69% (HR for incident heart failure 38=0.31; 95% 
+CI 0.19 to 0.49) reduction in the risk of incident conditions. 
+The certainty of this evidence was rated as very low-
+ to-
+ low 
+
+Figure 2 HRs for each mortality outcome in apparently healthy populations a t baseline for high versus low CRF and per 1- MET increase in 
+CRF
+. Estimates from Laukkanen (2022), Han (2022), Kodama (2009) and Aune (2020) were reported as RR, the remaining studies were reported as 
+HR. Qui (2021) reported estimates from self-
+ reported CRF
+. Kodama (2009) reported low versus high CRF which were inverted for this study. CRF , 
+cardiorespiratory fitness; CVD, cardiovascular disease; eCRF , estimated non-
+ exercise cardiorespiratory fitness;
+ GRADE, Grading of Recommendations, 
+Assessment, Development and Evaluations; MET, metabolic equivalent of task; NA, not applicable; NR, not reported; RR, relative
+ risk.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. 
+. by guest on April 20, 2026 from 9 April 2024. on Br J Sports Med: first published as
+
+7
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Systematic review
+largely due to inconsistency and indirectness (ie, high hetero-
+geneity that could not be described by subgroup analysis and 
+largely male populations). The dose–response relationship per 
+1-
+ MET higher level of CRF was associated with a 3% (HR for 
+incident stroke39=0.97; 95% CI 0.96 to 0.98) to 18% (HR for 
+incident heart failure 38=0.82; 95% CI 0.79 to 0.84) reduction 
+in the risk of incident conditions. The certainty of the evidence 
+ranged from very low-
+ to-
+ low due to inconsistency and indirect
+-
+ness. Only two studies reported results for females separately. 
+High versus low CRF was more protective for incident stroke 
+and type 2 diabetes among females compared with males (online 
+supplemental figure 2). Among men, there was a null association 
+between high versus low CRF for prostate cancer (HR=1.15; 
+95% CI 1.00 to 1.30).
+40
+Figure 4 highlights results comparing high versus low CRF 
+among individuals 
+living with chronic conditions. There was a 
+19% (HR for adverse events among those living with pulmonary 
+hypertension
+41=0.81; 95% CI 0.78 to 0.85) to 73% (HR for 
+cardiovascular mortality among those living with CVD42=0.27; 
+95% CI 0.16 to 0.48) reduction in the risk of all-
+ cause 
+and 
+type-
+ specific 
+mortality. Comparing delayed versus not delayed 
+heart rate recovery was associated with an 83% reduced risk of 
+adverse events among those living with coronary artery disease. 
+The certainty of the evidence for mortality in those living with 
+a chronic condition was rated as very low-
+ to-
+ low largely due to 
+risk 
+of bias, indirectness and imprecision (ie, low-
+ quality 
+studies, 
+mainly male participants and small sample sizes). No evidence 
+examining sex differences were available. See online supple-
+mental table 3 for a detailed summary of findings.
+DISCUSSION
+This overview of systematic reviews demonstrated that CRF is 
+a strong and consistent predictor of risk across many mortality 
+outcomes in the adult general population. Among populations 
+living with chronic conditions such as cancer, heart failure and 
+CVD, this study showed better prognosis for those with higher 
+CRF. We also demonstrated that low CRF is an important risk 
+factor for developing future chronic conditions such as hyper -
+tension, heart failure, stoke, atrial fibrillation, dementia and 
+depression. Given that we summarised evidence from cohort 
+studies, and randomised controlled trials cannot be used in 
+our investigation, the results of this study may signal a causal 
+relationship between CRF and future health outcomes. We also 
+found a significant dose–response effect showing protection for 
+every 1-
+ MET 
+higher level of CRF. This evidence further supports 
+1-
+ MET 
+as an MCID for CRF and could be considered as a target 
+for interventions. The strength and consistency of the evidence 
+across a wide range of outcomes supports the importance of 
+CRF for clinical assessment and public health surveillance.
+Several studies have identified the need for the routine 
+measurement of CRF in clinical and public health practice.
+11 43 
+For instance, a scientific statement from the American Heart 
+Association concluded that healthcare providers should assess 
+CRF during annual routine clinical visits using submaximal tests 
+(eg, treadmill, cycling or bench stepping tests) or self-
+ report esti
+-
+mates and that patients living with chronic conditions should 
+have CRF measured regularly using a symptom-
+ limited direct 
+measure.11 There are several benefits to regular measurement of 
+CRF in clinical practice. First, CRF is an important risk factor 
+
+Figure 3 HRs for each incident outcome in apparently healthy populations a t baseline for high versus low CRF and per 1- MET increase in CRF . 
+Note: Estimates from Cheng (2022), Aune (2021), Wang (2020), Xue (2020), Tarp (2019) and Kunutsor (2023) were reported as RR, the remaining 
+studies were reported as HR. Kandola (2019) reported estimates for low versus high which were inverted for this study. The estimates from Tarp 
+(2019) are fully adjusted for adiposity. Aune (2021) was reported per 5-
+ MET increase which we converted to 1-
+ MET increase for this study.
+ CRF , 
+cardiorespiratory fitness; CVD, cardiovascular disease; GRADE, Grading of Recommendations, Assessment, Development and Evaluations; MET, 
+metabolic equivalent of task; NA, not applicable; NR, not reported; RR, relative
+ risk.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. 
+. by guest on April 20, 2026 from 9 April 2024. on Br J Sports Med: first published as
+
+8
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Systematic review
+that provides additional information beyond traditional risk 
+factors such as blood pressure, total cholesterol and smoking 
+status.
+44 Second, given the strong link with habitual physical 
+activity, CRF could be a valuable tool to help guide exercise 
+prescription. In those with low CRF (defined based on age, sex 
+and health status), large relative improvements can be attained 
+through additional moderate physical activity (ie, brisk walking 
+at a heart rate of 50% of peakO
+2).45 The largest health benefits 
+have been observed when individuals move from being unfit to 
+fit.
+46 Lastly, CRF measured using field- based tests are easy to 
+implement with 
+a variety of tests that could be adapted to suit 
+space and time limitations.
+Areas of future work
+Applying the GRADE approach to evaluate the certainty of the 
+evidence helped identify several important gaps in the literature. 
+Nearly all the outcomes identified in this study were down-
+graded due to the evidence being generated largely from samples 
+comprising males. Although an increase in female samples would 
+help improve the certainty of the evidence, it likely would not 
+impact the magnitude of the observed effects because the bene-
+fits of CRF were similar for males and females in our study (see 
+online supplemental figures 1,2) and other large cohort studies.
+47 
+There is also a need for higher-
+ quality 
+studies with larger 
+samples sizes in clinical populations, as many of the outcomes 
+were downgraded due to primary studies with high risk of bias, 
+low sample sizes (<4000 participants), and inconsistencies in the 
+measurement of CRF across studies. Improving the evidence for 
+CRF in clinical populations remains an important research gap. 
+For instance, outcomes in clinical populations with a serious or 
+very serious risk of bias were often rated this way due to a lack 
+of adequate control for confounding, including a lack of adjust-
+ment for age, sex, and body mass.
+In addition to the need for higher-
+ quality 
+studies with greater 
+samples in more diverse populations including females, we did 
+not identify any systematic reviews that explored the association 
+between CRF and breast cancer
+48 or mental health outcomes 
+beyond incident depression and dementia, as an example. These 
+outcomes present important areas for future work. Finally, future 
+studies would benefit from repeated longitudinal measures of 
+CRF to further establish causality.
+Implications for clinical practice
+This study further demonstrates the importance of including 
+CRF measurement in regular clinical practice. For every 1-
+ MET 
+(3.5
+ mL/kg/min) 
+higher level of CRF, we identified substantial 
+reductions in the risk of all-
+ cause, 
+CVD and cancer mortality. 
+We also identified significant reductions in the risk of incident 
+hypertension, heart failure, stroke, atrial fibrillation and type 2 
+diabetes per higher MET. For most, a 1-
+ MET higher level of 
+CRF is 
+attainable through a regular aerobic exercise programme. 
+For example, in a large population-
+ based 
+observational study of 
+over 90
+ 000 participants, nearly 30% were able 
+to increase their 
+CRF by 1-
+ MET (median follow-
+ up was 6.3 years) without inter-
+vention.49 However, for some, improvements as small as 0.5- 
+MET
+s may substantially benefit health.50 51
+Given the strength of the predictive utility of CRF across 
+many health outcomes, CRF would be a valuable risk stratifi-
+cation tool in clinical practice. Furthermore, the predictive 
+strength of CRF is maintained regardless of age, sex and race.
+47 
+Through regular CRF measurement, clinicians could better iden-
+tify patients at greater risk of premature mortality, initiating the 
+need for targeted exercise prescription. Improvements in CRF 
+through regular physical activity results in a proportional reduc-
+tion in mortality risk, regardless of the presence of other major 
+risk factors such as higher body mass index, hypertension, type 
+
+Figure 4 HRs for health outcomes in patients living with chronic conditions a t baseline for high versus low CRF and delayed versus not delayed 
+HRR. Estimates from Morris (2014) were reported as RR, the remaining estimates were reported as HR. Yang (2023), Fuentes-
+ Abolafio (2020),
+
+Morris (2014), Rocha (2022) and Lachman (2018) reported estimates as low versus high which were inverted for this study. Cantone (2023) was 
+reported per 1-
+ unit 
+VO2 increase which we converted to 1- MET increase for this study. Adverse events for Lachman (2018) were all- cause mortality, 
+cardiovascular mortality and hospitalisations for congestive heart failure. CRF , cardiorespiratory fitness; CVD, cardiovascular disease; GRADE, Grading 
+of Recommendations, Assessment, Development and Evaluations; HRR, heart
+ rate recovery;
+ MET, metabolic equivalent of task; NA, not applicable; NR, 
+not reported; RR, relative
+ risk.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. 
+. by guest on April 20, 2026 from 9 April 2024. on Br J Sports Med: first published as
+
+9
+Lang JJ, et al. Br J Sports Med 2024;0:1–11. doi:
+Systematic review
+2 diabetes, dyslipidaemia, or smoking. 49 There is an important 
+need for clinical and public health guidelines around the assess-
+ment, interpretation of results and MCID of CRF across age, sex 
+and clinical populations.
+Strengths and limitations
+Our paper has several strengths, including a focus on pooled 
+meta-
+ analyses from cohort studies, assessment of the certainty 
+of the evidence 
+using a modified GRADE, and an evaluation of 
+the systematic review quality using AMSTAR2. Our study iden-
+tifies gaps where new evidence is needed across a broad range 
+of health outcomes. However, this study is not without limita -
+tions. As in any overview, the quality of the data is restricted 
+to the included papers. In our case, heterogeneity was high 
+for many of the included meta-
+ analyses and was 
+often not 
+explained by subgroup analyses. We also identified low-
+ to-
+ very 
+low certainty of the evidence for most 
+outcomes, suggesting the 
+need for higher-
+ quality 
+studies in this research area including 
+adequate adjustment for confounding and greater representation 
+of females. The evidence was also limited to studies examining 
+associations between a single measure of CRF and prospective 
+health outcomes.
+CONCLUSION
+Our findings showed that high CRF is strongly associated with 
+lower risk of premature mortality, incident chronic condi-
+tions (ie, hypertension, heart failure, stroke, atrial fibrillation, 
+dementia and depression), and poor prognosis in those with 
+existing chronic conditions. The consistency of the evidence 
+across a variety of health outcomes demonstrates the importance 
+of CRF and the need to incorporate this measure in routine clin-
+ical and public health practice. Future studies should focus on 
+outcomes with limited evidence and where the certainty of the 
+evidence was rated as very low by improving study quality.
+Author affiliations
+1Centre for Surveillance and Applied Research, Public Health Agency of Canada, 
+Ottawa, Ontario, Canada
+2School of Epidemiology and Public Health, Faculty of Medicine, University of 
+Ottawa, Ottawa, Ontario, Canada
+3Alliance for Research in Exercise, Nutrition and Activity (ARENA), Allied Health 
+and Human Performance, University of South Australia, Adelaide, South Australia, 
+Australia
+4Health Library, Health Canada, Ottawa, Ontario, Canada
+5Department of Physical Education and Sports, Faculty of Sport Sciences, Sport and 
+Health University Research Institute (iMUDS), University of Granada; CIBEROBN, 
+ISCIII, Granada, Andalucía, Spain
+6Stanford University, Department of Cardiology; and Veterans Affair Palo Alto Health 
+Care System, Palo Alto, California, USA
+7Children’s Hospital of Eastern Ontario Research Institute, Ottawa, Ontario, Canada
+8Department of Pediatrics, Faculty of Medicine, University of Ottawa, Ottawa, 
+Ontario, Canada
+9Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, 
+Australia
+10Division of Medical Sciences, University of Northern British Columbia, Prince 
+George, British Columbia, Canada
+11Fargo VA Healthcare System, Fargo, North Dakota, USA
+12Department of Health, Nutrition, and Exercise Sciences, North Dakota State 
+University, Fargo, North Dakota, USA
+13Department of Geriatrics, University of North Dakota, Grand Forks, North Dakota, 
+USA
+14Faculty of Sport and Health Sciences, University of Jyväskylä, Jyväskylä, Finland
+X Justin J Lang @JustinJLang, Stephanie A Prince @SPrinceWare and Ben Singh 
+@bensinghphd
+Acknowledgements
+ W
+e would like to acknowledge the support of Valentine Ly, 
+MLIS, Research Librarian at the University of Ottawa for her help with translating 
+and conducting the search strategy in CINAHL and SPORTDiscus. We would also like 
+to acknowledge the Health Library at Health Canada and the Public Health Agency 
+of Canada for their support in constructing and carrying out the search strategy for 
+MEDLINE, Embase and Scopus. The PRESS peer-
+ review of the search str
+ategy was 
+carried out by Shannon Hayes, MLIS, research librarian, from the Health Library at 
+Health Canada and the Public Health Agency of Canada. We would also like to thank 
+Joses Robinson and Iryna Demchenko for their help with the paper.
+Contributors
+ JJL,
+ GRT and SAP conceptualised and planned the study design. JJL 
+and SAP led the study. JJL accepts full responsibility for the work and/or the conduct 
+of the study, had access to the data, and controlled the decision to publish. All 
+coauthors contributed to article screening. JJL and SAP wrote the first draft of the 
+article. All coauthors reviewed, revised and approved the final manuscript.
+Funding
+ T
+he authors have not declared a specific grant for this research 
+from any funding agency in the public, commercial or not-
+ for
+-
+ profit sectors
+. Dr. 
+Ortega is supported by the Grant PID2020-
+ 120249RB-
+ I00 funded by MCIN/
+AEI/ and by the 
+Andalusian Government (Junta de 
+Andalucía, Plan Andaluz de Investigación, ref. P20_00124). Dr. Cadenas-
+ Sanchez 
+is supported by a gr
+ant from the European Union’s Horizon 2020 research and 
+innovation programme under the Marie Sklodowska Curie grant agreement No 
+101028929. Dr. Fraser is supported by a National Heart Foundation of Australia 
+Postdoctoral Fellowship (106588).
+Disclaimer
+ T
+he content and views expressed in this articles are those of the 
+authors and do not necessarily reflect those of the Government of Canada.
+Competing interests
+ None declared.
+P
+atient consent for publication
+ Not applicable
+.
+Provenance and peer review
+ Not commissioned;
+ externally peer reviewed.
+Data availability statement
+ Data are av
+ailable on reasonable request.
+Supplemental material
+ T
+his content has been supplied by the author(s). 
+It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not 
+have been peer-
+ reviewed.
+ Any opinions or recommendations discussed are 
+solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all 
+liability and responsibility arising from any reliance placed on the content. 
+Where the content includes any translated material, BMJ does not warrant the 
+accuracy and reliability of the translations (including but not limited to local 
+regulations, clinical guidelines, terminology, drug names and drug dosages), and 
+is not responsible for any error and/or omissions arising from translation and 
+adaptation or otherwise.
+Open access
+ T
+his is an open access article distributed in accordance with the 
+Creative Commons Attribution Non Commercial (CC BY-
+ NC 4.0) license
+, which 
+permits others to distribute, remix, adapt, build upon this work non-
+ commercially,
+
+and license their derivative works on different terms, provided the original work is 
+properly cited, appropriate credit is given, any changes made indicated, and the use 
+is non-
+ commercial
+. See: 
+ORCID iDs
+Justin J Lang 
+Stephanie A Prince 
+Cristina Cadenas-
+
+Sanchez 
+Jean-
+
+Philippe Chaput 
+Brooklyn J Fraser 
+Taru Manyanga 
+Francisco B Ortega 
+Ben Singh 
+Grant R Tomkinson

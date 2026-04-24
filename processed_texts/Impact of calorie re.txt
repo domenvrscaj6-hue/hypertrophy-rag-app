@@ -1,0 +1,883 @@
+Contents lists available at ScienceDirect
+Experimental Gerontology
+journal homepage: www.elsevier.com/locate/expgero
+Review
+Impact of calorie restriction on energy metabolism in humans
+Jasper Most a,b, Leanne Maree Redman a,⁎
+a Pennington Biomedical Research Center, Baton Rouge 70808, LA, USA
+b Nutrition and Movement Sciences, Maastricht University Medical Center+, Universiteitssingel 50, 6229 ER Maastricht, the Netherlands
+ARTICLE INFO
+Keywords:
+Adaptive thermogenesis
+Calorie restriction
+Energy e ﬃ ciency
+Energy requirements
+Weight loss
+Weight regain
+ABSTRACT
+Calorie restriction (CR) is the most potent, non-pharmacological intervention to support metabolic health. The
+eﬀects of calorie restriction exceed weight loss. Consistent throughout many studies, calorie restriction induces a
+reduction in energy expenditure that is larger than the loss of metabolic mass, i.e. fat-free mass and fat mass, can
+explain. Per prevailing theories of mammalian aging, this disproportionate reduction in metabolic rate, de ﬁned
+as metabolic adaptation, reduces oxidative damage and thereby delays age-associated declines in physiological
+function. The aim of this narrative review is to investigate the origins of CR-induced metabolic adaptation. From
+a physiological standpoint this likely relates to the composition of body weight loss, reductions in insulin se-
+cretion, thyroid and leptin concentrations, and increased mitochondrial energy eﬃciency. Behavioral factors
+including physical activity and eating behaviors likely also play a role, speci ﬁcally to prevent weight regain.
+Future studies are required to understand the interindividual di ﬀerences in the response to CR, e.g. by sex,
+physical activity, or mitochondrial capacity, and to assess the long-term implications of CR for weight regain.
+1. Introduction
+Calorie restriction (CR) is the most potent non-pharmacological
+intervention to attenuate aging and prevent chronic metabolic diseases
+(Heilbronn and Ravussin, 2003 ). CR is deﬁ ned as a sustained reduction
+in energy intake from pre-intervention energy requirements while
+maintaining su ﬃ cient nutrient supply to achieve weight stability. In-
+itially CR induces weight loss and over time energy expenditure (EE)
+declines until it eventually matches energy intake and the new lower
+body weight plateaus.
+The rationale to undertake CR extends beyond the goal of weight
+loss. The primary rationale for performing CR is to reduce metabolic
+rate. Metabolic rate is the energy expended by an organism at rest in
+order to maintain body functions including metabolic homeostasis,
+breathing, heart rate, blood pressure, cellular regeneration, main-
+tenance of ion gradients, and activity of the nervous system. Per the
+‘rate of living ’ theory ( Sacher and Du ﬀy, 1979), the metabolic rate per
+lifespan is a species-speci ﬁc characteristic and therefore individuals
+with higher metabolic rates have shorter lifespans ( Sohal and Allen,
+1985). This theory was developed upon observations of negative asso-
+ciations between mammalian metabolic rate (per body weight per day)
+and lifespan (R
+2 = 0.26) . It should be noted that
+this theory may only apply within species but not between species
+.
+Of the oxygen consumed by mitochondria, the vast majority is uti-
+lized for ATP production, but 1– 3% generate reactive oxygen species
+. The accumulation of reactive oxygen species disrupts
+molecular and cellular structures and may therefore explain the age-
+associated impairments in metabolic homeostasis and function
+(Harman, 1956; Lopez-Otin et al., 2013). Thus, a CR-induced slowing of
+the metabolic rate is hypothesized to improve metabolic health and
+extend lifespan via a reduction in oxidative damage to cells and tissues.
+The aim of this narrative review is to describe the theoretical fra-
+mework for the e ﬀect of CR on energy metabolism including resting EE,
+physical activity-related EE and total daily EE in non-obese populations,
+and to discuss the evidence for and against the hypothesis that CR re-
+duces metabolic rate. First, changes in composition of body weight loss,
+metabolic mediators of CR, and energy e ﬃ ciency in mitochondria are
+reviewed. Second, the interaction between CR and physical activity and
+ﬁnally the implications of a reduced metabolic rate for weight regain
+are discussed.
+2. Measurement of calorie restriction and energy metabolism
+Due to the limitations with self-reporting methods to estimate en-
+ergy intake, energy intake requirements for community-dwelling
+
+Received 17 December 2019; Received in revised form 6 February 2020; Accepted 9 February 2020
+Abbreviations: CR, Calorie restriction; EE, Energy expenditure; FFM, Fat-free mass; FM, Fat mass
+⁎ Corresponding author at: Pennington Biomedical Research Center, 6400 Perkins Road, Baton Rouge 70808, LA, USA.
+E-mail addresses: jasper.most@pbrc.edu, jasper.most@maastrichtuniversity.nl (J. Most), leanne.redman@pbrc.edu (L.M. Redman).
+Experimental Gerontology 133 (2020) 110875
+Available online 11 February 2020
+0531-5565/ © 2020 Elsevier Inc. All rights reserved.
+T
+
+individuals are best assessed using the energy intake-balance method.
+Per First Law of Thermodynamics, energy intake during an observation
+period equals the sum of total daily EE and the changes in body energy
+stores. Total daily EE is most objectively measured using the doubly
+labeled water technique . Changes in body
+energy stores are approximated as change in tissue masses usually in
+two compartments (i.e. fat-free mass and fat mass) between two points
+in time (i.e. the start and conclusion of an intervention) multiplied by
+their respective energy densities (e.g. 1100 kcal/kg for fat-free mass
+and 9300 kcal/kg for fat mass) . Pre-intervention
+energy requirements are deﬁ ned as energy intake during weight
+maintenance, and therefore energy requirements equal total daily EE.
+CR is measured as the di ﬀerence between baseline energy requirements
+and energy intake during a prescribed time period. Alternative methods
+to estimate energy requirements and hence calorie restriction are based
+predictions for total daily EE based on body weight or body composi-
+tion of the individual (TDEE (kcal/d) = 2189 + 19.6 * weight (kg) -
+17.6 * age (yr) - 555 (for females), r
+2 = 0.75; or TDEE (kcal/d) = 1630
++ 33.4 * FFM (kg) + 1.9 * FM (kg) - 16.9 * age (yr) - 173 (for females),
+r
+2 = 0.78) ( Racette et al., 2012 ; Redman et al., 2009 ).
+Assessing the e ﬀects of CR on energy metabolism requires distinc-
+tion between individual components of total daily EE. Total daily EE is
+partitioned into the energy expended at rest (resting EE), in response to
+meals (diet-induced thermogenesis), and to support physical activity
+(activity-related EE). Resting EE is measured by indirect calorimetry
+either with a bedside ventilated hood system, or in a whole-room me-
+tabolic chamber ( Lam and Ravussin, 2016 ). Diet-induced thermogen-
+esis can be measured with the same methodologies performed before
+and after consumption of a meal, yet is routinely assumed to equate to
+10% of total daily EE . Activity-related EE then
+is calculated as the di ﬀerence between total daily EE and resting EE plus
+diet-induced thermogenesis.
+3. Calorie restriction and weight loss
+The most important consideration for the study of CR is the re-
+quirement for adequate nutrition including su ﬃ cient intake of macro-
+nutrients and micronutrients. This necessity is best demonstrated by the
+‘Minnesota Starvation Study ’ a landmark study of severe CR by Keys
+et al. (1950) . In this study, ~40% CR was induced by dietary restriction
+and increased exercise. The young men lost ~25% of body weight of
+which 70% was fat mass (FM) and 30% fat-free mass (FFM). The diet
+was designed to mimic conditions of warfare and therefore was de ﬁ-
+cient in many nutrients. The malnourished CR diet led to chronic
+weakness, reduced aerobic capacity, and severe painful lower limb
+edema . Furthermore, various abnormal psycholo-
+gical behaviors were observed included severe emotional distress,
+confusion, apathy, depression, hysteria, hypochondriasis, suicidal
+thoughts, and loss of sex drive.
+In contrast, the largest and best controlled clinical studies of CR in
+non-obese individuals prescribed CR of 25% (12 –18% CR achieved) and
+intentionally ensured adequate intake of micronutrients by provision of
+a vitamin, mineral and calcium supplement to subjects ( Rickman et al.,
+2011; Rochon et al., 2011). With this moderate level of CR and nutri-
+tional adequacy, there was no increased frequency of adverse events
+compared to individuals continuing their usual diet ( Ravussin et al.,
+2015; Romashkan et al., 2016 ). Interventions using very low calorie-
+diets or bariatric surgery achieve larger degrees of CR (up to 70%) and
+without observing adverse e ﬀects as described in the Minnesota Star-
+vation Study. These approaches are prescribed to patients with obesity
+and the intent to induce severe energy deﬁ cit and weight loss and are
+complemented with multivitamin supplements. Nutritional adequacy is
+thereby ensured despite low energy intake. While these CR approaches
+may be perceived to help to understand metabolic e ﬀects of CR-induced
+weight loss, it should be considered that the metabolic e ﬀects of such
+extreme energy deﬁ cits may di ﬀer from those observed during more
+modest and sustainable degrees of CR.
+Models describing the impact of reduced energy intake on the
+consequential changes in EE, and impact of the energy de ﬁcit on FM
+and FFM have been generated by Guo et al. (2018) . These models have
+been largely derived from data of the CALERIE studies ( Heilbronn et al.,
+2006; Racette et al., 2012; Ravussin
+ et al., 2015; Redman et al., 2009;
+Redman et al., 2018) where all subjects followed diets with the same
+relative energy deﬁ cit (25% reduction in intake from the energy re-
+quirement for weight maintenance) and were forced to achieve a new
+energy balance (or weight maintenance) after 12 months of CR initia-
+tion. A simpli ﬁed model of this data is presented in Fig. 1.
+The simple model of CR-induced changes in energy balance and
+hence weight and EE shows that at the onset of a CR diet (Phase 1), the
+reduction in energy intake occurs more rapidly than the reduction in EE
+and hence an acute energy deﬁ cit occurs inducing weight loss. EE is
+proportional to body mass , and thus with weight
+loss, EE decreases, too (Phase 2). Consequently, over time, energy in-
+take and EE approximate each other until they reach energy balance
+(Phase 3), notably at a reduced level from baseline energy intake and at
+reduced body weight. The observed reductions in EE may exceed the
+extent that would be explained by the reduction in body mass. This
+suggests that observed reductions in EE during CR are independent of a
+change in FFM and may be attributed to a decline in the metabolic rate
+per unit of mass or to a reduction in physical activity. These physio-
+logical or behavioral adaptations to CR ,respectively, are believed to
+explain the intra-individual variation in weight loss and weight loss
+maintenance.
+To study metabolic and behavioral adaptations that occur with CR,
+changes in EE should be evaluated independent of the changes in body
+composition. The common practice for assessing the metabolic e ﬀects
+of CR independent of body composition is to measure the change in EE
+induced by the intervention and to compare it to the change in EE
+which would be expected on the basis of the change in body compo-
+sition observed . To derive the expected change in
+EE, a linear regression model of the respective study cohort is devel-
+oped using the baseline (prior to CR) data. In the baseline model, EE
+(dependent variable, y) is explained by independent variables (x), or
+Fig. 1. Simpliﬁed model of energy balance components during calorie restric-
+tion interventions. Calorie restriction (CR) is initiated at month 0 by prescribing
+75% energy intake (EI) as compared to the baseline energy intake requirements
+(100%). Adherence to the CR regimen ( ‘Adhered EI ’) is highest during the ﬁrst
+3 months (~21%), and declines to ~10% after 12 months. The compensatory
+decrease in total daily EE (TDEE) is smaller than the decrease in energy intake
+(EI), which induces an energy de ﬁcit (in grey) and weight loss (Phase 1 and 2).
+After 12 months, the CR daily energy intake approximates the total daily EE and
+weight is maintained on a 12% reduced level of energy balance, which de ﬁnes
+CR during weight maintenance (Phase 3).
+J. Most and L.M. Redman Experimental Gerontology 133 (2020) 110875
+2
+
+factors with well-known e ﬀects on EE. Independent variables typically
+included are body mass or body composition (FFM and FM), sex, age
+and sometimes race. For resting EE, coe ﬃ cients for FFM are
+17–27 kcal/kg and 2– 5 kcal/kg for FM ( Hall, 2010; Martin et al., 2007;
+Ravussin et al., 2015; Redman et al., 2018 ). Imputing data values of the
+independent variables included in the model from individual subjects
+provides an estimate for EE that is expected based on the body mass
+composition, and while also considering age, sex and race. Therefore, if
+the relationship between EE and body mass/composition remains
+constant, the linear regression model approach allows one to determine
+how EE would change for a given individual as a function of weight
+change over time.
+4. Metabolic adaptation
+A decline in EE which is beyond what would be expected relative to
+the changes body mass (or composition) is termed metabolic adapta-
+tion. In Table 1, we summarize metabolic adaptation observed in re-
+sponse to di ﬀerent CR and weight loss intervention studies. Metabolic
+adaptation was the primary outcome of the CALERIE studies and was
+investigated after 3 and 6 months of 25% prescribed CR in CALERIE
+Phase 1, and after 12 and 24 months in CALERIE Phase 2. As hy-
+pothesized, after 6– 24 months of CR, metabolic adaptation was ob-
+served during sleep ( Heilbronn et al., 2006 ; Redman et al., 2018 ), at
+rest ( Martin et al., 2007; Ravussin et al., 2015 ), over 24 h in the con-
+ﬁned environment of the room calorimeter ( Heilbronn et al., 2006;
+Redman et al., 2018 ), and over 14-days in free-living conditions
+(Ravussin et al., 2015 ; Redman et al., 2009 ; Redman et al., 2018). The
+metabolic adaptation observed during sleep, which is arguably the most
+reproducible measure of metabolic rate, was 8% at 3 months, 7% at
+6 months, 6% at 12 months, and 5% at 24 months. In contrast the
+metabolic adaptation in free-living conditions was almost double at
+each time point across the 24-month period (13% at 3 months, 7% at
+6 months, 8% at 12 months and 9% at 24 months, respectively). The
+larger metabolic adaptation in free-living conditions suggests that the
+culprit of such adaptations is not only changes in metabolic processes
+but also compensations in behaviors likely occurring in an e ﬀort to
+conserve energy. Importantly, body weight loss occurred only during
+the ﬁrst 6–12 months, after which time it was maintained. This implies
+that metabolic adaptation is not exclusive to periods of chronic energy
+deﬁciency, but that it persists in energy balance. The CALERIE data also
+suggests that metabolic adaptation is related to the degree of CR (21%
+CR achieved during the ﬁrst 3 months, 18% during the ﬁrst 6 months,
+11% from month 6 to 24).
+The cause of metabolic adaptation appears to be speci ﬁc to calorie
+restriction because studies that demonstrated exercise-induced weight
+loss did not observe metabolic adaptation ( Hopkins et al., 2014;
+Jennings et al., 2009; Karstoft et al., 2017 ; Lee
+et al., 2009; Mourier
+et al., 1997). The energy deﬁ cits induced in these studies were small
+(~250 kcal/d), so an alternative hypothesis might be that larger energy
+deﬁcits are needed to induce a metabolic adaptation. Indeed these
+studies observed marked inter-subject variability in metabolic adapta-
+tion, and one reported that metabolic adaptation was related to changes
+in energy intake . This later study supports the
+argument that reduced energy intake, i.e. calorie restriction, rather
+than an energy de ﬁcit induces metabolic adaptation.
+In a pilot study comparing the e ﬀects of CR
+vs alternate day fasting (ADF), mass-adjusted RMR was reduced more
+by CR as compared to ADF, despite a smaller energy deﬁ cit (28% vs
+47%) and comparable reductions in fat and lean masses. This data also
+implies that a continuity of CR is needed to promote metabolic adap-
+tation, whereas intermittent periods of CR and ad libitum eating may
+ameliorate the decline in RMR. Furthermore, a recent study showed
+that ADF for 4 weeks did not a ﬀect RMR, although the intervention led
+to reductions in energy intake ( −37%) and body weight ( −5%)
+. Similar ﬁndings have been made for the com-
+parison between continuous CR and CR implemented every other week
+. While the intermittent fasting approach achieved
+more pronounced weight loss, RMR declined less, after adjustment for
+changes in body mass and the mechanism for this di ﬀerence is un-
+explored.
+To our knowledge, CALERIE is the only study in which metabolic
+Table 1
+Metabolic adaptation in response to di ﬀerent weight loss interventions.
+Duration Intervention Change in body weight Metabolic adaptation
+Normal weight and overweight
+CALERIE Phase 1 3 months 25% CR −7% 8%
+3 months 25% CR, (diet+exercise) −5% 5%
+3 months Low calorie diet −14% 3%#
+6 months 25% CR −10% 7%
+6 months 25% CR, (diet+exercise) −10% 7%
+6 months Low calorie diet −14% 4%#
+CALERIE Phase 2 12 months 25% CR −13% 6%
+24 months 25% CR −12% 5%
+Biosphere-2 24 months Low calorie diet −9k g 6 %#
+Overweight and obesity
+Revisited MSS, men 3 weeks 50% CR −4k g 4 %
+Revisited MSS, women 13 weeks Low calorie diet −10 kg 4%
+Obesity
+Biggest Loser 30 days Diet & exercise −59 kg 11%
+6 months Diet & exercise −49 kg 17%
+7 months Gastric bypass −36 kg 9%
+BARIA 12 months Gastric bypass −36% 8%
+12 months Sleeve gastrectomy −33% 11%
+12 months Gastric band −16% 12%
+12 months Low calorie diet −4% 4% #
+24 months Gastric bypass −42 kg 15%
+24 months Gastric band −19 kg 12%#
+24 months Sleeve gastrectomy −37 kg 20%
+LABS 6 months Surgery (88% gastric bypass) −31 kg 8%
+Changes in body weight and metabolic adaptation, measured in rest, in calorie restriction (CR) studies, and weight loss studies, induced by low calorie diet and
+bariatric surgery.
+#indicates that metabolic adaptation as compared to the control group did not reach statistical signi ﬁcance. BARIA, Bariatric Surgery and Weight
+Loss on Energy Metabolism and Insulin Sensitivity; CALERIE, Comprehensive Assessment of Long-Term E ﬀects of Reducing Intake of Energy; LABS, Longitudinal
+Assessment of Bariatric Surgery; MSS, Minnesota Starvation Study.
+J. Most and L.M. Redman Experimental Gerontology 133 (2020) 110875
+3
+
+adaptation was prospectively assessed in a randomized, controlled in-
+tervention of CR in individuals without obesity. Our ﬁndings of a CR-
+induced metabolic adaptation is supported by comparable observations
+of CR induced by diet-induced weight loss including the revisited
+Minnesota Starvation study in men , and women
+(Bosy-Westphal et al., 2013), the ‘Biggest Loser’ competition (Fothergill
+et al., 2016 ; Knuth et al., 2014 ) as well as the BARIA ( Tam et al., 2016a ;
+Tam et al., 2016b ), and LABS bariatric surgery
+trials.
+5. Mechanisms of metabolic adaptations
+Collectively, these studies indicate that reductions in EE induced by
+CR are larger than changes in FFM and FM explain. Likely mechanisms
+of metabolic adaptations include changes in the composition of FFM,
+slowing of energy costly, metabolic processes, or an increased e ﬃ ciency
+converting consumed oxygen and energy rich-substrates into cellular
+available energy (ATP).
+5.1. Fat-free mass composition
+The simplest, reliable and cost-e ﬀective approaches for ascertain-
+ment of body composition result in the distinction of mass in two
+compartments; FFM and FM. In contrast, a more detailed assessment of
+FFM such as measurement of organ mass including skeletal muscle,
+liver, kidney, heart, spleen, and brain is complex and requires costly,
+intensive magnetic resonance imaging protocols and sophisticated data
+analysis pipelines. A limitation to the simple distinction of mass in two
+compartments is the assumption that the entire FFM compartment
+changes proportionally during weight loss, e.g. muscle mass decreases
+and to the same extent as the liver. Changes in the contribution of
+diﬀerent organ masses to the overall FFM may explain inter-individual
+diﬀerences in metabolic rate with CR because, as Pits (1962) and later
+Forbes (1993) proposed, diﬀerent organs have di ﬀerent metabolic rates
+(Heymsﬁeld, 2018 ; Heymsﬁeld et al., 2019 ; Muller et al., 2018; Wang
+et al., 2011a ). Indeed, when including mass of the liver, kidney, heart,
+spleen, brain, skeletal muscle and adipose tissue mass obtained from
+whole-body MRI to predict EE, more variation in metabolic rate at-
+tributed to age ( Geisler et al., 2016; He et al., 2009 ; Heymsﬁeld et al.,
+2012), sex ( Wang et al., 2011b ) or race ( Gallagher et al., 2006 ; Javed
+et al., 2010 ) is explained compared to FFM alone. Thus, a dispropor-
+tionate decline in the mass of organs, especially the high metabolic rate
+organs such as liver, kidney and skeletal muscle would explain a steeper
+decline in metabolic rate, and hence metabolic adaptation.
+In the 24-month CALERIE Phase 2 ancillary study at Pennington
+Biomedical Research Center, LA ( clinicaltrials.gov: NCT02695511),
+such
+data has been acquired, but changes in organ size are not yet
+published. Shorter-term studies of diet-induced weight loss in patients
+with overweight and obesity support the hypothesis that di ﬀerential
+change in organ mass explains proportion of observed metabolic
+adaptation. In a replication of the Minnesota Starvation Study, Muller
+et al. (2015) found that after three weeks of 50% CR, metabolic
+adaptation adjusted for changes FFM and FM, was 108 kcal/d or 48% of
+the decrease in resting EE. Within FFM they observed that mass of
+skeletal muscle ( −5%), liver ( −13%), and kidneys ( −8%) decreased
+diﬀerently. Accounting for speci ﬁc changes in FFM composition further
+explained 36 kcal of the metabolic adaptation, leaving 72 kcal/d as the
+true, mass-adjusted metabolic adaptation. Comparable ﬁndings were
+reported in a study of overweight and obese women after 13 weeks on a
+low calorie diet ( Bosy-Westphal et al., 2009 ). Reductions in skeletal
+muscle ( −3.1%), heart ( −5.2%), liver ( −4.4%), and kidney ( −6.1%)
+were noted alongside a small yet signi ﬁcant increase in bone mass
+(+1.3%). No change in brain mass (+0.4%) was observed. Notably,
+the relative loss of mass in high metabolic rate organs was signi ﬁcantly
+higher than the loss of mass in low metabolic rate-organs, e.g. muscle
+and bones. Accounting for changes in FFM composition as compared to
+FFM as such explained 30% of the decline in resting EE. After adjust-
+ment for the CR-induced changes in organ mass, metabolic adaptation
+was ~55 kcal/d ( Bosy-Westphal et al., 2009 ). Of the FFM compartment,
+the most signi ﬁcant predictors for the changes in resting EE were
+changes in skeletal muscle mass and kidney mass explaining 34.9% and
+4.5%, respectively .
+Changes in organ mass may depend on the intervention modality
+and metabolic health of subjects at baseline. In LookAhead, 82 patients
+with overweight or obesity and type 2 diabetes achieved ~6 kg body
+weight loss through dietary restriction and aerobic exercise . The lifestyle intervention group did not have a dis-
+proportionate change in high metabolic rate organs (change in liver
+−5.9%, spleen −4.3%, and kidney −1.5%) as compared to low me-
+tabolic rate organs (skeletal muscle, −6.4%). Unfortunately, EE was
+not reported in this study and thus, this hypothesis remains to be tested.
+Importantly, the intervention modality, i.e. the inclusion of exercise to
+induce CR, did not a ﬀect the degree of metabolic adaptation in the 6-
+month CALERIE-study, but in this study, changes in organ masses were
+not reported ( Table 1).
+5.2. Metabolic mediators of CR
+The CR-induced reduction in metabolic rate may be related to
+changes in metabolic activity of the heart, i.e. heart rate and blood
+pressure, and of the sympathetic nervous system .
+These e ﬀects
+may be mediated by CR-induced responses in circulating
+hormones such as leptin, thyroid hormones and insulin.
+5.2.1. Leptin
+Leptin is an adipose tissue-derived hormone and its concentration is
+proportional to fat mass. Evolutionarily, leptin is interpreted as anti-
+obesity signal because it signals satiety and stimulates energy ex-
+penditure . A marked reduction in leptin is
+consistently reported with CR and likely occurs as a result of the de-
+creased adipose tissue mass. This reduction in leptin occurs regardless
+of the duration of the CR intervention; 6-month CALERIE 1, −44%
+, 24-month CALERIE 2 ancillary, −6% , 3-week revisited Minnesota Starvation men, −44%
+, 13-week revisited Minnesota Starvation women,
+−42% ( Bosy-Westphal et al., 2009).
+In CALERIE, the decline in circulating leptin was related to meta-
+bolic adaptation measured during weight loss after six months
+(r = 0.22) and 12 months ( r = 0.35) . This as-
+sociation disappeared during weight loss maintenance . A similar ﬁnding was observed in patients with obesity. Fol-
+lowing a very low calorie-diet for 8 weeks and achieving 11% weight
+loss, the decline in leptin ( −48%) was weakly associated ( r = 0.24)
+with metabolic adaptation (4%) . Interestingly,
+weight loss-induced changes in leptin were not associated with meta-
+bolic adaptation calculated considering changes in organ size ( Bosy-
+Westphal et al., 2009 ; Muller et al., 2015).
+Metabolically, a reduction in leptin may inﬂ uence metabolic adap-
+tation through its interaction with skeletal muscle proteins. Skeletal
+muscle chemomechanical work e ﬃ ciency is increased and the ratio of
+glycolytic/oxidative enzyme activities decreased in subjects with a
+decline in leptin following diet-induced weight loss . This role of leptin is further supported by the observation that
+leptin repletion stimulates less energy-eﬃ cient myosin heavy chain IIx
+isoform and thus reverses the weight-loss induced e ﬀects .
+5.2.2. Thyroid hormones
+Thyroid axis hormones, e.g. thyroid stimulating hormone, triio-
+dothyronine (T3) and thyroxin (T4), a ﬀect EE and thereby are potential
+mediators of CR-induced reductions in metabolic rate. Speci ﬁcally,
+thyroid hormones regulate metabolic cycles, e.g. lipolysis/lipogenesis,
+J. Most and L.M. Redman Experimental Gerontology 133 (2020) 110875
+4
+
+glucogenolysis/gluconeogenesis and protein synthesis/catabolism, ac-
+celerate heat generation in the mitochondria, and accelerate heart rate
+.
+In the CALERIE trials, metabolic adaptation in 24-h EE after
+3 months was positively associated with reductions in both T3 and T4
+. This e ﬀect was transient during weight loss
+since no associations between metabolic adaptation and thyroid hor-
+mones were observed during active weight loss at 6 or 12 months . Thyroid hormones may be
+important for EE regulation in the preservation of the metabolic
+adaptation in weight loss maintenance. After 12 months of weight loss
+maintenance in CALERIE (at month 24), reduced T4 concentrations
+were associated with metabolic adaptation .
+Furthermore, in a long-term observational study of 2 –4 years com-
+paring energy metabolism during weight gain and weight loss, changes
+in T3 explained 5.3% of the variance in changes in resting EE
+. These longer trials imply that the thyroid axis
+might have di ﬀerential roles in energy metabolism during weight loss
+and weight loss maintenance.
+Similar to leptin, thyroid hormones may also a ﬀect skeletal muscle
+work e ﬃ ciency. In weight-reduced humans, T3 repletion reduced re-
+lative expression of the more-e ﬃ cient/less-eﬃ cient myosin heavy chain
+I/myosin heavy chain II isoforms and increased the ratio of the less-
+eﬃ cient to the more-e ﬃ cient sarco(endo)plasmic reticulum Ca2+-
+ATPase isoforms (SERCA1/SERCA2) . Similar
+eﬀects have been observed after short-term T4 supplementation
+.
+The involvement of the thyroid axis in the regulation of metabolic
+adaptation might also be sex speci ﬁc. In the short-term studies of severe
+CR by Muller et al. (2015) and Bosy-Westphal et al. (2009) , T3 con-
+centrations decreased by −39% in men after three weeks and −8% in
+women after 13 weeks. Whereas in men the decrease in T3 con-
+centrations was not associated with metabolic adaptation , despite smaller changes of T3 in women an association with
+metabolic adaptation was observed ( Bosy-Westphal et al., 2009 ). To
+summarize, there are indications that thyroid axis activity inﬂ uences
+metabolic adaptation with CR but the variation in metabolic rate ex-
+plained by thyroid hormones does not exceed 5% and may di ﬀer be-
+tween men and women.
+5.2.3. Insulin
+Insulin is the central anabolic hormone in metabolic homeostasis. In
+response to a meal, insulin increases and stimulates storage of glucose
+and lipid which is accompanied by an increase in energy expenditure
+(diet-induced thermogenesis). Weight loss induced metabolic adapta-
+tion was strongly associated with insulin secretion ( r = 0.92) assessed
+as 24-hour C-peptide excretion in overweight and
+obese men and with decreased fasting insulin concentrations in women
+(Bosy-Westphal et al., 2009 ). Similarly, insulin secretion, assessed as
+30-min postprandial insulin concentrations and maximal insulin se-
+cretion, as well as insulin resistance (HOMA, and during oral glucose
+tolerance test) predicted changes in resting EE (independent of changes
+in body composition) in a study of 21 overweight and obese men and
+women during weight loss (10 –15%) maintenance .
+In the CALERIE study, insulin concentrations and insulin resistance
+declined with CR at all time points ( Heilbronn et al., 2006 ; Larson-
+Meyer et al., 2006; Ravussin et al., 2015 ) but no association between
+glucose homeostasis and metabolic adaptation was reported. Collec-
+tively, these studies show that a metabolic adaptation is attributed in
+part to the reduced energetic costs of insulin secretion, and likely
+anabolic processes induced by insulin.
+5.2.4. Neuroendocrine Hormones
+A shift in neuroendocrine function from sympathetic to para-
+sympathetic tone is one of the proposed mechanisms to explain the
+attenuation in the rate of aging and longevity in rodents undergoing CR,
+and thus possibly is related to the e ﬀect of low metabolic rate . Sympathetic nervous system activity as assessed through 24-
+hour urinary epinephrine and norephinephrine excretion was not af-
+fected by CR after 6 , 12 or 24 months . Moreover, there was no observed changes in growth
+hormone, growth hormone secretion or insulin-like growth factor 1
+. But notably the participants in the CALERIE
+studies were normal weight or overweight but otherwise healthy to
+begin with. Considered alone, these studies argue the notion that a
+reduction in sympathetic tone mediated by catecholamines or the
+growth-IGF1 axis contributes to CR-induced metabolic adaptation in
+humans.
+5.2.5. Sex steroids
+CR has been shown to induce transient-3 weeks , 12 months, but not 24 months or 7 year-
+reductions in testosterone concentrations . While
+CR-induced reduction in testosterone may contribute to the decline in
+FFM, no associations between metabolic adaptation and testosterone
+concentrations have been observed after 3 weeks CR in men .
+5.3. Mitochondrial energy eﬃ ciency
+Energy intake requirements are the sum of energy expenditure for
+ATP generation and for heat production ( Fig. 2). Thus, reducing resting
+EE can be achieved through a reduction in metabolic processes con-
+suming ATP, i.e. reducing ATP requirements, or through a reduction of
+heat production. The ratio of ATP production to heat generation, or
+alternatively, ATP production to oxygen consumption, can be de ﬁned
+80 75 80 75
+20
+20 15
+15
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Basal ATP
+Reduced
+Heat
+Reduced
+Both
+Reduced
+Energy Intake Requirements, AU
+ATP Generation Heat Production
+Fig. 2. Models for reduction of energy intake requirements.
+In basal conditions, energy intake requirements are the sum of energy re-
+quirements for ATP generation and for heat production (column 1). Through
+CR, energy intake requirements for mass-adjusted metabolic rate, de ﬁned as
+metabolic adaptation, are reduced (column 2 –4). Energy intake requirements
+can be reduced through reduction of ATP production, that is an attenuation of
+metabolic processes (column 2). Alternatively, or simultaneously (column 3 and
+4) requirements can be reduced via reduced heat production which is achieved
+through improving mitochondrial coupling.
+J. Most and L.M. Redman Experimental Gerontology 133 (2020) 110875
+5
+
+as mitochondrial energy e ﬃ ciency. Increased mitochondrial energy
+eﬃ ciency can be achieved by reducing uncoupling proteins or by al-
+leviating protonmotive force on oxidative phosphorylation proteins
+such as through less supply of protons or increased mitochondrial mass
+.
+Energy-rich substrates are oxidized in the mitochondria and provide
+energy to transport electrons and protons across the inner mitochon-
+drial membrane against their concentration gradients. Majority of
+protons and electrons are transported back into the mitochondrial
+lumen via coordinated relief of this gradient through ATPase, which
+uses the energy to convert ADP to ATP. Alternatively, electrons or
+protons can leak from the mitochondrial intermembrane space into the
+mitochondrial lumen, avoid ATPase, and thereby produce heat instead
+of ATP. Leakage of electrons and protons can occur passively caused by
+an increased mitochondrial membrane gradient or can be facilitated
+through uncoupling proteins. With CR where supply of energy-rich
+substrates is reduced, proton motive force may be alleviated such that
+proton leakage declines. Alternatively, inhibition of uncoupling pro-
+teins can reduce proton leakage. Through either process, less energy
+dissipates as heat and consequently less energy-rich substrates and
+oxygen are required to convert the same amount of ADP to ATP.
+In the 6-month CALERIE study, CR increased mitochondrial DNA
+content by 35% and increased expression of genes encoding proteins
+involved in mitochondrial function , supporting
+the hypothesis that increased mitochondrial mass and function may
+associate with metabolic adaptation. In the 24-month CALERIE study,
+mitochondrial energetics were investigated in vivo using 31P-magnetic
+resonance spectroscopy and optical spectroscopy .
+Surprisingly, mitochondrial capacity, measured as maximal ATP
+synthesis rate, and mitochondrial e ﬃ ciency which was de ﬁned as ATP
+ﬂux relative to oxygen consumption (P:O-ratio), were una ﬀected by
+12 months of CR. In line with the in vivo ﬁndings, targeted transcrip-
+tional pro ﬁling of vastus lateralis muscle showed no e ﬀects on path-
+ways involved in mitochondrial biogenesis or function. Interestingly, a
+secondary analysis showed that individuals with higher P:O-ratio (mi-
+tochondrial coupling) at baseline demonstrated a greater increase in
+mitochondrial capacity and function, compared to those with lower
+coupling at baseline . This implies that poorly
+functioning mitochondria may preclude CR-induced improvements in
+mitochondrial function, and possibly generation of free radicals and
+hence oxidative stress. The CALERIE studies did not report any asso-
+ciations between mitochondrial function (in vivo or in vitro) and me-
+tabolic adaptation. However, uncoupling protein 2 in skeletal muscle
+has been shown to associate with metabolic adaptation in 24-h EE after
+6-week 50% CR . Importantly, mitochondrial
+function has only been assessed in skeletal muscle, but energy e ﬃ ciency
+may be more sensitive to changes in mitochondrial function in high
+metabolic rate organs.
+Improved mitochondrial e ﬃ ciency can be achieved through stimu-
+lation of oxidative ATP production at the expense of glycolytic ATP
+production. Such a change may contribute to substantially lower
+(~15%) oxygen requirements . CR has been shown
+to decrease glycolytic (phosphofructokinase, PFK) enzyme activity and
+increase oxidative (cytochrome c oxidase, COX) enzyme activity
+, but the impact on energy requirements re-
+mains to be determined. In turn, an increased e ﬃ ciency in ATP pro-
+duction would reduce skeletal muscle PI3K/AMPK signaling and reduce
+the rate of substrate cycling between de novo lipogenesis and lipid
+oxidation, leading to lower energy intake requirements .
+Mitochondrial e ﬃ ciency
+ is considered bene ﬁcial, because mi-
+tochondrial oxygen consumption is proportional to production of re-
+active oxygen species, i.e. oxidative damage ( ‘Oxidative Damage
+Theory of Aging ’). CR-induced reductions in oxygen requirements are
+therefore hypothesized to reduce oxidative stress and damage. The
+CALERIE trials support this hypothesis by reporting that the observed
+decline in metabolic rate was associated with reductions in measures of
+oxidative stress. For example in the 6-month CALERIE study, CR re-
+duced DNA damage ( Civitarese et al., 2007; Heilbronn et al., 2006),
+plasma protein carbonyl concentrations and increased glutathione
+peroxidase (re ﬂecting antioxidant defense) . In
+the 24-month CALERIE study, reactive oxygen species (F2-isoprostane)
+production was reduced ( Il'yasova et al., 2018 ; Redman et al., 2018).
+Noteworthy, not all measures of oxidative stress improved, e.g. serum
+protein carbonyl concentrations ( Heilbronn et al., 2006 ; Redman et al.,
+2018), suggesting that CR exerts di ﬀering e ﬀects on tissue speci ﬁc
+oxidative damage or that some measures of oxidative stress are not
+sensitive enough.
+6. Characteristics of metabolic adaptation
+It was recently proposed by Muller et al. (2016) that there may be
+diﬀerent phases of CR-induced metabolic adaptation ( Fig. 1). They
+postulated that di ﬀerent regulatory systems are involved at three dis-
+tinct phases: the initial phase which occurs during the ﬁrst week, the
+weight loss phase which is between one week to one year, and the
+weight maintenance phase.
+During the ﬁrst phase of weight loss, metabolic adaptation is char-
+acterized by the immediate response to a negative energy balance.
+During this period, changes in FM are minimal, whereas declines FFM
+are greater in comparison due to depletion of glycogen stores and as-
+sociated losses of intracellular ﬂuid and sodium ( Heymsﬁeld et al.,
+2011). Therefore, declines in FFM during the ﬁrst three weeks of CR are
+most pronounced for the liver ( −40% of baseline) and a less in adipose
+tissue (−15%). A decline in skeletal muscle mass is not observed before
+~5 weeks after initiation.
+Commensurate with an acute energy deﬁ cit, insulin, leptin, and
+thyroid axis hormones fall, there is a decline in sympathetic nervous
+system activity, and aldosterone. During this initial phase, insulin se-
+cretion is decreased, gluconeogenesis enhanced, and glucose oxidation
+is decreased at the expense of increased fat and protein oxidation.
+Metabolic adaptation during this initial period is therefore likely re-
+lated to an attenuation of insulin secretion due to reduced insulin re-
+quirements and may relate to a substrate switch for ATP production.
+During the second phase of weight loss termed ‘settling phase ’,
+the
+metabolic changes observed during the ﬁrst phase persist. The sus-
+tained increase in fat oxidation now leads to a pronounced decrease in
+FM. The longer the duration of CR, the larger the proportion of FM loss
+as compared to FFM loss ( Heymsﬁeld et al., 2011 ). Changes in EE in the
+settling phase are now proportional to weight change and there is no
+further increase in metabolic adaptation with ongoing weight loss
+. Metabolic adaptation during this period may be
+supported by changes in FFM composition .
+After reaching a new energy balance a weight loss plateau is rea-
+lized. This maintenance phase is characterized by reductions in sym-
+pathetic nervous system activity, thyroid hormones, and insulin.
+Further reductions in FM cause low leptin concentrations and increased
+free fatty acid concentrations. Together these physiological adaptations
+maintain low EE, likely as an evolutionary defense mechanism to resist
+against further weight loss ( Miller and Parsonage, 1975) and preserve
+triglyceride stores in order to protect basic biological functions (e.g.,
+reproduction) .
+7. Physical activity
+The interaction between CR, physical activity, EE, and aging is
+complex. As discussed, CR reduces body weight and EE at rest, but CR
+also reduced EE during activity . The reduction in
+EE can be due to the smaller metabolic mass, lower energy require-
+ments for ATP generation or to lower requirements for ATP for a given
+activity through improved movement economy. According to the Rate
+of Living theory, lower EE is proposed to be bene ﬁcial for an organism
+J. Most and L.M. Redman Experimental Gerontology 133 (2020) 110875
+6
+
+to achieve longer life. Paradoxically, physical activity also promotes
+longevity, yet acutely increases EE . The longevity
+promoting e ﬀect of activity is therefore independent of the acute in-
+crease in EE and due to unique metabolic adaptations induced by the
+activity itself. Physical activity induces an acute energy de ﬁcit which
+activates AMPK, uptake of substrates from plasma, lipolysis, mi-
+tochondrial function, and fat oxidation. Chronically, these e ﬀects lead
+to increased cardiorespiratory capacity, mitochondrial oxidative capa-
+city, reduced lipid in plasma, tissues and cells, improved insulin sen-
+sitivity and improved metabolic function of merely every organ in the
+body. A crucial mediator of physical activity is oxidative stress. Per the
+Oxidative Damage theory of aging, oxidative stress is detrimental but
+transient increases in oxidative stress induced by physical activity are
+vital for inducing adaptations such as increased mitochondrial function
+and increasing anti-oxidative capacity ( ‘Metabolic hormesis ’)( Ristow
+and Zarse, 2010 ).
+In CALERIE, a reduction in total daily EE and absolute activity-re-
+lated EE was observed after 6 ( Martin et al., 2011; Redman et al., 2009 ),
+12 and 24 months ( Racette et al., 2017; Ravussin
+et al., 2015). After adjustment for the change in body mass, or sleeping
+metabolic rate, activity-related EE was still reduced after 6 months of
+CR. This suggests a lower level of physical activity, or a non-intentional
+“behavioral adaptation ” thought to conserve energy . Accelerometry and physical activity captured by 7-day recall did
+not conﬁrm a reduction in activity-related EE suggesting that increased
+muscle eﬃ ciency and/or decreased ﬁdgeting accounted for some of the
+variability in activity-related EE . As CR continues,
+declines in total daily EE and activity-related EE are no longer evident
+. Thus, behavioral adaptations to decrease phy-
+sical activity with CR appear to resolve over time. Importantly, the
+behavioral adaptations to CR may vary between individuals. For ex-
+ample, after 24 months CR, activity-related EE declined more in females
+as compared with males .
+A reduction in activity-related EE may also be a result of increased
+movement economy. The energy cost of walking was found to be re-
+duced by 22% after 6 kg weight loss and me-
+chanical e ﬃ ciency of skeletal muscle at low workloads (pedaling a bi-
+cycle to generate 10 or 25 W of power) was increased following 10%
+weight loss . This data is further supported by
+studies in rhesus monkeys, demonstrating that long-term CR decreased
+metabolic cost of movement . Increased work
+eﬃ ciency observed after weight loss may be mediated by leptin
+ and thyroid hormones ( Johannsen et al., 2012;
+Rosenbaum et al., 2018 ). Unfortunately, such measurements have not
+been performed in participants of CALERIE.
+8. Persistence of metabolic adaptation and weight regain
+In
+prospective observational cohorts, low metabolic rate adjusted
+for body mass has been shown to predict long-term weight regain
+. In addition, blunted diet induced thermogenesis
+in response to low-protein overfeeding, i.e. thrifty phenotype, may at-
+tenuate the e ﬀects of CR on weight loss and
+may increase weight regain ( Hollstein et al., 2019 ; Reinhardt et al.,
+2016). The poor physiological defenses against weight regain may in
+part be explained by observations that metabolic adaptations are larger
+after weight loss and do not fully recover when weight is regained.
+Muller et al. (2016) observed a −108 kcal/d metabolic adaptation after
+three weeks of 50% CR which was recovered by only 20 kcal/d with
+two weeks of refeeding. Similarly, in an observational study of 83 pa-
+tients (50% with obesity), resting EE adjusted for FFM and FM de-
+creased by ~50 kcal/d during weight loss, but increased by 25 kcal/d
+during subsequent weight regain .
+Long-term studies of CR on metabolic rate have demonstrated that
+metabolic adaptation persists long after the intervention. In a follow-up
+of the CALERIE participants, 54% of the weight lost during the
+intervention was regained after two years, while the control group re-
+mained weight stable . Di ﬀerences in sleep EE
+observed between the groups during the intervention persisted during
+follow-up. These ﬁndings were extended by Rosenbaum et al. (2008) ,
+who observed that metabolic adaptation persisted long after the initial
+weight loss occurs (1 –9 years). Prospective observational studies in
+patients with overweight or obesity support the hypothesis that meta-
+bolic adaptations contribute to weight regain. Among 103 subjects with
+overweight or obesity who completed a 13-week low-calorie diet in-
+tervention, metabolic adaptation (de ﬁned as resting EE, adjusted for
+changes in organ and tissue masses) was compared between those who
+regained weight after 6 months ( ≥30% of loss, n = 27) to those who
+maintained weight (within < ± 20% of weight change, n = 20) ( Bosy-
+Westphal et al., 2013 ). As hypothesized, metabolic adaptation, i.e.
+lower EE was evident in individuals who regained weight compared to
+those who remained weight-stable ( Bosy-Westphal et al., 2013 ). To our
+knowledge, weight regain has not yet been associated with metabolic
+adaptation in a prospective, observational study, except for during
+pregnancy ( Berggren et al., 2017 ; Most and Redman, 2019 ).
+Importantly, resting EE only accounts for 60 –70% of total daily EE,
+which ultimately determines energy balance and weight gain. Thus, the
+contribution of metabolic adaptation to weight gain, may be masked by
+behavioral variations in physical activity and eating behavior . Maintaining or increasing physical activity after weight
+loss is likely the most promising option to bu ﬀer the persistent meta-
+bolic adaptation and resist weight regain. While maintaining energy
+balance, physical activity has been shown to improve protein balance
+(i.e. less protein oxidation relative to intake) and fat balance (increased
+fat oxidation relative to fat intake) . These ﬁndings
+support the ‘collateral fattening hypothesis ’ , which
+posits that low FFM drives overeating. In agreement with this hypoth-
+esis, FFM (and not FM or BMI) has been shown to associate with self-
+determined meal size and daily energy intake in humans .
+In di ﬀerent studies, metabolic determinants of weight regain are
+largely investigated for the e ﬀect on EE. However, it has been argued
+that the observed e ﬀects on EE (< 100 kcal/d) are too small to explain
+the e ﬀects in weight regain . In contrast, it is
+proposed that induced changes in metabolic hormones may be more
+relevant to hunger and satiety . For example,
+decreased concentrations of leptin reduce satiety and thus may stimu-
+late energy intake ( Rosenbaum and Leibel, 2012). Weight regain ap-
+pears to be driven by processes involved in EE and energy intake, but
+ultimately are de ﬁned by the ability for an individual to resist them.
+Indeed, during CR long-term reduction in food cravings, and improve-
+ments in dietary restraint and self-e ﬃ cacy are observed, supporting
+success in weight loss maintenance . Learned be-
+haviors such as dietary restraint and avoidance of ‘forbidden foods ’
+were maintained after the intervention which may counteract the risk
+for weight regain due to low metabolic rate .
+Lastly, the reduction in FFM induced by CR may promote weight regain.
+For example, low FFM relative to body size has been associated with
+appetite (Hopkins and Blundell, 2017 ), weight gain and obesity , possibly due to a stimulation of food intake at meals
+.
+9. Future directions
+Calorie restriction reduces metabolic rate, independent of changes
+in fat-free mass, or mass of high metabolic rate organs. Metabolic ef-
+fects of CR include the reduction in hormones related to energy ex-
+penditure, but direct associations are inconclusive and may relate to the
+duration of CR. CR-induced improvements in mitochondrial functions
+are reported, but again, the e ﬀect on energy e ﬃ ciency may be small.
+Poor mitochondrial function at baseline may prevent CR-induced im-
+provements in mitochondrial capacity and energy e ﬃ ciency. Parallel
+J. Most and L.M. Redman Experimental Gerontology 133 (2020) 110875
+7
+
+dietary supplements that stimulate mitochondrial capacity in patients
+with poor mitochondrial function may overcome this limitation ( Most
+et al., 2016; Timmers et al., 2011 ).
+Reductions in energy expenditure (~5 –10%) induced by 15– 20%
+CR are reported consistently. Per ‘Rate of Living ’-theory, this reduction
+attenuates the primary aging process and is therefore bene ﬁcial. The
+extent of this improvement is debatable. Previous studies have esti-
+mated that CR may increase lifespan by 5 years, if implemented early in
+adulthood, but only by 2 months, if implemented at age 60 ( Most and
+Redman, 2017 ). These relatively small bene ﬁts in the elderly may be
+outweighed by the potential adverse e ﬀects of CR, e.g. reductions in
+metabolic rate and fat-free mass increase the risk for weight regain and
+frailty. CR may therefore not be an appropriate intervention for older
+individuals or those with relatively low fat-free mass.
+The observed reductions in metabolic rate which are attributed to
+hormone concentrations and physiological processes such as insulin
+secretion, heart rate, and blood pressure may explain 50% of this re-
+duction, hence do not exceed 3% of total daily EE. The increased risk
+for weight regain, as demonstrated by di ﬀerent studies, may therefore
+relate to an insu ﬃ cient adjustment of energy intake-regulating systems,
+which require further study. Investigating such systems including sa-
+tiety and hunger sensation may also lead to strategies to facilitate long-
+term compliance to CR which is generally poor, and declines with the
+degree of CR prescription and duration of the intervention .
+Many factors in the interaction between CR, metabolic rate and
+weight management are still unknown. For example, great controversy
+exists about the optimal macronutrient composition. Some suggest low-
+carbohydrate intake to increase EE , while other
+suggest that low-fat is more bene ﬁcial . The positive
+association between insulin secretion and metabolic adaptation ob-
+served by Muller et al. (2015) would support the latter, while data from
+Ebbeling and Ludwig suggest the contrary . In
+addition, metabolic rate, or the e ﬀect of CR on metabolic rate, may be
+modiﬁed by the genetic background , gastro-
+intestinal morphology and the gut microbiota
+(Canfora et al., 2015 ; Rosenbaum et al., 2015 ), although clinical studies
+are not yet convincing ( Canfora et al., 2017 ; Reijnders et al., 2016 ; van
+der Beek et al., 2018; Vrieze et al., 2014; Vrieze et al., 2012).
+The interaction between energy intake and physical activity re-
+quires further study. For example, under controlled conditions, exercise
+training may prevent declines in total daily EE and FFM ,
+both risk factors for weight regain. Moreover, increasing phy-
+sical activity (in energy balance) also results in bene ﬁcial e ﬀects on
+hunger and satiety regulation . In an ad libitum en-
+vironment however, exercise training is an ine ﬀective means for weight
+loss due to compensatory increases in energy intake .
+Factors that have been demonstrated relevant to the e ﬀects of CR in
+rodent studies are energy homeostatic systems and sex-speci ﬁcity. For
+example, excitatory synapses on arcuate nucleus proopiomelanocortin
+neurons have been shown to defend a higher level of body fat . Interestingly, POMC-neuron activation increased physical
+activity and EE only in males, but not in females .
+These ﬁndings may relate to observations in CALERIE, where activity-
+related EE declined less in males after 24 months CR as compared with
+females .
+10. Conclusion
+CR induces weight loss and a disproportionate reduction in energy
+expenditure. This reduction is partly explained by changes in organ
+sizes (~25–50%), while energy requirements for metabolic homeostasis
+are also reduced. The inter-individual variability in these changes re-
+quires further investigation as does the e ﬀects of CR on energy intake-
+regulating mechanisms, speci ﬁcally in free-living environments.
+Author statement
+Jasper Most: Conception of idea, prepared original draft. Leanne
+Redman: Conception of idea, critical reviewing, editing and approval of
+ﬁnal draft.
+Declaration of competing interest
+None.
+The funding source was not involved in writing of this manuscript.
+Acknowledgements
+None.
+Funding
+This work was supported by the National Institutes of Health
+[P30DK072476 and U54GM104940].

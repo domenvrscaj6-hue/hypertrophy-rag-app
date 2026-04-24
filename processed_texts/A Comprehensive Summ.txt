@@ -1,0 +1,700 @@
+Review
+A Comprehensive Summary
+of Systematic Reviews on Sports
+Injury Prevention Strategies
+Samuel D. Stephenson,* BSEd, Joseph W. Kocan,* MD, Amrit V. Vinod,* MD,
+Melissa A. Kluczynski,* MS, and Leslie J. Bisson,* † MD
+Investigation performed at the University at Buffalo, The State University of New York at Buffalo,
+Buffalo, New York, USA
+Background: A large volume of systematic reviews and meta-analyses has been published on the effectiveness of sports injury
+prevention programs.
+Purpose: To provide a qualitative summary of published systematic reviews and meta-analyses that have examined the effec-
+tiveness of sports injury prevention programs on reducing musculoskeletal injuries.
+Study Design: Systematic review; Level of evidence, 4.
+Methods: We searched the PubMed, CINAHL, EMBASE, and the Cochrane databases for systematic reviews and meta-analyses
+that evaluated the effectiveness of sports injury prevention programs. We excluded published abstracts, narrative reviews, articles
+not published in English, commentaries, studies that described sports injury prevention strategies but did not assess their
+effectiveness, studies that did not assess musculoskeletal injuries, and studies that did not assess sports-related injuries. The most
+relevant results were extracted and summarized. Levels of evidence were determined per the Oxford Centre for Evidence-Based
+Medicine, and methodological quality was assessed using the AMSTAR-2 (A MeaSurement Tool to Assess systematic Reviews,
+revised version).
+Results: A total of 507 articles were retrieved, and 129 were included. Articles pertaining to all injuries were divided into 9 topics:
+sports and exercise in general (n¼ 20), soccer (n¼ 13), ice hockey (n¼ 1), dance (n¼ 1), volleyball (n¼ 1), basketball (n¼ 1), tackle
+collision sports (n ¼ 1), climbing (n ¼ 1), and youth athletes (n¼ 4). Articles on injuries by anatomic site were divided into 11 topics:
+general knee (n ¼ 8), anterior cruciate ligament (n ¼ 34), ankle (n ¼ 14), hamstring (n ¼ 11), lower extremity (n ¼ 10), foot (n ¼ 6),
+groin (n ¼ 2), shoulder (n ¼ 1), wrist (n ¼ 2), and elbow (n ¼ 1). Of the 129 studies, 45.7% were ranked as evidence level 1, and
+55.0% were evidence level 2. Based on the AMSTAR-2, 58.9% of the reviews reported a priori review methods, 96.1% performed a
+comprehensive literature search, 47.3% thoroughly described excluded articles, 79.1% assessed risk of bias for individual studies,
+48.8% reported a valid method for statistical combination of data (ie, meta-analysis), 45.0% examined the effect of risk of bias on
+pooled study results, and 19.4% examined the risk for publication bias.
+Conclusion: This comprehensive review provides sports medicine providers with a single source of the most up-to-date pub-
+lications in the literature on sports injury prevention.
+Keywords: sports injuries; prevention; musculoskeletal; systematic review; meta-analysis
+In the United States, approximately 4.3 million nonfatal
+sports or recreation-related injuries are seen annually in
+the emergency department. 81 The highest rates of sports
+injuries for both boys and girls occur in adolescents aged
+10 to 14 years, which is likely due to increased participation
+in sports among this age group. 81 The lower extremity is
+most commonly injured during sports participation; how-
+ever, the incidence of injury to specific body parts varies by
+sport.81,185,257 Owing to the influx of participants in sports
+and the subsequent injuries they sustain, research on
+sports injury prevention strategies is rapidly growing. 129
+Injury prevention is important for reducing long-term
+health consequences, such as disability, and minimizing
+the economic burden of treatment. 2
+Injury prevention strategies typically focus on modifiable
+risk factors, such as rules, equipment, and physical fitness,
+and prevention strategies may be tailored to a specific sport
+or injury.2 Exercise training involves learning proper exer-
+cise techniques, such as understanding the limits of range
+of motion of each joint and avoiding joint positions that
+The Orthopaedic Medicine, 9(10), 23259671211035776
+DOI: 
+ª The Author(s) 2021
+1
+This open-access article is published and distributed under the Creative Commons Attribution - NonCommercial - No Derivatives License ( eativecommons.org/
+licenses/by-nc-nd/4.0/), which permits the noncommercial use, distribution, and reproduction of the article in any medium, provided the original author and source are
+credited. You may not alter, transform, or build upon this article without the permission of the Author(s). For article reuse guidelines, please visi t SAGE’s website at
+
+place the anatomic structures of the joint at risk for
+injury.40 Exercise training usually involves some combina-
+tion of strength, proprioceptive, balance, and neuromuscu-
+lar training that is important for improving athletic
+performance and preventing injuries. 30,107,127
+The purpose of this comprehensive review was to quan-
+tify the number of systematic reviews and meta-analyses
+that have examined the effectiveness of sports injury pre-
+vention programs on reducing m usculoskeletal injuries,
+evaluate the quality of each systematic review, identify the
+primary studies included in each review, and provide a suc-
+cinct summary of this vast body of literature for easy refer-
+ence. We hypothesized that the largest number of articles
+would (1) pertain to sports injury prevention in general (as
+opposed to prevention strategies for specific sports) and (2)
+focus on preventing knee injuries that are common in
+sports.
+METHODS
+We performed a literature search in accordance with
+PRISMA (Preferred Reporting Items for Systematic
+Reviews and Meta-Analyses) 151 using PubMed, CINAHL,
+EMBASE, and the Cochrane databases to identify articles
+published in English between inception of these databases
+and August 31, 2020. Additional articles were found by
+hand searching the reference lists of included articles. The
+search terms were (“prevention” or “prevention programs”)
+AND (“sports injury” OR “musculoskeletal injury”) AND
+(“systematic review” or “meta-analysis”). We included sys-
+tematic reviews and meta-an alyses that evaluated the
+effectiveness of sports inj ury prevention programs on
+reducing musculoskeletal injuries. We excluded published
+abstracts, narrative reviews, articles not published in
+English, commentaries, studies that described sports
+injury prevention strategies but did not assess the effective-
+ness of these strategies, studies that did not assess
+musculoskeletal injuries, and studies that did not assess
+sports-related injuries.
+The results of the entire literature search were entered
+into a single database, and duplicates were removed via
+electronic search and double-checked manually. Two of the
+authors (S.D.S. and M.A.K.) independently screened the
+results of the literature sea rch, and 3 authors (S.D.S.,
+J.W.K., and A.V.V.) reviewed studies that met inclusion
+in more detail and summarized the germane results. The
+articles that met inclusion criteria were summarized by
+2 major topics: (1) all injuries and (2) injuries by anatomic
+site. Articles pertaining to all injuries were further subdi-
+vided into 9 topics: sports and exercise in general, soccer,
+ice hockey, dance, volleyball, basketball, tackle collision
+sports, climbing, and youth athletes. Articles pertaining
+to injuries by anatomic site were subdivided into 11 topics:
+general knee, anterior cruciate ligament (ACL), ankle,
+hamstring, lower extremity, foot, groin, shoulder, wrist,
+shin, and elbow. We determined the level of evidence for
+each systematic review acco rding to the definitions set
+forth by the Oxford Centre for Evidence-Based Medicine. 88
+Methodological quality was assessed using the AMSTAR-2
+(A MeaSurement Tool to Assess systematic Reviews,
+revised version). 205 The list of 129 articles was divided in
+half among 4 authors (S.D.S., M.A.K., J.W.K., and A.V.V.)
+for AMSTAR-2 assessment, and thus each study was
+assessed independently by 2 authors (S.D.S. and M.A.K.).
+Last, we tallied the number of overlapping primary studies
+between systematic reviews within a particular topic.
+RESULTS
+Figure 1 presents the PRISMA (Preferred Reporting Items
+for Systematic Reviews and Meta-Analyses) flowchart illus-
+trating the literature search process. The literature search
+identified 507 unique articles, and of these, 129 met the
+inclusion criteria. Table 1 illustrates the number of
+included articles by topic. The majority of “all injury” arti-
+cles pertained to sports and exercise in general (15.5 %) and
+soccer (10.1%). Most of the “injuries by anatomic site” arti-
+cles pertained to ACL (26.4 %), ankle (10.9 %), and ham-
+string (8.5 %) injuries. Three of the 129 included articles
+covered >1 anatomic site. The level of evidence and the
+AMSTAR-2 results are shown in Table S1 (available as
+Supplemental Material). A total of 59 (45.7 %)o ft h e
+included systematic reviews were ranked as evidence level
+1, and 71 (55.0 %) were level 2. Based on the AMSTAR-2,
+76 (58.9 %) reviews reported a priori review methods,
+124 (96.1 %) performed a comprehensive literature search,
+61 (47.3 %) thoroughly described excluded articles,
+102 (79.1 %) assessed risk of bias for individual studies, 63
+(48.8%) reported a valid method for statistical combination
+of data (ie, meta-analysis), 58 (45.0%) examined the effect of
+risk of bias on pooled study results, and 25 (19.4 %) exam-
+ined the risk for publication bias.
+All Injuries
+A total of 43 studies pertaining to prevention of all injuries
+were identified and are summarized by topic here. Tables
+S2 to S4 and Figures S1 to S3 (available as Supplemental
+Material) illustrate the overlapping primary studies
+between included systematic reviews.
+†Address correspondence to Leslie J. Bisson, MD, UBMD Orthopaedics and Sports Medicine, 462 Grider St, Buffalo, NY 14215, USA (email: ljbis
+son@buffalo.edu).
+*Department of Orthopaedics, Jacobs School of Medicine and Biomedical Science, University at Buffalo, The State University of New York at Buffalo,
+New York, USA.
+Final revision submitted April 5, 2021; accepted May 3, 2021.
+One or more of the authors has declared the following potential conflict of interest or source of funding: Departmental research funding was receivedfrom
+the Ralph C. Wilson Jr Foundation. L.J.B. has received research support from Arthrex, royalties from Zimmer Biomet, and hospitality payments from Prodigy
+Surgical. AOSSM checks author disclosures against the Open Payments Database (OPD). AOSSM has not conducted an independent investigation on the
+OPD and disclaims any liability or responsibility relating thereto.
+2 Stephenson et al The Orthopaedic Medicine
+
+Sports and Exercise in General. A number of overlapping
+systematic reviews‡ have examined the effectiveness of var-
+ious injury prevention strategies for sports and exercise in
+general. Salam et al 194 pooled data from 24 studies and
+found that sports injury prevention interventions were
+effective in that interventions decreased the incidence of
+(1) injuries in general (relative risk [RR], 0.66; 95 % confi-
+dence interval [CI], 0.53-0.82), (2) injuries per hour of expo-
+sure (RR, 0.63; 95 % CI, 0.47-0.86), and (3) injuries per
+number of exposures (RR, 0.79; 95 % CI, 0.70-0.88); how-
+ever, the results of their study were not stratified by type
+of intervention. Two meta-analyses by Lauersen et al 127,128
+found that strength training was effective for reducing the
+risk of sports injuries, and 1 of these studies 128 also found
+that proprioception training (RR, 0.55; 95 % CI, 0.35-0.87)
+and a combination of exercises (RR, 0.66; 95 % CI, 0.52-0.83)
+were effective at reducing sports injuries. Smyth et al 214
+found moderate evidence demonstrating the effectiveness
+of exercise and psychological interventions for reducing
+injuries in pre-elite athletes competing in the Olympics or
+professional sports, but evidence was lacking with respect
+to the effectiveness of equipment and nutrition-related
+interventions. Two systematic reviews 1,129 found that the
+use of insoles, external joint supports, and multi-
+intervention or sport-spec ific training programs were
+effective for injury prevention. Of note, several overlapping
+systematic reviews have found no or minimal evidence
+regarding the effectiveness of stretching, § warm-up exer-
+cises,1,69 or prevention videos1,129 for injury prevention. Two
+systematic reviews30,107 demonstrated that balance training
+was favorable for reducing overall injuries (RR, 0.49; 95% CI,
+0.13-1.80) and defined the optimal balance training program
+for injury prevention as lasting for 8 weeks and including
+two 45-minute training sessions per week. Three overlap-
+ping systematic reviews 77,131,239 found that psychological
+interventions, including cognitive behavioral therapy and
+stress management—based interventions, were effective at
+reducing sports injuries. Ernst and Posadzki 60 found con-
+flicting results regarding the effectiveness of chiropractic
+interventions for preventing sports injuries in their review
+of 6 studies. To summarize, there are multiple systematic
+reviews and meta-analyses demonstrating that injury pre-
+vention programs are effective, with strength, propriocep-
+tion, balance, and psychological programs being specifically
+beneficial.
+Soccer. Four overlapping systematic reviews 43,64,182,243
+found mixed results for exercise-based prevention pro-
+g r a m si ns o c c e rp l a y e r s ,a n da l lo ft h e s er e v i e w sw e r e
+poor quality and at high risk for bias. Based on their
+review of 18 studies, Kirkendall et al 123 concluded that
+a structured warm-up program can be effective at reducing
+Figure 1. PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) flowchart.
+‡References 1, 24, 30, 69, 77, 107, 127–130, 194, 207, 212, 214, 235,
+258. §References 1, 24, 94, 128–130, 207, 212, 235, 258.
+The Orthopaedic Medicine Prevention of Sports-Related Injuries 3
+
+soccer injuries by one-third. Based on their review of 13
+studies, Slimani et al 211 found that psychological-based
+interventions were effective at reducing injury rates in soc-
+cer players. Seven overlapping systematic reviews and
+meta-analyses4,6,21,79,119,192,238 examined the effectiveness
+of 2 soccer injury prevention programs developed by the
+Federation Internationale de Football Association (FIFA).
+The FIFA 11 and FIFA 11 þ programs combine training in
+both technique and balance along with neuromuscular train-
+ing exercises including strengthening and plyometrics with
+the goal of eliminating injuries. Al Attar et al4 examined the
+combined effects of FIFA 11 and FIFA 11 þ and found that
+overall injuries were reduced by 34% (RR, 0.66; 95% CI, 0.60
+to 0.73) and lower limb injuries were reduced by 29 % (RR,
+0.71; 95% CI, 0.63 to 0.81). Gomes Neto et al79 observed that
+FIFA 11 was associated with reduced injury risk (RR, 0.69;
+95% CI, 0.49 to 0.98) and improvement in both dynamic
+balance (weighted mean difference, 2.68; 95 % CI, 0.44 to
+4.92) and agility (standardized mean difference, –0.36; 95 %
+CI, –0.70 to 0.02) compared with controls. Two systematic
+reviews 21,192 demonstrated that FIFA 11 þ resulted in
+(1) 30 % to 70 % fewer injuries and (2) significant improve-
+ment in many features of motor and neuromuscular perfor-
+mance. Two systematic reviews6,238 directly compared FIFA
+11 and FIFA 11 þ and found that FIFA 11 þ was associated
+with a greater reduction in injuries. In their review of 33 arti-
+cles, Kilic et al119 concluded that the FIFA 11þ program and
+the Nordic Hamstring Exercise (NHE) program were most
+effective for reducing musc uloskeletal injuries in
+adult soccer players, while FIFA 11, balance board, the
+Prevent Injury and Enhance Performance program, a groin
+program, and balance board training were not effective
+injury prevention programs. To summarize, the FIFA 11 þ
+program has been shown to reduce injuries and improve
+neuromuscular performance in soccer.
+Ice Hockey. Cusimano et al 45 identified 13 studies that
+examined rule changes intended to minimize aggression
+(eg, restriction of body-checking) during ice hockey, of
+which 9 studies demonstrated a decrease in penalties rang-
+ing from 1.2 to 5.9 per game and in injury rates by 3- to 12-
+fold.
+Dance. Hincapie et al 103 reviewed 2 cohort studies and
+concluded that there was weak evidence for the effective-
+ness of injury prevention programs in dancers.
+Volleyball. Kilic et al 120 found evidence from 3 studies
+that (1) a resistance training program, (2) a program aimed
+at reducing anterior knee pain, and (3) balance board train-
+ing were effective at reducing musculoskeletal injuries in
+volleyball players.
+Basketball. Based on their systematic review of 4 stud-
+ies, Kilic et al 121 concluded that each of the following pro-
+grams was successful at reducing musculoskeletal injuries
+in basketball players: (1) a jump-landing technique inter-
+vention during warm-up, (2) a multistation proprioceptive
+exercise program, (3) a wobble board and sport-specific bal-
+ance training program during warm-up, and (4) the FIFA
+11þ program.
+Tackle Collision Sports. Sewry et al 202 identified 7 stud-
+ies that demonstrated that exercise-based intervention pro-
+grams were successful at red ucing injuries in tackle
+collision sports (ie, rugby union or league and American,
+Australian, and Gaelic football).
+Climbing. Based on their systematic review of 19 stud-
+ies, Woollings et al 260 found that both taping and weight
+training reduced injury rates in sport climbing and boulder-
+ing. However, the authors did not find any support for
+stretching, yoga, using instructors, regulating equipment
+usage, taking supplements, heating hands before climbing,
+and corticosteroid injections as injury prevention measures
+for sport climbing.
+Youth Athletes. Several overlapping systematic
+reviews2,37,189,217 have examined the effectiveness of vari-
+ous sports injury prevention strategies in youth (ie, adoles-
+cents or teenagers aged <20 years). Soomro et al 217 pooled
+data from 10 studies and found a 40 % reduction (injury rate
+ratio, 0.60; 95 % CI, 0.48-0.75) in injuries for multifaceted
+injury prevention programs (ie, a combination of warm-up,
+neuromuscular strength, and proprioception training) in
+adolescent team sports. Abernethy and Bleakley 2 reviewed
+12 studies and found preseason conditioning, functional
+training, education, balance, and sport-specific skills to be
+moderately effective at preventing adolescent sports inju-
+ries. However, the effectiveness of protective equipment
+(eg, knee pads and knee bra ces) was inconclusive and
+requires further research. Rossler et al 189 conducted a
+meta-analysis of 21 randomized controlled trials (RCTs)
+and found that prevention programs geared toward both
+specific injuries and all injuries in children and adolescents
+were effective. Furthermore, the authors concluded that
+prevention programs including jumping or plyometric exer-
+cises were more effective than programs that did not
+include these types of exercises. Carder et al 37
+TABLE 1
+Number of Included Articles by Topic
+Topic No. of Articles
+All injuries
+Sports and exercise in general 20
+Soccer 13
+Ice hockey 1
+Dance 1
+Volleyball 1
+Basketball 1
+Tackle collision sports 1
+Climbing 1
+Youth athletes 4
+Injuries by anatomic site
+General knee a 8
+Anterior cruciate ligament a 34
+Anklea 14
+Hamstring 11
+Lower extremity 10
+Foot 6
+Groin 2
+Shoulder 1
+Wrist 2
+Elbow 1
+Total unique articles 129
+aCategories are not mutually exclusive.
+4 Stephenson et al The Orthopaedic Medicine
+
+systematically reviewed 6 studies and found that 43 % of
+youth athletes specialized in a single sport and these ath-
+letes were at greater risk for injury compared with youth
+athletes that sampled a variety of sports (RR, 1.37; 95 % CI,
+1.19-1.57).
+Injuries by Anatomic Site
+A total of 86 studies pertaining to prevention of injuries by
+anatomic site were identified and are summarized by topic
+here. Tables S5 to S10 and Figures S4 to S9 (available as
+Supplemental Material) illustrate the overlapping primary
+studies between included systematic reviews.
+General Knee Injuries. Grimm et al 85 found insufficient
+evidence regarding the effectiveness of knee injury preven-
+tion programs in athletes based on their review of 10 RCTs;
+however, the authors did not distinguish among different
+types of injury prevention programs. Thacker et al 236 found
+limited evidence supporting the effectiveness of neuromus-
+cular training and conditioning programs for reducing knee
+injuries. On the other hand, 3 overlapping systematic
+reviews 51,84,99 have demonstrated that neuromuscular
+training programs reduced knee injuries by 27 %. Ter Stege
+et al 233 systematically reviewed 35 studies and found that
+neuromuscular injury prevention programs were effective
+at reducing several risk factors (ie, knee valgus moments,
+knee flexion angles, hamstring activation profiles, and ver-
+tical ground-reaction forces) that are associated with knee
+injuries in team ball sports. Three overlapping systematic
+reviews179,195,236 have found that wearing a knee brace is
+not effective at reducing knee injuries in athletes.
+ACL Injuries. All Athletes . Two systematic reviews 7,163
+concluded that the available evidence was too weak to make
+any conclusions about the effectiveness of ACL injury pre-
+vention programs in general; however, several more recent
+systematic reviews85,152,232 have found ACL injury preven-
+tion programs to be effective. Grindstaff et al 86 conducted a
+meta-analysis of 5 studies and estimated that 89 indivi-
+duals (95 % CI, 66-136) would need to participate in an
+injury prevention program to prevent 1 ACL injury per
+season. Furthermore, these authors concluded that the
+most important components of an ACL injury prevention
+program were plyometrics, strengthening, flexibility, agil-
+ity, and feedback. Padua and Marshall 168 found moderate
+evidence to support the use of ACL injury prevention pro-
+grams, which incorporate proprioception/balance or plyo-
+metric/agility training in athletes; however, no studies
+directly compared the effectiveness of multifaceted versus
+single exercise programs. Arundale et al 15 found substan-
+tial evidence supporting the use of exercise-based preven-
+tion programs for reducing knee and ACL injuries in
+athletes. Several overlapping systematic reviews k
+have found that neuromuscular training programs were
+effective at reducing ACL injuries by 51 % to 62 %, and 1
+meta-analysis193 found that neuromuscular training was
+more effective at reducing ACL injuries in male versus
+female patients. Sugimoto et al 224 found that participant
+a g e( i e ,t r a i n i n gw a sm o r ee f f e c t i v ef o ry o u n g e ra t h l e t e s
+compared with adults), dosage of training, exercise varia-
+tions, and verbal feedback were the most effective compo-
+nents of a neuromuscular training program. Inclusion of at
+least 1 of these 4 components in a training program reduced
+the risk of ACL injury by 18 %, and if all 4 components were
+incorporated into the program, the risk was reduced by as
+much as 73 %.
+Benjaminse et al 26 concluded that when teaching motor
+learning, giving athletes an external focus of attention (eg,
+soft landing) was more effective for increasing performance
+and decreasing the risk of ACL injuries compared with an
+internal locus of attention (eg, knee flexion). Furthermore,
+Armitano et al12 found that motor learning programs using
+augmented information improved risk factors that were
+associated with ACL injuries. Neilson et al 157 concluded
+that using augmented feedback with jump landing training
+was an effective way to reduce 2 of the major risk factors for
+ACL injury: maximum knee flexion angle and vertical
+ground-reaction force.
+Female Athletes. Several overlapping systematic
+reviews{ have focused on ACL injury prevention in female
+athletes. Two systematic reviews 161,223 have demonstrated
+the effectiveness of ACL injury prevention programs in
+female athletes; however, there were insufficient data to
+determine which specific program was most effective for
+reducing ACL injuries. On the other hand, 3 overlapping
+systematic reviews concluded that plyometrics, 38,254
+strengthening,227,254 and neuromuscular exercises 254 were
+the most effective components for injury prevention in
+female athletes. Moreover, Noyes and Barber Westin 160
+found that both the Sportsmetrics and the Prevent Injury
+and Enhance Performance programs successfully reduced
+ACL injuries in female athletes; however, the Sports-
+metrics program is very time-intensive (ie, 1-2 hours of
+training for 3 d/wk) and may compromise compliance.
+Based on their meta-analysis of 14 studies, Sugimoto
+et al226 found that the most effective ACL injury prevention
+programs in female athletes were those (1) of longer dura-
+tion ( >20 minutes vs <20 minutes), (2) done more fre-
+quently (multiple times versus once per week), and (3)
+with a higher training volume. Myer et al 155 found that
+neuromuscular training was most effective at reducing
+ACL injuries in female athletes aged /C20 18 years compared
+with >18 years (odds ratio [OR], 0.28; 95 % CI, 0.18-0.42).
+Based on their meta-analysis of 18 studies, Petushek
+et al 176 found that interventions that targeted female ath-
+letes in middle school and high school (OR, 0.38; 95 % CI,
+0.24-0.60) reduced the odds of ACL injury more so than
+interventions targeting college or professional female ath-
+letes (OR, 0.65; 95 % CI, 0.48-0.89). Only 1 meta-analysis 225
+examined compliance with ne uromuscular training in
+female athletes and found that high compliance was asso-
+ciated with a greater reduction in ACL injuries compared
+with low compliance (risk reduction ratio, 0.27; 95 % CI,
+0.07-0.80). Pfile and Curioz 178 concluded that both mixed
+leadership (RR reduction, 48.2 %;9 5 % CI, 22 %-65%)a n d
+kReferences 72, 96, 99, 106, 144, 171, 184, 193, 222, 228, 262. {References 38, 160, 161, 176, 178, 223, 225–227, 254.
+The Orthopaedic Medicine Prevention of Sports-Related Injuries 5
+
+coach-led (RR reduction, 58.4 %;9 5 % CI, 40 %-71%) injury
+prevention programs were successful at reducing ACL inju-
+ries in female athletes; however, the available evidence was
+low to moderate quality.
+Ankle Injuries. Eight overlapping systematic reviews #
+have found the use of external supports, such as ankle brac-
+ing and taping, to be effective at reducing ankle injuries.
+Barelds et al 20 conducted a meta-analysis of 6 studies and
+found that ankle bracing was effective for both primary
+(RR, 0.53; 95 % CI, 0.32-0.88) and secondary (RR, 0.37;
+95% CI, 0.24-0.58) prevention of acute ankle injuries; how-
+ever, the available evidence was low quality. Two system-
+atic reviews 25,50 found that external supports reduced
+ankle injuries by 62 % to 64 %; however, another review 49
+found that external supports were only effective in athletes
+with a history of ankle injuries.
+Several overlapping sy stematic reviews have
+found evidence supporting the effectiveness of neuro-
+muscular training, 34,35,250 proprioception and balance
+training, 25,34,48,143,197 and exercise interventions 50,83 for
+preventing ankle injuries. Four overlapping systematic
+reviews 25,48,116,197 found that proprioception or balance
+training reduced ankle injuries by 31 % to 46 %, and these
+training programs primarily consisted of single-leg stance
+challenges, wobble/balance board exercises, and sport-
+specific agility drills. Furthermore, Schiftan et al 197 found
+that proprioceptive training (ie, balance exercise with or
+without balance/wobble board or ankle disc for at least 8
+weeks) was effective at reducing ankle sprains in athletes
+with (RR, 0.64; 95 % CI, 0.51-0.81) and without (RR, 0.57;
+95% CI, 0.34-0.97) a history of ankle sprain. Doherty et al 50
+conducted a meta-analysis of 23 studies and found that
+exercise interventions reduced recurrent ankle sprains by
+41% (pooled OR, 0.59; 95 % CI, 0.51-0.68), and the most
+effective intervention was ankle disc or balance/wobble-
+board training for a minimum of 4 to 6 weeks. Grimm
+et al83 conducted a meta-analysis of 10 RCTs and found that
+an exercise protocol focused on stretching, strength train-
+ing, balance, and coordination reduced the risk of ankle
+injuries by 40 % (RR, 0.60; 95 % CI, 0.40-0.92). In summary,
+several systematic reviews and meta-analyses have found
+external supports and balance and proprioceptive training
+to be effective in preventing ankle injuries.
+Hamstring Injuries. Hibbert et al 101 systematically
+reviewed 7 studies in 2008 and concluded that hamstring
+lowers, isokinetic strengthening, and other strengthening
+were effective at reducing hamstring strains; however, the
+included studies were deemed low quality and none of the
+studies examined eccentric strengthening in isolation.
+Two systematic reviews, 1 by Prior et al 183 in 2009 and
+the other by Monajati et al 152 in 2016, found low-level
+evidence suggesting that hamstring injury prevention
+programs in general may be ef fective at reducing ham-
+string injuries. Goldman and Jones 78 systematically
+reviewed 7 RCTs in 2010 and concluded that there was
+insufficient evidence regarding the effectiveness of
+strengthening, manual therapy, proprioception, and
+warm-ups/cool-downs for preventing hamstring injuries.
+Based on 2 systematic reviews 145,186 published in 2016 and
+2013, respectively, there is inconclusive evidence regarding
+the effectiveness of stretching on reducing hamstring inju-
+ries. The NHE was designed to increase eccentric hamstring
+strength in soccer players, and 4 overlapping systematic
+reviews5,80,203,245 conducted between 2015 and 2019 found
+that the NHE (used in isolation or combined with other
+interventions) reduced hamstring injuries by 49 % to 65 %.
+Two overlapping systematic reviews 80,203 published in
+2015 and 2017, respectively, found that using a YoYo fly-
+wheel ergometer for eccentric hamstring strengthening was
+effective at reducing hamstring injuries in soccer players. In
+2019, Vatovec et al247 conducted a meta-analysis of 17 stud-
+ies and found that hamstring injuries were reduced by 51 %
+after exercise interventions and by 50% after neuromuscular
+interventions.
+Lower Extremity Injuries. Several overlapping system-
+atic reviews have demonstrated that exercise programs33,261
+and neuromuscular training programs58,95,221,231 were effec-
+tive at reducing lower extremity injuries. Emery et al 58
+found that neuromuscular training reduced lower extremity
+injuries by 36% in youth athletes (injury risk reduction, 0.64;
+95% CI, 0.49-0.84). Based on their meta-analysis of 10 RCTs,
+Taylor et al 231 found that neuromuscular training with or
+without lace-up ankle brace s reduced the odds of lower
+extremity injuries in basketball players by 31 % (OR, 0.69;
+95% CI, 0.57-0.85). Steib et al 221 concluded that neuromus-
+cular training was effective at reducing lower extremity
+injury risk in youth athletes, and the optimal regimen was
+10- to 15-minute sessions 2 to 3 times a week. Herman et al95
+reviewed 9 studies and concluded that to be effective at
+reducing lower limb injuries, neuromuscular warm-up strat-
+egies should be completed for at least 3 months and should
+incorporate stretching, strengthening and balance exercises,
+sports-specific agility drills, and landing techniques. Yeung
+and Yeung261 concluded that there was strong evidence sug-
+gesting that the incidence of lower extremity soft tissue run-
+ning injuries can be reduced by decreasing running
+frequency, duration, and distance; however, the optimum
+training load could not be determined. There is weak or
+insufficient evidence regarding the effectiveness of (1) eccen-
+tric exercise, proprioception, and balance exercise for reduc-
+ing lower extremity injuries in soccer players137;( 2 )e x e r c i s e
+programs for prevention of lower limb injuries in Australian
+football players 10; and (3) lower limb injury prevention
+programs in high school athletes.138 Thacker et al234 system-
+atically reviewed 9 studies and found that using shock-
+absorbent orthotic inserts and a preseason conditioning
+regimen focused on lower extremity strength, agility, and
+flexibility may reduce the occurrence of shin splints in young
+male athletes.
+Foot Injuries. Several overlapping systematic reviews
+found low to moderate evidence that shock-absorbing insoles
+may be effective at preventing stress fractures in an active
+military population; however, no other types of interventions
+(eg, reducing training volume and intensity) have been effec-
+tive at reducing stress fractures, and no studies have been
+done in the general population. 29,76,114,187,204 Am e t a -
+analysis of 11 studies found that foot orthoses reduced#References 20, 25, 34, 49, 50, 237, 249, 250.
+6 Stephenson et al The Orthopaedic Medicine
+
+the risk of stress fractures by 41 % (RR, 0.59; 95 % CI,
+0.45-0.76).29 Peters et al 173 found limited evidence support-
+ing the use of balance training, shoe adaptations, and
+hormone replacement therapy in active postmenopausal
+women for reducing Achilles tendinopathy, and there was
+no evidence to support stretching for reducing Achilles
+tendinopathy.
+Groin Injuries. Two nonoverlapping systematic
+reviews39,62 found limited evidence to support the use of
+hip adductor and abdominal strengthening exercises for
+groin injury prevention.
+Shoulder Injuries. Asker et al 16 identified only 1 study 9
+that examined prevention of shoulder injuries in overhead
+sports and found no statistically significant effects of a
+strength and conditioning regimen on shoulder injuries in
+Norwegian handball players.
+Wrist Injuries. Two overlapping systematic reviews122,191
+found that the risk for wrist injury, wrist fracture, and wrist
+sprain was reduced by 54% to 83% in snowboarders with the
+use of wrist guards.
+Elbow Injuries. Deal et al47 found that injury prevention
+programs were effective at reducing elbow injuries in base-
+ball players.
+DISCUSSION
+This comprehensive review provides a thorough and con-
+cise summary of all systematic reviews and meta-analyses
+on the topic of sports injury prevention in general and for
+specific sports and injury types. The majority of “all injury”
+articles pertained to sports and exercise in general (15.5 %)
+and soccer (10.2 %). Most of the “injuries by anatomic site”
+articles pertained to ACL (26.4 %), ankle (10.9 %), and ham-
+string (8.5%) injuries. In line with our hypothesis, we found
+that most injury prevention systematic reviews pertained
+to sports injuries in general (as opposed to specific sports)
+and focused on prevention of knee injuries (both in general
+and specifically on the ACL). To our knowledge, this is the
+first comprehensive review of the systematic reviews and
+meta-analyses published on sports injury prevention.
+Injury prevention programs are effective and can reduce
+injuries by at least 40 % in both youth and adults. 194,217
+Strength training, proprioception, balance, and psycholog-
+ical programs have all been shown to be beneficial, while
+stretching has not. Much of the research on preventing
+sport-related injuries in general has focused on specific
+sports,45,103,120,121,202,260 primarily soccer.**†† There is sub-
+stantial evidence supporting the FIFA 11 þ program for
+preventing soccer-related injuries; however, the system-
+atic reviews on this topic include many o verlapping
+studies. 4,6,21,79,119,192,238 There is limited low-quality
+research demonstrating that other exercise and
+psychological-based interventions are effective at reduc-
+ing soccer-related injuries. 43,64,123,182,211,243 Several sys-
+tematic reviews have found injury prevention programs
+tailored toward hockey, 45 volleyball, 120 basketball, 121
+tackle collision sports, 202 and sport climbing and boulder-
+ing260 to be effective at reducing musculoskeletal injuries
+in general.
+Evidence regarding the effectiveness of neuromuscular
+training for preventing knee injuries in general has been
+contradictory,51,84,99,236 and there is currently no system-
+atic review evidence to support wearing a knee brace for
+injury prevention. 7,179,236 However, there is moderate evi-
+dence to support exercise and neuromuscular training pro-
+grams for ACL injury prevention,7,85,152,163,232 and the most
+effective components of these programs included plyomet-
+rics, strengthening, flexibility, agility, and feedback. 86 A
+number of systematic reviews have focused on ACL
+injury prevention in female athletes †† and found that plyo-
+metrics, 38,254 strengthening, 227,254 and neuromuscular
+training254 were most effective in this cohort. ACL injury
+prevention programs were most effective in female athletes
+aged <18 years 155 and among those who were highly com-
+pliant with the programs. 225 The most effective ACL injury
+prevention programs in female athletes were those lasting
+at least 20 minutes per session, with multiple sessions per
+week and at a high training volume. 226 It should be noted
+that the ACL injury prevention literature may be skewed
+toward female athletes since most of the studies evaluated
+female athletes only or included more female athletes than
+male athletes. There is substantial evidence supporting the
+use of ankle bracing and taping, which can reduce ankle
+injuries by at least 60 %.‡‡ Neuromuscular, 34,35,250 bal-
+ance,25,34,48,143,197 and exercise training 50,83 have also been
+shown to be effective for reducing ankle injuries. Exercise
+and neuromuscular training have been demonstrated to be
+effective at reducing hamstring injuries by 50 %247;h o w -
+ever, the effectiveness of strengthening remains uncer-
+tain, 78,80,101,203 and there is no evidence to support
+stretching 145,186 for hamstring injury prevention. Lower
+extremity injuries can be reduced by exercise 33,261 and neu-
+romuscular training 58,95,221,231 programs, and the risk for
+stress fractures may be reduced by foot ortho-
+ses.29,76,114,187,204 Wrist guards have been shown to reduce
+wrist injuries by 54 % to 83% in snow boarders. 122,191 There
+is limited evidence available to be able to make any conclu-
+sions regarding groin, 39,62 shoulder,16 and elbow47 injuries
+and shin splints. 234
+There are several limitations of this study. There were a
+number of overlapping studies between systematic reviews
+and meta-analyses, which may have resulted in more
+weight being placed on the strength of evidence for certain
+topics than was truly warranted. Only 19.4 % of the
+included reviews assessed publication bias, and 47.3 % thor-
+oughly described exclusion criteria. Thus, selection and/or
+publication biases may have affected the results of individ-
+ual reviews. Also, only 48.8 % of systematic reviews pooled
+their data for analysis. The remaining 50.2 % did not pool
+data mainly because of considerable heterogeneity among
+included studies. Finally, this review was limited to a qual-
+itative summary of the literature since there was too much
+heterogeneity between studies to warrant any pooled data
+**References 4, 6, 21, 43, 64, 79, 119, 123, 182, 192, 211, 238, 243.
+††References 38, 160, 161, 176, 178, 223, 225–227, 254. ‡‡References 20, 25, 34, 49, 50, 237, 249, 250.
+The Orthopaedic Medicine Prevention of Sports-Related Injuries 7
+
+analyses. However, strengths of this study include perform-
+ing a thorough literature search in accordance with
+PRISMA and performing a thorough review of study qual-
+ity and risk for bias using the AMSTAR-2.
+CONCLUSION
+This comprehensive review provides sports medicine provi-
+ders and other interested parties with a single source of the
+most up-to-date published literature focused on the effec-
+tiveness of sports injury prevention and organizes the lit-
+erature by anatomic site and general injury patterns.
