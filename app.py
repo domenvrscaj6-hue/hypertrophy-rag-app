@@ -56,12 +56,15 @@ def get_vectorstore(chunk_size, chunk_overlap):
     all_chunks = text_splitter.split_documents(raw_documents)
     clean_chunks = [c for c in all_chunks if len(c.page_content) > 60]
     
-    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    embeddings = HuggingFaceEmbeddings(
+        model_name="all-MiniLM-L6-v2",
+        model_kwargs={'device': 'cpu'}
+    )
     
+    # Use a persistent client approach to save memory
     vectorstore = Chroma.from_documents(
         documents=clean_chunks, 
-        embedding=embeddings,
-        collection_name=f"hypertrophy_c{chunk_size}_o{chunk_overlap}"
+        embedding=embeddings
     )
     
     return raw_documents, clean_chunks, vectorstore
