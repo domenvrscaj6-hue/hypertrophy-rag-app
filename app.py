@@ -51,7 +51,13 @@ def get_vectorstore():
         doc.page_content = doc.page_content.replace("- ", "").replace("-\n", "")
         doc.page_content = " ".join(doc.page_content.split())
     
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1200, chunk_overlap=200)
+    # Prisilimo splitanje na piki (.), da se chunk vedno začne in konča s celim stavkom
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000, 
+        chunk_overlap=200,
+        separators=[". ", "\n\n", "\n", " ", ""], # Pika ima prednost
+        is_separator_regex=False
+    )
     chunks = text_splitter.split_documents(raw_documents)
     
     embeddings = HuggingFaceEndpointEmbeddings(
@@ -80,7 +86,7 @@ with st.sidebar:
     
     st.subheader("⚙️ System Status")
     st.write(f"**Engine:** FAISS")
-    st.write(f"**Chunk Size:** 1200")
+    st.write(f"**Chunk Size:** 1000")
     st.write(f"**Overlap:** 200")
     
     if st.button("🔄 Clear Cache", use_container_width=True):
@@ -110,26 +116,21 @@ if page == "Home":
 elif page == "Search Knowledge Base":
     st.title("🔍 Research Retrieval")
     
-    # Using text_input for free search, and selectbox for suggestions separately
-    st.subheader("🔍 Search Research")
-    
-    # 1. Suggestions List
     suggestions = [
-        "Select a pre-defined question...",
         "Does sleep affect muscle growth?", 
         "What is the optimal protein intake?", 
         "Is creatine supplementation safe for kidneys?", 
-        "How does Vitamin D affect muscle health?"
+        "How does Vitamin D affect muscle health?",
+        "Effects of caffeine on athletic performance"
     ]
     
-    selected_suggestion = st.selectbox("Suggestions:", options=suggestions)
-    
-    # 2. Main Search Input (Works with Enter)
-    query = st.text_input(
-        "Or type your own question and press Enter:",
-        value="" if selected_suggestion == suggestions[0] else selected_suggestion,
+    # Google-style selectbox (allows free text entry and suggestions)
+    query = st.selectbox(
+        "Search or select a research question:",
+        options=suggestions,
+        index=None,
         placeholder="Type your question here...",
-        key="main_search"
+        help="You can type your own question or select a suggestion."
     )
 
     raw_docs, chunks, vectorstore = get_vectorstore()
@@ -150,8 +151,14 @@ elif page == "Search Knowledge Base":
                     char_count = len(doc.page_content)
                     
                     with st.expander(f"Result {i+1} (Relevance: {score:.2f})", expanded=(i==0)):
+                        # Text cleaning to ensure it looks like a proper paragraph
+                        clean_content = doc.page_content.strip()
+                        if not clean_content[0].isupper():
+                            # If it still starts with a lowercase, we fix it
+                            clean_content = "..." + clean_content
+                            
                         st.markdown(f"**English Original:**")
-                        st.markdown(f"*{doc.page_content}*")
+                        st.markdown(f"*{clean_content}*")
                         
                         if st.button(f"Translate to {target_lang}", key=f"tr_btn_{i}"):
                             translated = GoogleTranslator(source='auto', target=lang_map[target_lang]).translate(doc.page_content)
@@ -162,7 +169,7 @@ elif page == "Search Knowledge Base":
                         c1.caption(f"📍 **Source:** {source_file}")
                         c2.caption(f"📏 **Length:** {char_count} characters")
     else:
-        st.info("Enter a question above to start searching.")
+        st.info("Start typing a question above to explore the research.")
 
 # --- PAGE: STATISTICS ---
 elif page == "Statistics":
@@ -187,7 +194,7 @@ elif page == "About":
     **Cloud-Optimized Architecture:**
     * **Embeddings:** Hugging Face API
     * **Vector Store:** FAISS
-    * **Chunking:** 1200/200
+    * **Chunking:** 1000/200 (Sentence-aware splitting)
     """)
 
 st.sidebar.divider()
