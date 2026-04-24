@@ -1,9 +1,8 @@
 streamlit
 langchain
 langchain-community
-langchain-huggingface
 langchain-text-splitters
 faiss-cpu
-sentence-transformers
 pandas
 deep-translator
+huggingface_hub
