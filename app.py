@@ -37,7 +37,7 @@ HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 @st.cache_resource
 def get_vectorstore():
     if not HF_TOKEN:
-        st.error("Missing Hugging Face API Token! Please set HUGGINGFACEHUB_API_TOKEN in environment variables.")
+        st.error("Missing Hugging Face API Token!")
         st.stop()
 
     data_path = "processed_texts/"
@@ -51,10 +51,11 @@ def get_vectorstore():
         doc.page_content = doc.page_content.replace("- ", "").replace("-\n", "")
         doc.page_content = " ".join(doc.page_content.split())
     
+    # TEMP TEST: Small chunk size for report comparison
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000, 
-        chunk_overlap=200,
-        separators=["\n\n", "\n", ".", " ", ""]
+        chunk_size=400, 
+        chunk_overlap=50,
+        separators=[". ", "\n\n", "\n", " ", ""]
     )
     chunks = text_splitter.split_documents(raw_documents)
     
@@ -89,8 +90,8 @@ with st.sidebar:
     
     st.subheader("⚙️ System Status")
     st.write(f"**Engine:** FAISS")
-    st.write(f"**Chunk Size:** 1000")
-    st.write(f"**Overlap:** 200")
+    st.write(f"**Chunk Size:** 400 (TEST MODE)")
+    st.write(f"**Overlap:** 50")
     
     if st.button("🔄 Clear Cache", use_container_width=True):
         st.cache_resource.clear()
@@ -108,8 +109,7 @@ if page == "Home":
         st.title("🏋️‍♂️ Evidence-Based Hypertrophy Explorer")
         st.markdown("""
         ### Turn Research into Results.
-        This AI-powered knowledge base scans peer-reviewed literature 
-        on muscle growth, nutrition, and exercise physiology.
+        *Currently running in **TEST MODE** with smaller text chunks.*
         """)
         st.success("✅ Application is connected to Cloud Research Database.")
     with col2:
@@ -128,67 +128,36 @@ elif page == "Search Knowledge Base":
         "Effects of caffeine on athletic performance"
     ]
     
-    # Autofill logic
     st.selectbox("Suggested questions:", options=suggestions, key="suggestion_box", on_change=set_query)
-    
-    # Main query input (Real text input that works with Enter)
     query = st.text_input("Ask your own research question:", key="user_query", placeholder="Type here and press Enter...")
 
     raw_docs, chunks, vectorstore = get_vectorstore()
 
     if query and query != "":
-        with st.spinner(f"Searching for: '{query}'..."):
-            # Lowering strictness to ensure results are found
+        with st.spinner(f"Searching..."):
             results = vectorstore.similarity_search_with_relevance_scores(query, k=4)
-            
             st.subheader(f"Results")
             
-            if not results:
-                st.warning("No matches found. Try using different fitness keywords.")
-            else:
-                found_any = False
-                for i, (doc, score) in enumerate(results):
-                    # Show all results that have some relevance
-                    if score < 0.05: continue 
-                    found_any = True
-                    
-                    source_file = os.path.basename(doc.metadata.get('source', 'Unknown')).replace('.txt', '.pdf')
-                    char_count = len(doc.page_content)
-                    
-                    with st.expander(f"Result {i+1} (Relevance: {score:.2f})", expanded=(i==0)):
-                        clean_content = doc.page_content.strip()
-                        if not clean_content[0].isupper():
-                            clean_content = "..." + clean_content
-                            
-                        st.markdown(f"**English Original:**")
-                        st.markdown(f"*{clean_content}*")
-                        
-                        if st.button(f"Translate to {target_lang}", key=f"tr_btn_{i}"):
-                            translated = GoogleTranslator(source='auto', target=lang_map[target_lang]).translate(doc.page_content)
-                            st.info(translated)
-                        
-                        st.divider()
-                        c1, c2 = st.columns(2)
-                        c1.caption(f"📍 **Source:** {source_file}")
-                        c2.caption(f"📏 **Length:** {char_count} characters")
-                
-                if not found_any:
-                    st.warning("Found some documents, but relevance was too low. Try rephrasing.")
+            for i, (doc, score) in enumerate(results):
+                if score < 0.05: continue 
+                with st.expander(f"Result {i+1} (Relevance: {score:.2f})", expanded=(i==0)):
+                    st.markdown(f"*{doc.page_content}*")
+                    if st.button(f"Translate to {target_lang}", key=f"tr_btn_{i}"):
+                        st.info(GoogleTranslator(source='auto', target=lang_map[target_lang]).translate(doc.page_content))
+                    st.divider()
+                    st.caption(f"📏 **Length:** {len(doc.page_content)} characters | 📍 **Source:** {os.path.basename(doc.metadata.get('source', 'Unknown'))}")
     else:
-        st.info("Enter a question above or select a suggestion to start.")
+        st.info("Enter a question above to start.")
 
 # --- PAGE: STATISTICS ---
 elif page == "Statistics":
     st.title("📊 Knowledge Base Insights")
     raw_docs, chunks, _ = get_vectorstore()
-    
     m1, m2, m3 = st.columns(3)
-    unique_sources = len(set([doc.metadata.get('source') for doc in raw_docs]))
-    m1.metric("Documents", unique_sources)
+    m1.metric("Documents", len(set([doc.metadata.get('source') for doc in raw_docs])))
     m2.metric("Total Segments", len(chunks))
     m3.metric("Avg Segment", f"{int(sum(len(c.page_content) for c in chunks)/len(chunks))} chars")
-
-    st.subheader("Data Distribution (Segments per File)")
+    st.subheader("Data Distribution")
     source_counts = pd.DataFrame([os.path.basename(c.metadata.get('source')) for c in chunks], columns=["Source"]).value_counts().reset_index()
     source_counts.columns = ["Source", "Count"]
     st.bar_chart(source_counts.set_index("Source"))
@@ -196,12 +165,7 @@ elif page == "Statistics":
 # --- PAGE: ABOUT ---
 elif page == "About":
     st.title("ℹ️ Technical Overview")
-    st.markdown("""
-    **Cloud-Optimized Architecture:**
-    * **Embeddings:** Hugging Face API
-    * **Vector Store:** FAISS
-    * **Chunking:** 1000/200 (Sentence-aware splitting)
-    """)
+    st.markdown("**Current mode:** Testing with 400 character chunks.")
 
 st.sidebar.divider()
-st.sidebar.caption("Built for AI Course • 2026")
+st.sidebar.caption("AI Course • 2026")
