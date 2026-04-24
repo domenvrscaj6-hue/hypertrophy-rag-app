@@ -51,12 +51,10 @@ def get_vectorstore():
         doc.page_content = doc.page_content.replace("- ", "").replace("-\n", "")
         doc.page_content = " ".join(doc.page_content.split())
     
-    # Prisilimo splitanje na piki (.), da se chunk vedno začne in konča s celim stavkom
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000, 
         chunk_overlap=200,
-        separators=[". ", "\n\n", "\n", " ", ""], # Pika ima prednost
-        is_separator_regex=False
+        separators=["\n\n", "\n", ".", " ", ""]
     )
     chunks = text_splitter.split_documents(raw_documents)
     
@@ -77,6 +75,11 @@ def get_vectorstore():
             else:
                 st.error(f"Cloud Connection Error: {str(e)}")
                 st.stop()
+
+# --- CALLBACK FOR AUTOFILL ---
+def set_query():
+    if st.session_state.suggestion_box != "Select a suggestion...":
+        st.session_state.user_query = st.session_state.suggestion_box
 
 # --- SIDEBAR NAVIGATION ---
 with st.sidebar:
@@ -117,6 +120,7 @@ elif page == "Search Knowledge Base":
     st.title("🔍 Research Retrieval")
     
     suggestions = [
+        "Select a suggestion...",
         "Does sleep affect muscle growth?", 
         "What is the optimal protein intake?", 
         "Is creatine supplementation safe for kidneys?", 
@@ -124,37 +128,36 @@ elif page == "Search Knowledge Base":
         "Effects of caffeine on athletic performance"
     ]
     
-    # Google-style selectbox (allows free text entry and suggestions)
-    query = st.selectbox(
-        "Search or select a research question:",
-        options=suggestions,
-        index=None,
-        placeholder="Type your question here...",
-        help="You can type your own question or select a suggestion."
-    )
+    # Autofill logic
+    st.selectbox("Suggested questions:", options=suggestions, key="suggestion_box", on_change=set_query)
+    
+    # Main query input (Real text input that works with Enter)
+    query = st.text_input("Ask your own research question:", key="user_query", placeholder="Type here and press Enter...")
 
     raw_docs, chunks, vectorstore = get_vectorstore()
 
-    if query:
+    if query and query != "":
         with st.spinner(f"Searching for: '{query}'..."):
+            # Lowering strictness to ensure results are found
             results = vectorstore.similarity_search_with_relevance_scores(query, k=4)
             
             st.subheader(f"Results")
             
             if not results:
-                st.warning("No matches found. Try different keywords.")
+                st.warning("No matches found. Try using different fitness keywords.")
             else:
+                found_any = False
                 for i, (doc, score) in enumerate(results):
-                    if score < 0.1: continue
+                    # Show all results that have some relevance
+                    if score < 0.05: continue 
+                    found_any = True
                     
                     source_file = os.path.basename(doc.metadata.get('source', 'Unknown')).replace('.txt', '.pdf')
                     char_count = len(doc.page_content)
                     
                     with st.expander(f"Result {i+1} (Relevance: {score:.2f})", expanded=(i==0)):
-                        # Text cleaning to ensure it looks like a proper paragraph
                         clean_content = doc.page_content.strip()
                         if not clean_content[0].isupper():
-                            # If it still starts with a lowercase, we fix it
                             clean_content = "..." + clean_content
                             
                         st.markdown(f"**English Original:**")
@@ -168,8 +171,11 @@ elif page == "Search Knowledge Base":
                         c1, c2 = st.columns(2)
                         c1.caption(f"📍 **Source:** {source_file}")
                         c2.caption(f"📏 **Length:** {char_count} characters")
+                
+                if not found_any:
+                    st.warning("Found some documents, but relevance was too low. Try rephrasing.")
     else:
-        st.info("Start typing a question above to explore the research.")
+        st.info("Enter a question above or select a suggestion to start.")
 
 # --- PAGE: STATISTICS ---
 elif page == "Statistics":
