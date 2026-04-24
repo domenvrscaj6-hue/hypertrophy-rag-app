@@ -1,17 +1,12 @@
 streamlit
-torch
-torchvision
 langchain
 langchain-community
 langchain-huggingface
 langchain-text-splitters
 chromadb
 sentence-transformers
-scikit-learn
 matplotlib
 numpy
 pandas
 seaborn
-plotly
-pypdf
 deep-translator
