@@ -18,15 +18,14 @@ st.set_page_config(
 # --- CLEAN UI STYLING ---
 st.markdown("""
 <style>
-    /* Targeting only the metric containers for Statistics page */
     [data-testid="metric-container"] {
-        background-color: #f0f7ff; /* Very light blue background */
-        border: 2px solid #1e3a8a; /* Your dark blue brand color */
+        background-color: #f0f7ff;
+        border: 2px solid #1e3a8a;
         padding: 15px;
         border-radius: 10px;
     }
     [data-testid="stMetricValue"] {
-        color: #1e3a8a !important; /* Force the numbers to be blue */
+        color: #1e3a8a !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -78,7 +77,12 @@ with st.sidebar:
     st.title("💪 Hypertrophy Lab")
     page = st.radio("Navigation", ["Home", "Search Knowledge Base", "Statistics", "About"], label_visibility="collapsed")
     st.divider()
-    st.info("**RAG Engine:** FAISS\n**Chunk Size:** 1200\n**Overlap:** 200")
+    
+    st.subheader("⚙️ System Status")
+    st.write(f"**Engine:** FAISS")
+    st.write(f"**Chunk Size:** 1200")
+    st.write(f"**Overlap:** 200")
+    
     if st.button("🔄 Clear Cache", use_container_width=True):
         st.cache_resource.clear()
         st.rerun()
@@ -105,21 +109,60 @@ if page == "Home":
 # --- PAGE: SEARCH ---
 elif page == "Search Knowledge Base":
     st.title("🔍 Research Retrieval")
-    suggestions = ["Does sleep affect muscle growth?", "Optimal protein intake?", "Is creatine safe?", "Vitamin D and muscle?"]
-    query = st.selectbox("Search or select a question:", options=suggestions, index=None, placeholder="Type here...")
+    
+    # Using text_input for free search, and selectbox for suggestions separately
+    st.subheader("🔍 Search Research")
+    
+    # 1. Suggestions List
+    suggestions = [
+        "Select a pre-defined question...",
+        "Does sleep affect muscle growth?", 
+        "What is the optimal protein intake?", 
+        "Is creatine supplementation safe for kidneys?", 
+        "How does Vitamin D affect muscle health?"
+    ]
+    
+    selected_suggestion = st.selectbox("Suggestions:", options=suggestions)
+    
+    # 2. Main Search Input (Works with Enter)
+    query = st.text_input(
+        "Or type your own question and press Enter:",
+        value="" if selected_suggestion == suggestions[0] else selected_suggestion,
+        placeholder="Type your question here...",
+        key="main_search"
+    )
 
     raw_docs, chunks, vectorstore = get_vectorstore()
 
     if query:
-        results = vectorstore.similarity_search_with_relevance_scores(query, k=4)
-        st.subheader(f"Results for: '{query}'")
-        for i, (doc, score) in enumerate(results):
-            if score < 0.1: continue
-            with st.expander(f"Result {i+1} (Score: {score:.2f})", expanded=(i==0)):
-                st.markdown(f"*{doc.page_content}*")
-                if st.button(f"Translate to {target_lang}", key=f"tr_{i}"):
-                    st.info(GoogleTranslator(source='auto', target=lang_map[target_lang]).translate(doc.page_content))
-                st.caption(f"Source: {os.path.basename(doc.metadata.get('source', 'Unknown'))}")
+        with st.spinner(f"Searching for: '{query}'..."):
+            results = vectorstore.similarity_search_with_relevance_scores(query, k=4)
+            
+            st.subheader(f"Results")
+            
+            if not results:
+                st.warning("No matches found. Try different keywords.")
+            else:
+                for i, (doc, score) in enumerate(results):
+                    if score < 0.1: continue
+                    
+                    source_file = os.path.basename(doc.metadata.get('source', 'Unknown')).replace('.txt', '.pdf')
+                    char_count = len(doc.page_content)
+                    
+                    with st.expander(f"Result {i+1} (Relevance: {score:.2f})", expanded=(i==0)):
+                        st.markdown(f"**English Original:**")
+                        st.markdown(f"*{doc.page_content}*")
+                        
+                        if st.button(f"Translate to {target_lang}", key=f"tr_btn_{i}"):
+                            translated = GoogleTranslator(source='auto', target=lang_map[target_lang]).translate(doc.page_content)
+                            st.info(translated)
+                        
+                        st.divider()
+                        c1, c2 = st.columns(2)
+                        c1.caption(f"📍 **Source:** {source_file}")
+                        c2.caption(f"📏 **Length:** {char_count} characters")
+    else:
+        st.info("Enter a question above to start searching.")
 
 # --- PAGE: STATISTICS ---
 elif page == "Statistics":
@@ -146,3 +189,6 @@ elif page == "About":
     * **Vector Store:** FAISS
     * **Chunking:** 1200/200
     """)
+
+st.sidebar.divider()
+st.sidebar.caption("Built for AI Course • 2026")
