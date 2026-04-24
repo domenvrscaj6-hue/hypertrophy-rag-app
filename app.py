@@ -71,7 +71,8 @@ def get_vectorstore():
         doc.page_content = doc.page_content.replace("- ", "").replace("-\n", "")
         doc.page_content = " ".join(doc.page_content.split())
     
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=100)
+    # Updated to 1200 / 200 as requested
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1200, chunk_overlap=200)
     chunks = text_splitter.split_documents(raw_documents)
     
     embeddings = HuggingFaceEndpointEmbeddings(
@@ -97,10 +98,18 @@ with st.sidebar:
     st.title("💪 Hypertrophy Lab")
     page = st.radio("Navigation", ["Home", "Search Knowledge Base", "Statistics", "About"], label_visibility="collapsed")
     st.divider()
-    st.info("**RAG Engine:** FAISS\n**Embeddings:** HF Cloud\n**Status:** Optimized")
+    st.info("**RAG Engine:** FAISS\n\n**Strategy:** Semantic Search\n\n**Chunk Size:** 1200\n\n**Overlap:** 200")
     if st.button("🔄 Clear Cache", use_container_width=True):
         st.cache_resource.clear()
         st.rerun()
+
+    st.divider()
+    st.subheader("🌍 Translation")
+    target_lang = st.selectbox("Translate Results to:", ["Slovenian", "German", "Spanish", "French", "Italian"], index=0)
+    lang_map = {"Slovenian": "sl", "German": "de", "Spanish": "es", "French": "fr", "Italian": "it"}
+
+    st.divider()
+    st.caption("AI Course • Project Prototype • 2026")
 
 # --- PAGE: HOME ---
 if page == "Home":
@@ -158,7 +167,7 @@ elif page == "About":
     **Cloud-Optimized Architecture:**
     * **Embeddings:** Hugging Face API
     * **Vector Store:** FAISS
-    * **Chunking:** 800/100
+    * **Chunking Strategy:** 1200 characters with 200 character overlap.
     """)
 
 st.sidebar.divider()
