@@ -15,37 +15,18 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- CUSTOM CSS ---
+# --- CLEAN UI STYLING ---
 st.markdown("""
 <style>
-    /* Main background */
-    .main { background-color: #f8f9fa; color: #1e1e1e; }
-    
-    /* Metrics styling - forcing dark text and blue accents */
+    /* Targeting only the metric containers for Statistics page */
+    [data-testid="metric-container"] {
+        background-color: #f0f7ff; /* Very light blue background */
+        border: 2px solid #1e3a8a; /* Your dark blue brand color */
+        padding: 15px;
+        border-radius: 10px;
+    }
     [data-testid="stMetricValue"] {
-        color: #1e3a8a !important; /* Dark Blue */
-        font-weight: bold;
-    }
-    [data-testid="stMetricLabel"] {
-        color: #333333 !important; /* Dark Grey/Black */
-    }
-    div[data-testid="metric-container"] {
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 12px;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    }
-    
-    /* Typography */
-    h1, h2, h3 { color: #1e3a8a !important; }
-    p, li { color: #333333 !important; }
-    
-    /* Expander styling */
-    .streamlit-expanderHeader {
-        background-color: #ffffff !important;
-        color: #1e3a8a !important;
-        border-radius: 8px;
+        color: #1e3a8a !important; /* Force the numbers to be blue */
     }
 </style>
 """, unsafe_allow_html=True)
@@ -71,7 +52,6 @@ def get_vectorstore():
         doc.page_content = doc.page_content.replace("- ", "").replace("-\n", "")
         doc.page_content = " ".join(doc.page_content.split())
     
-    # Updated to 1200 / 200 as requested
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1200, chunk_overlap=200)
     chunks = text_splitter.split_documents(raw_documents)
     
@@ -98,7 +78,7 @@ with st.sidebar:
     st.title("💪 Hypertrophy Lab")
     page = st.radio("Navigation", ["Home", "Search Knowledge Base", "Statistics", "About"], label_visibility="collapsed")
     st.divider()
-    st.info("**RAG Engine:** FAISS\n\n**Strategy:** Semantic Search\n\n**Chunk Size:** 1200\n\n**Overlap:** 200")
+    st.info("**RAG Engine:** FAISS\n**Chunk Size:** 1200\n**Overlap:** 200")
     if st.button("🔄 Clear Cache", use_container_width=True):
         st.cache_resource.clear()
         st.rerun()
@@ -107,9 +87,6 @@ with st.sidebar:
     st.subheader("🌍 Translation")
     target_lang = st.selectbox("Translate Results to:", ["Slovenian", "German", "Spanish", "French", "Italian"], index=0)
     lang_map = {"Slovenian": "sl", "German": "de", "Spanish": "es", "French": "fr", "Italian": "it"}
-
-    st.divider()
-    st.caption("AI Course • Project Prototype • 2026")
 
 # --- PAGE: HOME ---
 if page == "Home":
@@ -140,8 +117,8 @@ elif page == "Search Knowledge Base":
             if score < 0.1: continue
             with st.expander(f"Result {i+1} (Score: {score:.2f})", expanded=(i==0)):
                 st.markdown(f"*{doc.page_content}*")
-                if st.button(f"Translate to Slovenian", key=f"tr_{i}"):
-                    st.info(GoogleTranslator(source='auto', target='sl').translate(doc.page_content))
+                if st.button(f"Translate to {target_lang}", key=f"tr_{i}"):
+                    st.info(GoogleTranslator(source='auto', target=lang_map[target_lang]).translate(doc.page_content))
                 st.caption(f"Source: {os.path.basename(doc.metadata.get('source', 'Unknown'))}")
 
 # --- PAGE: STATISTICS ---
@@ -167,8 +144,5 @@ elif page == "About":
     **Cloud-Optimized Architecture:**
     * **Embeddings:** Hugging Face API
     * **Vector Store:** FAISS
-    * **Chunking Strategy:** 1200 characters with 200 character overlap.
+    * **Chunking:** 1200/200
     """)
-
-st.sidebar.divider()
-st.sidebar.caption("AI Course • 2026")
