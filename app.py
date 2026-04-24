@@ -51,10 +51,10 @@ def get_vectorstore():
         doc.page_content = doc.page_content.replace("- ", "").replace("-\n", "")
         doc.page_content = " ".join(doc.page_content.split())
     
-    # TEMP TEST: Small chunk size for report comparison
+    # TEMP TEST: Large chunk size for report comparison
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=400, 
-        chunk_overlap=50,
+        chunk_size=1600, 
+        chunk_overlap=300,
         separators=[". ", "\n\n", "\n", " ", ""]
     )
     chunks = text_splitter.split_documents(raw_documents)
@@ -90,8 +90,8 @@ with st.sidebar:
     
     st.subheader("⚙️ System Status")
     st.write(f"**Engine:** FAISS")
-    st.write(f"**Chunk Size:** 400 (TEST MODE)")
-    st.write(f"**Overlap:** 50")
+    st.write(f"**Chunk Size:** 1600 (TEST MODE)")
+    st.write(f"**Overlap:** 300")
     
     if st.button("🔄 Clear Cache", use_container_width=True):
         st.cache_resource.clear()
@@ -109,7 +109,7 @@ if page == "Home":
         st.title("🏋️‍♂️ Evidence-Based Hypertrophy Explorer")
         st.markdown("""
         ### Turn Research into Results.
-        *Currently running in **TEST MODE** with smaller text chunks.*
+        *Currently running in **TEST MODE** with larger text chunks.*
         """)
         st.success("✅ Application is connected to Cloud Research Database.")
     with col2:
@@ -165,7 +165,7 @@ elif page == "Statistics":
 # --- PAGE: ABOUT ---
 elif page == "About":
     st.title("ℹ️ Technical Overview")
-    st.markdown("**Current mode:** Testing with 400 character chunks.")
+    st.markdown("**Current mode:** Testing with 1600 character chunks.")
 
 st.sidebar.divider()
 st.sidebar.caption("AI Course • 2026")
