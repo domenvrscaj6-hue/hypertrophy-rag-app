@@ -39,23 +39,22 @@ def clean_scientific_text(text):
     """
     Surgically removes citations, references, and PDF noise.
     """
-    # 1. Remove references section (usually starts with References or Bibliography)
+    # 1. Remove references section
     text = re.split(r'\nReferences\n|\nBibliography\n|\nLITERATURE CITED\n', text, flags=re.IGNORECASE)[0]
     
-    # 2. Fix hyphenated words at line breaks (e.g., "hyper- trophy")
+    # 2. Fix hyphenated words
     text = text.replace("-\n", "").replace("- ", "")
     
-    # 3. Remove citations in brackets [1, 2-5, 22]
+    # 3. Remove citations in brackets
     text = re.sub(r'\[\d+(?:[\s,–-]+\d+)*\]', '', text)
     
-    # 4. Remove citations in parentheses (Smith et al., 2020) or (Jones, 2019; Smith, 2020)
-    # Matches patterns like (Author, Year) or (Author et al., Year)
+    # 4. Remove citations in parentheses
     text = re.sub(r'\([A-Z][a-zA-Z]+(?:\s+et\s+al\.)?,\s+\d{4}(?:;\s+[A-Z][a-zA-Z]+(?:\s+et\s+al\.)?,\s+\d{4})*\)', '', text)
     
     # 5. Remove URLs and DOIs
     text = re.sub(r'https?://\S+|www\.\S+|doi:\s+\S+', '', text)
     
-    # 6. Remove excess whitespace and newlines
+    # 6. Remove excess whitespace
     text = re.sub(r'\s+', ' ', text).strip()
     
     return text
@@ -64,7 +63,7 @@ def clean_scientific_text(text):
 @st.cache_resource
 def get_vectorstore():
     if not HF_TOKEN:
-        st.error("Missing Hugging Face API Token! Please set HUGGINGFACEHUB_API_TOKEN in environment variables.")
+        st.error("Missing Hugging Face API Token!")
         st.stop()
 
     data_path = "processed_texts/"
@@ -74,17 +73,15 @@ def get_vectorstore():
     loader = DirectoryLoader(data_path, glob="./*.txt", loader_cls=TextLoader, loader_kwargs={'encoding': 'utf-8'})
     raw_documents = loader.load()
     
-    # Apply advanced cleaning
     for doc in raw_documents:
         doc.page_content = clean_scientific_text(doc.page_content)
     
-    # TEMP TEST SETTINGS: 400 / 50
+    # FINAL PRODUCTION SETTINGS: 1000 / 200
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=400, 
-        chunk_overlap=50,
+        chunk_size=1000, 
+        chunk_overlap=200,
         separators=[". ", "\n\n", "\n", " ", ""]
     )
-    # Filter out very small chunks (usually artifacts)
     chunks = [c for c in text_splitter.split_documents(raw_documents) if len(c.page_content) > 100]
     
     embeddings = HuggingFaceEndpointEmbeddings(
@@ -118,8 +115,8 @@ with st.sidebar:
     
     st.subheader("⚙️ System Status")
     st.write(f"**Engine:** FAISS")
-    st.write(f"**Chunk Size:** 400 (TEST MODE)")
-    st.write(f"**Overlap:** 50")
+    st.write(f"**Chunk Size:** 1000")
+    st.write(f"**Overlap:** 200")
     st.write(f"**Clean Mode:** Active ✨")
 
     st.divider()
@@ -189,7 +186,7 @@ elif page == "Search Knowledge Base":
                     c2.caption(f"📏 **Length:** {char_count} characters")
             
             if not found_any:
-                st.warning("No high-confidence results found. Try rephrasing your question.")
+                st.warning("No high-confidence results found.")
     else:
         st.info("Start typing a question above to explore the research.")
 
@@ -214,7 +211,7 @@ elif page == "About":
     * **Embeddings:** Hugging Face API
     * **Vector Store:** FAISS
     * **Chunking:** 1000/200 (Sentence-aware splitting)
-    * **Cleaning:** Advanced Regex scrubbing (Citations, Refs, URLs removed)
+    * **Cleaning:** Advanced Regex scrubbing
     """)
 
 st.sidebar.divider()
