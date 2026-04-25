@@ -37,7 +37,7 @@ HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 @st.cache_resource
 def get_vectorstore():
     if not HF_TOKEN:
-        st.error("Missing Hugging Face API Token!")
+        st.error("Missing Hugging Face API Token! Please set HUGGINGFACEHUB_API_TOKEN in environment variables.")
         st.stop()
 
     data_path = "processed_texts/"
@@ -51,10 +51,10 @@ def get_vectorstore():
         doc.page_content = doc.page_content.replace("- ", "").replace("-\n", "")
         doc.page_content = " ".join(doc.page_content.split())
     
-    # TEMP TEST: Large chunk size for report comparison
+    # FINAL PRODUCTION SETTINGS: 1000 / 200
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1600, 
-        chunk_overlap=300,
+        chunk_size=1000, 
+        chunk_overlap=200,
         separators=[". ", "\n\n", "\n", " ", ""]
     )
     chunks = text_splitter.split_documents(raw_documents)
@@ -90,8 +90,8 @@ with st.sidebar:
     
     st.subheader("⚙️ System Status")
     st.write(f"**Engine:** FAISS")
-    st.write(f"**Chunk Size:** 1600 (TEST MODE)")
-    st.write(f"**Overlap:** 300")
+    st.write(f"**Chunk Size:** 1000")
+    st.write(f"**Overlap:** 200")
     
     if st.button("🔄 Clear Cache", use_container_width=True):
         st.cache_resource.clear()
@@ -102,6 +102,9 @@ with st.sidebar:
     target_lang = st.selectbox("Translate Results to:", ["Slovenian", "German", "Spanish", "French", "Italian"], index=0)
     lang_map = {"Slovenian": "sl", "German": "de", "Spanish": "es", "French": "fr", "Italian": "it"}
 
+    st.divider()
+    st.caption("AI Course • Project Prototype • 2026")
+
 # --- PAGE: HOME ---
 if page == "Home":
     col1, col2 = st.columns([2, 1])
@@ -109,7 +112,8 @@ if page == "Home":
         st.title("🏋️‍♂️ Evidence-Based Hypertrophy Explorer")
         st.markdown("""
         ### Turn Research into Results.
-        *Currently running in **TEST MODE** with larger text chunks.*
+        This AI-powered knowledge base scans peer-reviewed literature 
+        on muscle growth, nutrition, and exercise physiology.
         """)
         st.success("✅ Application is connected to Cloud Research Database.")
     with col2:
@@ -141,13 +145,19 @@ elif page == "Search Knowledge Base":
             for i, (doc, score) in enumerate(results):
                 if score < 0.05: continue 
                 with st.expander(f"Result {i+1} (Relevance: {score:.2f})", expanded=(i==0)):
-                    st.markdown(f"*{doc.page_content}*")
+                    clean_content = doc.page_content.strip()
+                    if not clean_content[0].isupper():
+                        clean_content = "..." + clean_content
+                    st.markdown(f"**English Original:**")
+                    st.markdown(f"*{clean_content}*")
                     if st.button(f"Translate to {target_lang}", key=f"tr_btn_{i}"):
                         st.info(GoogleTranslator(source='auto', target=lang_map[target_lang]).translate(doc.page_content))
                     st.divider()
-                    st.caption(f"📏 **Length:** {len(doc.page_content)} characters | 📍 **Source:** {os.path.basename(doc.metadata.get('source', 'Unknown'))}")
+                    c1, c2 = st.columns(2)
+                    c1.caption(f"📍 **Source:** {source_file if 'source_file' in locals() else os.path.basename(doc.metadata.get('source', 'Unknown'))}")
+                    c2.caption(f"📏 **Length:** {len(doc.page_content)} characters")
     else:
-        st.info("Enter a question above to start.")
+        st.info("Start typing a question above to explore the research.")
 
 # --- PAGE: STATISTICS ---
 elif page == "Statistics":
@@ -165,7 +175,12 @@ elif page == "Statistics":
 # --- PAGE: ABOUT ---
 elif page == "About":
     st.title("ℹ️ Technical Overview")
-    st.markdown("**Current mode:** Testing with 1600 character chunks.")
+    st.markdown("""
+    **Cloud-Optimized Architecture:**
+    * **Embeddings:** Hugging Face API
+    * **Vector Store:** FAISS
+    * **Chunking:** 1000/200 (Sentence-aware splitting)
+    """)
 
 st.sidebar.divider()
-st.sidebar.caption("AI Course • 2026")
+st.sidebar.caption("Built for AI Course • 2026")
