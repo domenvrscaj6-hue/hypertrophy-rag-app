@@ -92,10 +92,6 @@ with st.sidebar:
     st.write(f"**Engine:** FAISS")
     st.write(f"**Chunk Size:** 1000")
     st.write(f"**Overlap:** 200")
-    
-    if st.button("🔄 Clear Cache", use_container_width=True):
-        st.cache_resource.clear()
-        st.rerun()
 
     st.divider()
     st.subheader("🌍 Translation")
