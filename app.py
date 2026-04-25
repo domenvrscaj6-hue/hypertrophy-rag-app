@@ -64,7 +64,7 @@ def clean_scientific_text(text):
 @st.cache_resource
 def get_vectorstore():
     if not HF_TOKEN:
-        st.error("Missing Hugging Face API Token!")
+        st.error("Missing Hugging Face API Token! Please set HUGGINGFACEHUB_API_TOKEN in environment variables.")
         st.stop()
 
     data_path = "processed_texts/"
@@ -78,10 +78,10 @@ def get_vectorstore():
     for doc in raw_documents:
         doc.page_content = clean_scientific_text(doc.page_content)
     
-    # PRODUCTION SETTINGS: 1000 / 200
+    # TEMP TEST SETTINGS: 400 / 50
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000, 
-        chunk_overlap=200,
+        chunk_size=400, 
+        chunk_overlap=50,
         separators=[". ", "\n\n", "\n", " ", ""]
     )
     # Filter out very small chunks (usually artifacts)
@@ -118,8 +118,8 @@ with st.sidebar:
     
     st.subheader("⚙️ System Status")
     st.write(f"**Engine:** FAISS")
-    st.write(f"**Chunk Size:** 1000")
-    st.write(f"**Overlap:** 200")
+    st.write(f"**Chunk Size:** 400 (TEST MODE)")
+    st.write(f"**Overlap:** 50")
     st.write(f"**Clean Mode:** Active ✨")
 
     st.divider()
@@ -137,7 +137,7 @@ if page == "Home":
         st.title("🏋️‍♂️ Evidence-Based Hypertrophy Explorer")
         st.markdown("""
         ### Turn Research into Results.
-        This AI-powered knowledge base uses **Semantic Search** to scan peer-reviewed literature 
+        This AI-powered knowledge base scans peer-reviewed literature 
         on muscle growth, nutrition, and exercise physiology.
         """)
         st.success("✅ Application is connected to Cloud Research Database.")
