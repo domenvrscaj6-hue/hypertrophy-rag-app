@@ -78,10 +78,10 @@ def get_vectorstore():
     for doc in raw_documents:
         doc.page_content = clean_scientific_text(doc.page_content)
     
-    # TEMP TEST: 400 / 50
+    # PRODUCTION SETTINGS: 1000 / 200
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=400, 
-        chunk_overlap=50,
+        chunk_size=1000, 
+        chunk_overlap=200,
         separators=[". ", "\n\n", "\n", " ", ""]
     )
     # Filter out very small chunks (usually artifacts)
