@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 import time
+import re
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEndpointEmbeddings
@@ -33,11 +34,37 @@ st.markdown("""
 # --- API TOKEN ---
 HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
+# --- ADVANCED TEXT CLEANING ---
+def clean_scientific_text(text):
+    """
+    Surgically removes citations, references, and PDF noise.
+    """
+    # 1. Remove references section (usually starts with References or Bibliography)
+    text = re.split(r'\nReferences\n|\nBibliography\n|\nLITERATURE CITED\n', text, flags=re.IGNORECASE)[0]
+    
+    # 2. Fix hyphenated words at line breaks (e.g., "hyper- trophy")
+    text = text.replace("-\n", "").replace("- ", "")
+    
+    # 3. Remove citations in brackets [1, 2-5, 22]
+    text = re.sub(r'\[\d+(?:[\s,–-]+\d+)*\]', '', text)
+    
+    # 4. Remove citations in parentheses (Smith et al., 2020) or (Jones, 2019; Smith, 2020)
+    # Matches patterns like (Author, Year) or (Author et al., Year)
+    text = re.sub(r'\([A-Z][a-zA-Z]+(?:\s+et\s+al\.)?,\s+\d{4}(?:;\s+[A-Z][a-zA-Z]+(?:\s+et\s+al\.)?,\s+\d{4})*\)', '', text)
+    
+    # 5. Remove URLs and DOIs
+    text = re.sub(r'https?://\S+|www\.\S+|doi:\s+\S+', '', text)
+    
+    # 6. Remove excess whitespace and newlines
+    text = re.sub(r'\s+', ' ', text).strip()
+    
+    return text
+
 # --- CACHED DATA LOADING ---
 @st.cache_resource
 def get_vectorstore():
     if not HF_TOKEN:
-        st.error("Missing Hugging Face API Token! Please set HUGGINGFACEHUB_API_TOKEN in environment variables.")
+        st.error("Missing Hugging Face API Token!")
         st.stop()
 
     data_path = "processed_texts/"
@@ -47,17 +74,18 @@ def get_vectorstore():
     loader = DirectoryLoader(data_path, glob="./*.txt", loader_cls=TextLoader, loader_kwargs={'encoding': 'utf-8'})
     raw_documents = loader.load()
     
+    # Apply advanced cleaning
     for doc in raw_documents:
-        doc.page_content = doc.page_content.replace("- ", "").replace("-\n", "")
-        doc.page_content = " ".join(doc.page_content.split())
+        doc.page_content = clean_scientific_text(doc.page_content)
     
-    # FINAL PRODUCTION SETTINGS: 1000 / 200
+    # PRODUCTION SETTINGS: 1000 / 200
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000, 
         chunk_overlap=200,
         separators=[". ", "\n\n", "\n", " ", ""]
     )
-    chunks = text_splitter.split_documents(raw_documents)
+    # Filter out very small chunks (usually artifacts)
+    chunks = [c for c in text_splitter.split_documents(raw_documents) if len(c.page_content) > 100]
     
     embeddings = HuggingFaceEndpointEmbeddings(
         huggingfacehub_api_token=HF_TOKEN,
@@ -92,6 +120,7 @@ with st.sidebar:
     st.write(f"**Engine:** FAISS")
     st.write(f"**Chunk Size:** 1000")
     st.write(f"**Overlap:** 200")
+    st.write(f"**Clean Mode:** Active ✨")
 
     st.divider()
     st.subheader("🌍 Translation")
@@ -108,7 +137,7 @@ if page == "Home":
         st.title("🏋️‍♂️ Evidence-Based Hypertrophy Explorer")
         st.markdown("""
         ### Turn Research into Results.
-        This AI-powered knowledge base scans peer-reviewed literature 
+        This AI-powered knowledge base uses **Semantic Search** to scan peer-reviewed literature 
         on muscle growth, nutrition, and exercise physiology.
         """)
         st.success("✅ Application is connected to Cloud Research Database.")
@@ -138,8 +167,14 @@ elif page == "Search Knowledge Base":
             results = vectorstore.similarity_search_with_relevance_scores(query, k=4)
             st.subheader(f"Results")
             
+            found_any = False
             for i, (doc, score) in enumerate(results):
                 if score < 0.05: continue 
+                found_any = True
+                
+                source_file = os.path.basename(doc.metadata.get('source', 'Unknown')).replace('.txt', '.pdf')
+                char_count = len(doc.page_content)
+                
                 with st.expander(f"Result {i+1} (Relevance: {score:.2f})", expanded=(i==0)):
                     clean_content = doc.page_content.strip()
                     if not clean_content[0].isupper():
@@ -150,8 +185,11 @@ elif page == "Search Knowledge Base":
                         st.info(GoogleTranslator(source='auto', target=lang_map[target_lang]).translate(doc.page_content))
                     st.divider()
                     c1, c2 = st.columns(2)
-                    c1.caption(f"📍 **Source:** {source_file if 'source_file' in locals() else os.path.basename(doc.metadata.get('source', 'Unknown'))}")
-                    c2.caption(f"📏 **Length:** {len(doc.page_content)} characters")
+                    c1.caption(f"📍 **Source:** {source_file}")
+                    c2.caption(f"📏 **Length:** {char_count} characters")
+            
+            if not found_any:
+                st.warning("No high-confidence results found. Try rephrasing your question.")
     else:
         st.info("Start typing a question above to explore the research.")
 
@@ -176,6 +214,7 @@ elif page == "About":
     * **Embeddings:** Hugging Face API
     * **Vector Store:** FAISS
     * **Chunking:** 1000/200 (Sentence-aware splitting)
+    * **Cleaning:** Advanced Regex scrubbing (Citations, Refs, URLs removed)
     """)
 
 st.sidebar.divider()
